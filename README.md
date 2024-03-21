@@ -1,3 +1,3 @@
 # cobra
 Cobra: Extending Mamba to Multi-modal Large Language Model for Efficient Inference
-![image](cobra.png =300x300)
+![image](cobra.png=300x300)
