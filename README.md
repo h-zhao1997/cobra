@@ -76,7 +76,6 @@ generated_text = vlm.generate(
     do_sample=True,
     temperature=0.4,
     max_new_tokens=512,
-    min_length=1,
 )
 ```
 
