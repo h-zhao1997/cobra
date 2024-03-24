@@ -1,10 +1,14 @@
 # Cobra: Extending Mamba to Multi-modal Large Language Model for Efficient Inference
 
-[![arXiv](https://img.shields.io/badge/arXiv-2403.14520-df2a2a.svg?style=for-the-badge)](https://arxiv.org/abs/2403.14520)  [![HF](https://img.shields.io/badge/HF-cobra-FFD21E.svg?style=for-the-badge)](https://huggingface.co/han1997/cobra)
+[![arXiv](https://img.shields.io/badge/arXiv-2403.14520-df2a2a.svg?style=for-the-badge)](https://arxiv.org/abs/2403.14520)
+[![Model](https://img.shields.io/badge/Model-Huggingface-FFD21E.svg?style=for-the-badge)](https://huggingface.co/han1997/cobra)
+[![Demo](https://img.shields.io/badge/Demo-cobra-blue.svg?style=for-the-badge)](https://huggingface.co/spaces/han1997/cobra)
 
 <img src="assets/cobra.png" width="200px">
 
 ## Release
+[3/24] Try our [demo](https://huggingface.co/spaces/han1997/cobra) online!
+
 [3/24] The training and inference codes are released.
 
 [3/24] Our model [weight](https://huggingface.co/han1997/cobra) is available now.
