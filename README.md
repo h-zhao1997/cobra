@@ -5,11 +5,11 @@
 <img src="assets/cobra.png" width="200px">
 
 ## Release
-[3/21] The repository is created.
-
 [3/24] The training and inference codes are released.
 
 [3/24] Our model [weight](https://huggingface.co/han1997/cobra) is available now.
+
+[3/21] The repository is created.
 
 [**Installation**](#installation) | [**Usage**](#usage) | [**Pretrained Models**](#pretrained-models) | [**Training VLMs**](#training-vlms) | [**License**](#license)
 ---
