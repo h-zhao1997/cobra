@@ -77,4 +77,4 @@ class MambaLLMBackbone(HFCausalLLMBackbone):
     @property
     def half_precision_dtype(self) -> torch.dtype:
         """Mamba was trained in AMP with BF16; see https://github.com/state-spaces/mamba/issues/6."""
-        return torch.bfloat16
+        return torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16

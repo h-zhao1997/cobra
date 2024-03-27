@@ -53,10 +53,11 @@ def generate(cfg: GenerateConfig) -> None:
     # hf_token = cfg.hf_token.read_text().strip() if isinstance(cfg.hf_token, Path) else os.environ[cfg.hf_token]
     hf_token = None
     device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
+    dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
 
     # Load the pretrained VLM --> uses default `load()` function
     vlm = load(cfg.model_path, hf_token=hf_token)
-    vlm.to(device, dtype=torch.bfloat16)
+    vlm.to(device, dtype=dtype)
 
     # Initial Setup
     image = Image.open(requests.get(DEFAULT_IMAGE_URL, stream=True).raw).convert("RGB")
