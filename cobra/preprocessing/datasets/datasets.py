@@ -144,9 +144,7 @@ class FinetuneDataset(Dataset[Dict[str, torch.Tensor]]):
             msg = prompt_builder.add_turn(turn["from"], turn["value"])
 
             if isinstance(self.tokenizer, GPTNeoXTokenizerFast):
-                                pass
-            elif type(self.tokenizer).__name__ == "Rwkv5Tokenizer":
-                pass
+                msg = msg.rstrip()
             else:
                 raise ValueError(f"Tokenizer of type `{type(self.tokenizer)}` is not explicitly handled!")
 
