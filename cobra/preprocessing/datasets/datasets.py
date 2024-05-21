@@ -79,8 +79,11 @@ class AlignDataset(Dataset[Dict[str, torch.Tensor]]):
         input_ids = self.tokenizer(caption, truncation=True, return_tensors="pt").input_ids[0]
         labels = copy.deepcopy(input_ids)
 
+        # For tokenizers that have the <BOS> token: 
         # Set the <BOS> token's label to IGNORE_INDEX (since we're inserting the image patches right after)
-        labels[0] = IGNORE_INDEX
+        # Mamba/GPTNeoXTokenizer does not have the <BOS> token.
+        if not isinstance(self.tokenizer, GPTNeoXTokenizerFast):
+            labels[0] = IGNORE_INDEX
 
         # Process Image --> get "pixel_values" (will either be a torch.Tensor OR a Dict[str,torch.Tensor])
         pixel_values = self.image_transform(Image.open(self.image_dir / image_path).convert("RGB"))
@@ -141,7 +144,9 @@ class FinetuneDataset(Dataset[Dict[str, torch.Tensor]]):
             msg = prompt_builder.add_turn(turn["from"], turn["value"])
 
             if isinstance(self.tokenizer, GPTNeoXTokenizerFast):
-                msg = msg.rstrip()
+                                pass
+            elif type(self.tokenizer).__name__ == "Rwkv5Tokenizer":
+                pass
             else:
                 raise ValueError(f"Tokenizer of type `{type(self.tokenizer)}` is not explicitly handled!")
 
@@ -169,7 +174,7 @@ class FinetuneDataset(Dataset[Dict[str, torch.Tensor]]):
             image_path = Path(self.examples[idx]["image"])
 
             # Set the <BOS> token's label to IGNORE_INDEX (since we're inserting the image patches right after)
-            # Mamba/GPTNeoXToeknizer does not have the <BOS> token.
+            # Mamba/GPTNeoXTokenizer does not have the <BOS> token.
             if not isinstance(self.tokenizer, GPTNeoXTokenizerFast):
                 labels[0] = IGNORE_INDEX
 

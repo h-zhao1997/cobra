@@ -145,3 +145,11 @@ dmypy.json
 # Caches and Datasets
 cache/
 data/
+
+# Runs and Results
+runs/
+results/
+
+# Test scripts
+test*.py
+*.sh
