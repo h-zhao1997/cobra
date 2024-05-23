@@ -203,8 +203,6 @@ class HFCausalLLMBackbone(LLMBackbone, ABC):
         output_attentions: Optional[bool] = None,
         output_hidden_states: Optional[bool] = None,
         return_dict: Optional[bool] = None,
-        inference_params=None,
-        num_last_tokens:int = 0,
     ) -> CausalLMOutputWithPast:
         output: CausalLMOutputWithPast = self.llm(
             input_ids=input_ids,
@@ -217,7 +215,5 @@ class HFCausalLLMBackbone(LLMBackbone, ABC):
             output_attentions=output_attentions,
             output_hidden_states=output_hidden_states,
             return_dict=return_dict,
-            inference_params=inference_params,
-            num_last_tokens=num_last_tokens,
         )
         return output

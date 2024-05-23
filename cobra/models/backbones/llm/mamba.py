@@ -3,12 +3,13 @@ mamba.py
 
 Class definition for all LLMs derived from MambaForCausalLM.
 """
-from typing import Optional, Type
+from typing import Optional, Type, List
 
 import torch
 from torch import nn as nn
 from cobra.models.mamba.modeling_mamba import MambaForCausalLM
 from cobra.models.mamba.modeling_mamba import Block as MambaMixerLayer
+from transformers.modeling_outputs import CausalLMOutputWithPast
 
 from cobra.models.backbones.llm.base_llm import HFCausalLLMBackbone
 from cobra.models.backbones.llm.prompting import (
@@ -60,6 +61,37 @@ class MambaLLMBackbone(HFCausalLLMBackbone):
 
         self.llm.config.pad_token_id = self.tokenizer.pad_token_id
 
+    def forward(
+        self,
+        input_ids: Optional[torch.LongTensor] = None,
+        attention_mask: Optional[torch.Tensor] = None,
+        position_ids: Optional[torch.LongTensor] = None,
+        past_key_values: Optional[List[torch.FloatTensor]] = None,
+        inputs_embeds: Optional[torch.FloatTensor] = None,
+        labels: Optional[torch.LongTensor] = None,
+        use_cache: Optional[bool] = None,
+        output_attentions: Optional[bool] = None,
+        output_hidden_states: Optional[bool] = None,
+        return_dict: Optional[bool] = None,
+        inference_params=None,
+        num_last_tokens:int = 0
+    ) -> CausalLMOutputWithPast:
+        output: CausalLMOutputWithPast = self.llm(
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            position_ids=position_ids,
+            past_key_values=past_key_values,
+            inputs_embeds=inputs_embeds,
+            labels=labels,
+            use_cache=use_cache,
+            output_attentions=output_attentions,
+            output_hidden_states=output_hidden_states,
+            return_dict=return_dict,
+            inference_params=inference_params,
+            num_last_tokens=num_last_tokens
+        )
+        return output
+    
     @property
     def prompt_builder_fn(self) -> Type[PromptBuilder]:
         if self.identifier.endswith("zephyr"):

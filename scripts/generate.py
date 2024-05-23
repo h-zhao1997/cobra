@@ -50,8 +50,7 @@ class GenerateConfig:
 @draccus.wrap()
 def generate(cfg: GenerateConfig) -> None:
     overwatch.info(f"Initializing Generation Playground with Cobra `{cfg.model_path}`")
-    # hf_token = cfg.hf_token.read_text().strip() if isinstance(cfg.hf_token, Path) else os.environ[cfg.hf_token]
-    hf_token = None
+    hf_token = cfg.hf_token.read_text().strip() if isinstance(cfg.hf_token, Path) else os.environ[cfg.hf_token]
     device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
     dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
 
@@ -116,7 +115,7 @@ def generate(cfg: GenerateConfig) -> None:
                     generated_text = vlm.generate(
                         image,
                         prompt_text,
-                        cg=True,
+                        use_cache=True,
                         do_sample=cfg.do_sample,
                         temperature=cfg.temperature,
                         max_new_tokens=cfg.max_new_tokens,

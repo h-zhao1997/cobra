@@ -112,11 +112,43 @@ class Cobra_3B(ModelConfig):
 
     finetune_train_strategy: str = "fsdp-full-shard"
 
+#   =>> Note :: Run with `--dataset.type "llava-lvis4v-lrv"`
+@dataclass
+class Cobra_3B_One_Epoch(Cobra_3B):
+    model_id: str = "cobra-one-epoch+3b"
+    finetune_epochs: int = 1
+
+
+#   =>> Note :: Run with `--dataset.type "llava-lvis4v-lrv"`
+@dataclass
+class Cobra_3B_Base(Cobra_3B):
+    model_id: str = "cobra-base+3b"
+    llm_backbone_id: str = "mamba-2.8b-slimpj"
+    
+    
+#   =>> Note :: Run with `--dataset.type "llava-lvis4v-lrv"`
+@dataclass
+class Cobra_3B_Siglip(Cobra_3B):
+    model_id: str = "cobra-siglip+3b"
+    vision_backbone_id: str = "siglip-vit-so400m-384px"
+    arch_specifier: str = "no-align+gelu-mlp"
+    
+#   =>> Note :: Run with `--dataset.type "llava-lvis4v-lrv"`
+@dataclass
+class Cobra_3B_LDPNET(Cobra_3B):
+    model_id: str = "cobra-ldpnet+3b"
+    arch_specifier: str = "no-align+fused-ldpnet"
+
+
 
 # === Define a Model Registry Enum for Reference & Validation ===
 @unique
 class ModelRegistry(Enum):
     COBRA_3B = Cobra_3B
+    COBRA_ONE_EPOCH_3B = Cobra_3B_One_Epoch
+    COBRA_BASE_3B = Cobra_3B_Base
+    COBRA_SIGLIP_3B = Cobra_3B_Siglip
+    COBRA_LDPNET_3B =  Cobra_3B_LDPNET
 
     @property
     def model_id(self) -> str:

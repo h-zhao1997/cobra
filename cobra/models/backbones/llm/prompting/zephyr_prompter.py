@@ -62,8 +62,8 @@ class ZephyrChatPromptBuilder(PromptBuilder):
             human_message = self.wrap_human(message)
             prompt_copy += human_message
 
-        return prompt_copy.removeprefix(self.bos).rstrip()
+        return prompt_copy.removeprefix(self.bos)
 
     def get_prompt(self) -> str:
         # Remove prefix <bos> (if exists) because it gets auto-inserted by tokenizer!
-        return self.prompt.removeprefix(self.bos).rstrip()
+        return self.prompt.removeprefix(self.bos)
