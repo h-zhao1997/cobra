@@ -41,7 +41,7 @@ pip install -e .
 
 # install mamba and other packages
 pip install packaging ninja
-pip install mamba-ssm
+pip install "mamba-ssm<2.0.0"
 pip install causal-conv1d
 
 # Verify Ninja --> should return exit code "0"
