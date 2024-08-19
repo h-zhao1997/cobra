@@ -22,7 +22,7 @@ from cobra.overwatch import initialize_overwatch
 from cobra.training.metrics import Metrics
 from cobra.util import check_bloat16_supported
 from cobra.util.batching_utils import SplitModalitySampler
-from cobra.util.data_utils import PaddedCollatorForLanguageModeling
+from cobra.util.data_utils import PaddedCollatorForLanguageModeling, IGNORE_INDEX
 
 # Initialize Overwatch =>> Wraps `logging.Logger`
 overwatch = initialize_overwatch(__name__)
@@ -171,6 +171,7 @@ class TrainingStrategy(ABC):
 
                 # Note that we'll unpack batch (and let AMP/FSDP do its thing) in the VLM.forward() call
                 #   => Basically, if we're using mixed precision (or not), autocast()/FSDP will move to device!
+                true_label_size = 0
                 for train_idx, batch in enumerate(dataloader):
                     # [Contract] self.vlm.forward() must automatically compute `loss` and return!
                     with torch.autocast(
@@ -202,13 +203,19 @@ class TrainingStrategy(ABC):
                     #   really bad for downstream performance. Initial investigation shows that BF16 accumulation
                     #   just really tanks in precision... and don't have a good/clean way to fix this. Would love for
                     #   someone to PR and fix this (and I'd greatly appreciate it!!!)
-                    normalized_loss = loss / self.grad_accumulation_steps
-                    normalized_loss.backward()
+                    num_valid_labels = torch.sum(batch["labels"] != IGNORE_INDEX).item()
+                    true_label_size += num_valid_labels
+                    sum_loss = loss * num_valid_labels
+                    sum_loss.backward()
 
                     # Step =>> Only if Done w/ Gradient Accumulation
                     if (train_idx + 1) % self.grad_accumulation_steps == 0:
                         metrics.commit(update_step_time=True)
+                        step += 1
 
+                        for param in self.vlm.parameters():
+                            if param.grad is not None:
+                                param.grad.data /= true_label_size
                         # Clip Gradients --> this is custom, per-strategy because of DDP vs. FSDP locality-assumptions
                         self.clip_grad_norm()
 
@@ -216,6 +223,8 @@ class TrainingStrategy(ABC):
                         self.optimizer.step()
                         self.lr_scheduler.step()
                         self.optimizer.zero_grad()
+                        
+                        true_label_size = 0
 
                         # Push Metrics
                         metrics.commit(global_step=metrics.global_step + 1, lr=self.lr_scheduler.get_last_lr()[0])
