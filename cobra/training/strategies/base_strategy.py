@@ -211,7 +211,6 @@ class TrainingStrategy(ABC):
                     # Step =>> Only if Done w/ Gradient Accumulation
                     if (train_idx + 1) % self.grad_accumulation_steps == 0:
                         metrics.commit(update_step_time=True)
-                        step += 1
 
                         for param in self.vlm.parameters():
                             if param.grad is not None:
