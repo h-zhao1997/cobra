@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "timestamp": "2025-11-26T05:18:36.124464",
+    "config": {
+      "method": "scratchpad",
+      "num_samples": 3,
+      "no_streaming": false,
+      "scratchpad_passes": 1,
+      "model_id": "cobra+3b",
+      "hf_token": ".hf_token",
+      "temperature": 0.4,
+      "max_new_tokens": 512,
+      "reasoning_max_tokens": 256,
+      "repetition_penalty": 1.2,
+      "output_dir": "results",
+      "clear_cache": false,
+      "min_free_gb": 8.0,
+      "load_results": null
+    }
+  },
+  "aggregate_metrics": {
+    "BLEU-1": 0.3809523809463341,
+    "BLEU-2": 0.27602622373245084,
+    "BLEU-3": 0.1588726095171247,
+    "BLEU-4": 1.6507767053574574e-05,
+    "BERTScore-Precision": 0.5810515880584717,
+    "BERTScore-Recall": 0.7366056442260742,
+    "BERTScore-F1": 0.6481600403785706
+  },
+  "results": [
+    {
+      "image_id": 0,
+      "reference_captions": [
+        "A bicycle replica with a clock as the front wheel.",
+        "The bike has a clock as a tire.",
+        "A black metal bicycle with a clock inside the front wheel.",
+        "A bicycle figurine in which the front wheel is replaced with a clock\n",
+        "A clock with the appearance of the wheel of a bicycle "
+      ],
+      "generated_caption": "A black bicycle-shaped clock with a white face and black hands, set against a white background, and featuring a London, UK, time stamp.",
+      "reasoning_trace": "The bicycle is black with silver details; it has handlebars that are curved upward at both ends for steering purposes while riding on roads paved mainly by asphalt material which provides smoothness to ride smoothly without much friction when pedaling forward using one foot placed over pedal crank arm connected through metal chain ring gear inside bike's frame where gears change from large cog size chains into smaller ones so rider can maintain speed during cycling activity within city streets environment near London UK time zone represented via round white clock face displaying numbers 1-12 along its perimeter edge including minute hand pointing towards 12 o'clock position indicating noon hour & second tick marks located around outer circumference showing seconds elapsed since last resetting mechanism was engaged/reset). The background consists mostly empty space except some minor elements like small cracks appearing due wear+tear aging process occurring upon object surfaces throughout entire scene depicted herewith described layout arrangement compositional design principles applied effectively creating visually appealing display piece suitable home decor enthusiasts who appreciate artistry blending functionality everyday life items such clocks represent practicality daily living activities involving transportation methods used regularly across different cultures worldwide cities alike bicycles being popular choice urban commuting means many places globally today!---) [Note: This description focuses more detail oriented approach analyzing individual components mentioned above rather than focusing solely artistic interpretation subject",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "The bicycle is black with silver details; it has handlebars that are curved upward at both ends for steering purposes while riding on roads paved mainly by asphalt material which provides smoothness to ride smoothly without much friction when pedaling forward using one foot placed over pedal crank arm connected through metal chain ring gear inside bike's frame where gears change from large cog size chains into smaller ones so rider can maintain speed during cycling activity within city streets environment near London UK time zone represented via round white clock face displaying numbers 1-12 along its perimeter edge including minute hand pointing towards 12 o'clock position indicating noon hour & second tick marks located around outer circumference showing seconds elapsed since last resetting mechanism was engaged/reset). The background consists mostly empty space except some minor elements like small cracks appearing due wear+tear aging process occurring upon object surfaces throughout entire scene depicted herewith described layout arrangement compositional design principles applied effectively creating visually appealing display piece suitable home decor enthusiasts who appreciate artistry blending functionality everyday life items such clocks represent practicality daily living activities involving transportation methods used regularly across different cultures worldwide cities alike bicycles being popular choice urban commuting means many places globally today!---) [Note: This description focuses more detail oriented approach analyzing individual components mentioned above rather than focusing solely artistic interpretation subject"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.2608695652060492,
+        "BLEU-2": 0.18860838403019275,
+        "BLEU-3": 1.1920676375093199e-06,
+        "BLEU-4": 3.033668865621181e-09,
+        "BERTScore-Precision": 0.5138839483261108,
+        "BERTScore-Recall": 0.652500569820404,
+        "BERTScore-F1": 0.5749554634094238
+      }
+    },
+    {
+      "image_id": 1,
+      "reference_captions": [
+        "A black Honda motorcycle parked in front of a garage.",
+        "A Honda motorcycle parked in a grass driveway",
+        "A black Honda motorcycle with a dark burgundy seat.",
+        "Ma motorcycle parked on the gravel in front of a garage",
+        "A motorcycle with its brake extended standing outside"
+      ],
+      "generated_caption": "A parked black motorcycle with chrome accents, surrounded by green grass, leaves, and a white garage door.",
+      "reasoning_trace": "The motorcycle is black with chrome accents; it has an orange light on its left side near red taillight that's also lit up at nighttime setting outdoors during daytime hours featuring green grassy yard leaves scattered around dirt patches gravel driveway white garage door open revealing house interior including windows closed doors brown wooden wall paneling large tree trunk nearby shrubs growing close to building fence surrounding property as well various other details like kickstand position headlight handlebars brake lights turn signals exhaust pipe seat cushion gas tank fender rearview mirror engine block motorcycles parked by home not moving from stillness but resting peacefully against backdrop created through blending natural elements man-made structures together harmoniously within one frame capturing essence tranquility serenity beauty simplicity gracefulness elegance finesse sophistication refinement classiness style uniqueness individualism personal touch added customization touches such unique paint job design choices made possible due careful selection each component piece carefully placed purposeful arrangement creating visually appealing composition overall scene radiates calm inviting atmosphere perfect for relaxing moment away daily grind while appreciating simple pleasures life offers moments worth savoring cherishing every detail along way journey started here ends nowhere endlessly fascinating world awaits exploration beyond immediate surroundings waiting patiently anticipating next chapter unfolding soon enough time flies fleeting memories transient existence continuous change",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "The motorcycle is black with chrome accents; it has an orange light on its left side near red taillight that's also lit up at nighttime setting outdoors during daytime hours featuring green grassy yard leaves scattered around dirt patches gravel driveway white garage door open revealing house interior including windows closed doors brown wooden wall paneling large tree trunk nearby shrubs growing close to building fence surrounding property as well various other details like kickstand position headlight handlebars brake lights turn signals exhaust pipe seat cushion gas tank fender rearview mirror engine block motorcycles parked by home not moving from stillness but resting peacefully against backdrop created through blending natural elements man-made structures together harmoniously within one frame capturing essence tranquility serenity beauty simplicity gracefulness elegance finesse sophistication refinement classiness style uniqueness individualism personal touch added customization touches such unique paint job design choices made possible due careful selection each component piece carefully placed purposeful arrangement creating visually appealing composition overall scene radiates calm inviting atmosphere perfect for relaxing moment away daily grind while appreciating simple pleasures life offers moments worth savoring cherishing every detail along way journey started here ends nowhere endlessly fascinating world awaits exploration beyond immediate surroundings waiting patiently anticipating next chapter unfolding soon enough time flies fleeting memories transient existence continuous change"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.4117647058581315,
+        "BLEU-2": 0.16042223697020558,
+        "BLEU-3": 1.197142802926342e-06,
+        "BLEU-4": 3.3271889137551674e-09,
+        "BERTScore-Precision": 0.5916820764541626,
+        "BERTScore-Recall": 0.7622196674346924,
+        "BERTScore-F1": 0.666210412979126
+      }
+    },
+    {
+      "image_id": 2,
+      "reference_captions": [
+        "A room with blue walls and a white sink and door.",
+        "Blue and white color scheme in a small bathroom.",
+        "This is a blue and white bathroom with a wall sink and a lifesaver on the wall.",
+        "A blue boat themed bathroom with a life preserver on the wall",
+        "A bathroom with walls that are painted baby blue."
+      ],
+      "generated_caption": "A bathroom with a blue wall, a white door, a green vase, a ceramic mug, a soap dispenser, and a life preserver decoration.",
+      "reasoning_trace": "Major Objects: white door with brass handle; blue wall painted aqua by window frame at top-right corner to match sink area's color scheme); green vase on countertop near mirror reflecting bathroom scene) ; ceramic mug next to soap dispenser). Spatial Relationships/Actions & Contexts : Door is closed, has metal hinge above it.) Mirror reflects part of room including pink walls ) Sink basin sits atop pedestal supported vanity cabinet under which faucet protrudes into space for handwashing purposes. Green container holds items like jar full size bars soaps inside ). White tile backsplash contrasts against teal colored accent pieces such as round Welcome Aboard sign hanging from ceiling fixture mounted over porcelain vessel style washbasin that complements overall design aesthetic created through thoughtful arrangement elements within small yet functional living environment designed cater functionality while maintaining visual appeal user experience based upon observed details provided hereunder object descriptions listed below:-large rectangular shaped picture framed around doorway.-white circular life preserver decoration hung up high left side adjacent tiled back splash where light reflection creates shadowy effect beneath its surface level appearance)-green square shape decorative item placed beside large rectangle one during lower section main focal point compositionally speaking due placement proximity other surrounding decoratives))doorway leading",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "Major Objects: white door with brass handle; blue wall painted aqua by window frame at top-right corner to match sink area's color scheme); green vase on countertop near mirror reflecting bathroom scene) ; ceramic mug next to soap dispenser). Spatial Relationships/Actions & Contexts : Door is closed, has metal hinge above it.) Mirror reflects part of room including pink walls ) Sink basin sits atop pedestal supported vanity cabinet under which faucet protrudes into space for handwashing purposes. Green container holds items like jar full size bars soaps inside ). White tile backsplash contrasts against teal colored accent pieces such as round Welcome Aboard sign hanging from ceiling fixture mounted over porcelain vessel style washbasin that complements overall design aesthetic created through thoughtful arrangement elements within small yet functional living environment designed cater functionality while maintaining visual appeal user experience based upon observed details provided hereunder object descriptions listed below:-large rectangular shaped picture framed around doorway.-white circular life preserver decoration hung up high left side adjacent tiled back splash where light reflection creates shadowy effect beneath its surface level appearance)-green square shape decorative item placed beside large rectangle one during lower section main focal point compositionally speaking due placement proximity other surrounding decoratives))doorway leading"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.47826086954442354,
+        "BLEU-2": 0.4170288280956059,
+        "BLEU-3": 0.2917951293811164,
+        "BLEU-4": 3.338497304247444e-05,
+        "BERTScore-Precision": 0.6375887989997864,
+        "BERTScore-Recall": 0.7950965762138367,
+        "BERTScore-F1": 0.7033142447471619
+      }
+    }
+  ]
+}

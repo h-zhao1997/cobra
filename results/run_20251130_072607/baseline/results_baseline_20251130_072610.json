@@ -1,0 +1,2146 @@
+{
+  "meta": {
+    "timestamp": "2025-11-30T07:26:10.918113",
+    "config": {
+      "method": "baseline",
+      "num_samples": 100,
+      "no_streaming": false,
+      "scratchpad_passes": 1,
+      "model_id": "cobra+3b",
+      "hf_token": ".hf_token",
+      "openai_api_key": null,
+      "openai_api_key_file": null,
+      "gemini_api_key": null,
+      "gemini_api_key_file": null,
+      "anthropic_api_key": null,
+      "anthropic_api_key_file": null,
+      "gpt5_model": "gpt-4o",
+      "gemini_model": "gemini-1.5-pro",
+      "claude_model": "claude-3-5-sonnet-20241022",
+      "llama_model_id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+      "temperature": 0.4,
+      "max_new_tokens": 512,
+      "reasoning_max_tokens": 256,
+      "repetition_penalty": 1.2,
+      "output_dir": "results",
+      "clear_cache": false,
+      "min_free_gb": 8.0,
+      "load_results": null,
+      "no_baseline_cache": false,
+      "checkpoint_interval": 0.1,
+      "resume_from_checkpoint": false,
+      "num_workers": 1
+    }
+  },
+  "aggregate_metrics": {
+    "BLEU-1": 0.46597145993388256,
+    "BLEU-2": 0.30730936747593857,
+    "BLEU-3": 0.18626928268511733,
+    "BLEU-4": 0.10961550720653124,
+    "BERTScore-Precision": 0.6400291919708252,
+    "BERTScore-Recall": 0.7650554180145264,
+    "BERTScore-F1": 0.6931136846542358
+  },
+  "results": [
+    {
+      "id": "0",
+      "generated_caption": "A black bicycle-shaped clock with a white face, black numbers, and black hands, featuring a London landmark.",
+      "reference_captions": [
+        "A bicycle replica with a clock as the front wheel.",
+        "The bike has a clock as a tire.",
+        "A black metal bicycle with a clock inside the front wheel.",
+        "A bicycle figurine in which the front wheel is replaced with a clock\n",
+        "A clock with the appearance of the wheel of a bicycle "
+      ],
+      "metrics": {
+        "BLEU-1": 0.35294117644982703,
+        "BLEU-2": 0.2572478776981582,
+        "BLEU-3": 1.6401017070887656e-06,
+        "BLEU-4": 4.2132873222835864e-09,
+        "BERTScore-Precision": 0.5640532970428467,
+        "BERTScore-Recall": 0.6733849048614502,
+        "BERTScore-F1": 0.6138891577720642
+      },
+      "image_id": 0
+    },
+    {
+      "id": "1",
+      "generated_caption": "A black and silver motorcycle parked on a grassy area with a white garage door and green trees in the background.",
+      "reference_captions": [
+        "A black Honda motorcycle parked in front of a garage.",
+        "A Honda motorcycle parked in a grass driveway",
+        "A black Honda motorcycle with a dark burgundy seat.",
+        "Ma motorcycle parked on the gravel in front of a garage",
+        "A motorcycle with its brake extended standing outside"
+      ],
+      "metrics": {
+        "BLEU-1": 0.4761904761678005,
+        "BLEU-2": 0.30860669990912093,
+        "BLEU-3": 0.17114033061407738,
+        "BLEU-4": 2.297185935726835e-05,
+        "BERTScore-Precision": 0.6334555149078369,
+        "BERTScore-Recall": 0.7958465814590454,
+        "BERTScore-F1": 0.7054259777069092
+      },
+      "image_id": 1
+    },
+    {
+      "id": "2",
+      "generated_caption": "A cozy bathroom with a white door, a green vase, a white sink, and a life preserver on the wall.",
+      "reference_captions": [
+        "A room with blue walls and a white sink and door.",
+        "Blue and white color scheme in a small bathroom.",
+        "This is a blue and white bathroom with a wall sink and a lifesaver on the wall.",
+        "A blue boat themed bathroom with a life preserver on the wall",
+        "A bathroom with walls that are painted baby blue."
+      ],
+      "metrics": {
+        "BLEU-1": 0.6499999999675001,
+        "BLEU-2": 0.5548826333653862,
+        "BLEU-3": 0.440588598932055,
+        "BLEU-4": 0.3167161501048571,
+        "BERTScore-Precision": 0.7285962700843811,
+        "BERTScore-Recall": 0.7903963327407837,
+        "BERTScore-F1": 0.7348908185958862
+      },
+      "image_id": 2
+    },
+    {
+      "id": "3",
+      "generated_caption": "A city street with parked cars, a wooden bench, a person riding a scooter, and various signs and buildings.",
+      "reference_captions": [
+        "A car that seems to be parked illegally behind a legally parked car",
+        "two cars parked on the sidewalk on the street",
+        "City street with parked cars and a bench.",
+        "Cars try to maneuver into parking spaces along a densely packed city street. ",
+        "A couple of cars parked in a busy street sidewalk."
+      ],
+      "metrics": {
+        "BLEU-1": 0.36842105261218844,
+        "BLEU-2": 0.20232565954468354,
+        "BLEU-3": 0.13403483047483825,
+        "BLEU-4": 1.9696236772973402e-05,
+        "BERTScore-Precision": 0.6605117321014404,
+        "BERTScore-Recall": 0.8908601403236389,
+        "BERTScore-F1": 0.7585847973823547
+      },
+      "image_id": 3
+    },
+    {
+      "id": "4",
+      "generated_caption": "A white and orange airplane taking off into a cloudy sky.",
+      "reference_captions": [
+        "A large passenger airplane flying through the air.",
+        "There is a GOL plane taking off in a partly cloudy sky.",
+        "An airplane that is, either, landing or just taking off.",
+        "An red and white airplane is in the cloudy sky.",
+        "A passenger plane taking off into the sky. "
+      ],
+      "metrics": {
+        "BLEU-1": 0.9090909090082646,
+        "BLEU-2": 0.5222329678172442,
+        "BLEU-3": 0.3117659538504856,
+        "BLEU-4": 4.4116293588517445e-05,
+        "BERTScore-Precision": 0.7472161650657654,
+        "BERTScore-Recall": 0.8663065433502197,
+        "BERTScore-F1": 0.8023664355278015
+      },
+      "image_id": 4
+    },
+    {
+      "id": "5",
+      "generated_caption": "A cozy bathroom with a white toilet, sink, and wooden cabinet, featuring a wicker hamper, a window with a floral curtain, and a potted plant on the window sill.",
+      "reference_captions": [
+        "A bathroom with a toilet, sink, and shower.",
+        "A full bathroom with a wicker laundry basket.",
+        "A little bathrood decorated with many colorful objects",
+        "A small bathroom containing a toilet and sink. ",
+        "Bathroom containing a toilet, a sink and a wicker basket."
+      ],
+      "metrics": {
+        "BLEU-1": 0.34482758619500603,
+        "BLEU-2": 0.2718301411002404,
+        "BLEU-3": 0.1762329661653903,
+        "BLEU-4": 2.1420126246193836e-05,
+        "BERTScore-Precision": 0.6240743398666382,
+        "BERTScore-Recall": 0.8630551099777222,
+        "BERTScore-F1": 0.7056536674499512
+      },
+      "image_id": 5
+    },
+    {
+      "id": "6",
+      "generated_caption": "A modern kitchen with stainless steel appliances, a hanging towel, and a chandelier.",
+      "reference_captions": [
+        "A long empty, minimal modern skylit home kitchen.",
+        "A picture of a modern looking kitchen area\n",
+        "A narrow kitchen ending with a chrome refrigerator.",
+        "A narrow kitchen is decorated in shades of white, gray, and black.",
+        "a room that has a stove and a icebox in it"
+      ],
+      "metrics": {
+        "BLEU-1": 0.5384615384201185,
+        "BLEU-2": 0.21182963641710745,
+        "BLEU-3": 1.5978165631687675e-06,
+        "BLEU-4": 4.494125427688112e-09,
+        "BERTScore-Precision": 0.613012433052063,
+        "BERTScore-Recall": 0.758968710899353,
+        "BERTScore-F1": 0.678226888179779
+      },
+      "image_id": 6
+    },
+    {
+      "id": "7",
+      "generated_caption": "A cluttered office space with various items such as a computer, keyboard, and a blue ball on the floor.",
+      "reference_captions": [
+        "An office cubicle with four different types of computers.",
+        "The home office space seems to be very cluttered.",
+        "an office with desk computer and chair and laptop.",
+        "Office setting with a lot of computer screens.",
+        "A desk and chair in an office cubicle."
+      ],
+      "metrics": {
+        "BLEU-1": 0.3157894736675901,
+        "BLEU-2": 0.1324532356993396,
+        "BLEU-3": 1.010552174586843e-06,
+        "BLEU-4": 2.833929617442683e-09,
+        "BERTScore-Precision": 0.5622167587280273,
+        "BERTScore-Recall": 0.7150319218635559,
+        "BERTScore-F1": 0.6294826865196228
+      },
+      "image_id": 7
+    },
+    {
+      "id": "8",
+      "generated_caption": "A bathroom scene with a black vanity, white sink, and various toiletries.",
+      "reference_captions": [
+        "A bathroom sink with toiletries on the counter.",
+        "A bathroom sink and various personal hygiene items.",
+        "A messy bathroom countertop perched atop black cabinetry.",
+        "A bathroom vanity with cabinets and basin sink and several grooming products scattered across it",
+        "A bathroom sink cluttered with multiple personal care items."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4999999999583334,
+        "BLEU-2": 0.30151134455149564,
+        "BLEU-3": 2.0870640222324466e-06,
+        "BLEU-4": 5.637560314716176e-09,
+        "BERTScore-Precision": 0.6484483480453491,
+        "BERTScore-Recall": 0.7666182518005371,
+        "BERTScore-F1": 0.7025992274284363
+      },
+      "image_id": 8
+    },
+    {
+      "id": "9",
+      "generated_caption": "A white toilet with a silver faucet, a green bathmat, and a white wall with a white cord plugged in.",
+      "reference_captions": [
+        "A small closed toilet in a cramped space.",
+        "A tan toilet and sink combination in a small room.",
+        "This is an advanced toilet with a sink and control panel.",
+        "A close-up picture of a toilet with a fountain.",
+        "Off white toilet with a faucet and controls. "
+      ],
+      "metrics": {
+        "BLEU-1": 0.34999999998250003,
+        "BLEU-2": 0.2350811729787503,
+        "BLEU-3": 0.1831180111763469,
+        "BLEU-4": 0.13785929931082494,
+        "BERTScore-Precision": 0.6543726921081543,
+        "BERTScore-Recall": 0.7856187224388123,
+        "BERTScore-F1": 0.7140145301818848
+      },
+      "image_id": 9
+    },
+    {
+      "id": "10",
+      "generated_caption": "Two women waiting for the bus at a bus stop on a sunny day",
+      "reference_captions": [
+        "Two women waiting at a bench next to a street.",
+        "A woman sitting on a bench and a woman standing waiting for the bus.",
+        "A woman sitting on a bench in the middle of the city",
+        "A woman sitting on a bench and a woman standing behind the bench at a bus stop",
+        "A woman and another woman waiting at a stop."
+      ],
+      "metrics": {
+        "BLEU-1": 0.785714285602041,
+        "BLEU-2": 0.695353495263869,
+        "BLEU-3": 0.5442060218215127,
+        "BLEU-4": 0.34791594745993487,
+        "BERTScore-Precision": 0.6770254373550415,
+        "BERTScore-Recall": 0.681251049041748,
+        "BERTScore-F1": 0.6791316866874695
+      },
+      "image_id": 10
+    },
+    {
+      "id": "11",
+      "generated_caption": "A group of four black, shiny, and smooth bananas in a white box with yellow edges.",
+      "reference_captions": [
+        "This is an open box containing four cucumbers.",
+        "An open food container box with four unknown food items.",
+        "A small box filled with four green vegetables. ",
+        "An opened box of four chocolate bananas. ",
+        "An open box contains an unknown, purple object"
+      ],
+      "metrics": {
+        "BLEU-1": 0.3124999999804688,
+        "BLEU-2": 0.20412414521874855,
+        "BLEU-3": 1.4384239565657913e-06,
+        "BLEU-4": 3.889818545204975e-09,
+        "BERTScore-Precision": 0.5336256623268127,
+        "BERTScore-Recall": 0.7076097726821899,
+        "BERTScore-F1": 0.6026394367218018
+      },
+      "image_id": 11
+    },
+    {
+      "id": "12",
+      "generated_caption": "A green classic car with a surfboard on top parked on a street near a white church and a red SUV.",
+      "reference_captions": [
+        "An old-fashioned green station wagon is parked on a shady driveway.",
+        "An old teal colored car parked on the street.",
+        "A classic car sitting beside the road with a surfboard on top. ",
+        "An old green car parked on the side of the street.",
+        "An antique, turquoise car is parked at the curb"
+      ],
+      "metrics": {
+        "BLEU-1": 0.4285714285510205,
+        "BLEU-2": 0.3585685827828166,
+        "BLEU-3": 0.2727956082896916,
+        "BLEU-4": 0.18325671804743643,
+        "BERTScore-Precision": 0.7465255260467529,
+        "BERTScore-Recall": 0.8580899238586426,
+        "BERTScore-F1": 0.7984293103218079
+      },
+      "image_id": 12
+    },
+    {
+      "id": "13",
+      "generated_caption": "A cluttered kitchen with various appliances and utensils",
+      "reference_captions": [
+        "A gas stove next to a stainless steel kitchen sink and countertop.",
+        "A kitchen stove, sink, and counter with stuff on it.",
+        "A kitchen with a stove, sink, and drying area. ",
+        "This is a kitchen with dishes and a silver sink.",
+        "A kitchen with a stove, sick, and dishes"
+      ],
+      "metrics": {
+        "BLEU-1": 0.4999999998750002,
+        "BLEU-2": 0.26726124184322303,
+        "BLEU-3": 2.2833557013653306e-06,
+        "BLEU-4": 6.985342054598842e-09,
+        "BERTScore-Precision": 0.6359293460845947,
+        "BERTScore-Recall": 0.6359775066375732,
+        "BERTScore-F1": 0.635953426361084
+      },
+      "image_id": 13
+    },
+    {
+      "id": "14",
+      "generated_caption": "A group of people riding motorcycles on a street with a red and white building in the background.",
+      "reference_captions": [
+        "Several motorcycles riding down the road in formation.",
+        "A group of motorcycle riders driving past buildings.",
+        "A group of people are riding motorcycles on a road through a town. ",
+        "A group of motorcyclists are driving down the city street.",
+        "A group of motorcycles drive down a city street."
+      ],
+      "metrics": {
+        "BLEU-1": 0.6111111110771605,
+        "BLEU-2": 0.464420363986264,
+        "BLEU-3": 0.3777932312096391,
+        "BLEU-4": 0.29118923372016375,
+        "BERTScore-Precision": 0.6531373262405396,
+        "BERTScore-Recall": 0.8028764128684998,
+        "BERTScore-F1": 0.7190291881561279
+      },
+      "image_id": 14
+    },
+    {
+      "id": "15",
+      "generated_caption": "A black cat curiously exploring a white toilet bowl in a bathroom with various toiletries.",
+      "reference_captions": [
+        "A black cat is inside a white toilet.",
+        "A black cat drinking water from a toilet",
+        "A cat drinking water from a toilet in a bathroom.",
+        "A cat puts her head inside of a toilet. ",
+        "A cat is drinking water out of a toilet."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5333333332977779,
+        "BLEU-2": 0.39036002915245993,
+        "BLEU-3": 0.2271585618034379,
+        "BLEU-4": 3.1437754723697544e-05,
+        "BERTScore-Precision": 0.6864070296287537,
+        "BERTScore-Recall": 0.7870982885360718,
+        "BERTScore-F1": 0.7333123087882996
+      },
+      "image_id": 15
+    },
+    {
+      "id": "16",
+      "generated_caption": "A couple sitting on a bench near the ocean, enjoying the view of the water and the cloudy sky.",
+      "reference_captions": [
+        "A man in a wheelchair and another sitting on a bench that is overlooking the water.",
+        "Two people sitting on dock looking at the ocean.",
+        "Two older people sitting down in front of a beach.",
+        "An old couple at the beach during the day.",
+        "A person on a bench, and one on a wheelchair sitting by a seawall looking out toward the ocean"
+      ],
+      "metrics": {
+        "BLEU-1": 0.5263157894182826,
+        "BLEU-2": 0.296174438847937,
+        "BLEU-3": 0.21771686609024607,
+        "BLEU-4": 0.15936357364850218,
+        "BERTScore-Precision": 0.687359631061554,
+        "BERTScore-Recall": 0.7503765821456909,
+        "BERTScore-F1": 0.7052783370018005
+      },
+      "image_id": 16
+    },
+    {
+      "id": "17",
+      "generated_caption": "A man in an orange outfit and yellow scarf sits on the ground next to a decorated cow, with a red brick wall and a white wall in the background.",
+      "reference_captions": [
+        "A man sits with a traditionally decorated cow",
+        "A decorative man sits on the ground with a cow.",
+        "A man sits next to his horse in an alley in costume.",
+        "Guy and cow are sitting on the floor ",
+        "An Indian man in religious attire sitting with a decorated cow."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4999999999833334,
+        "BLEU-2": 0.3939192985658107,
+        "BLEU-3": 0.22296096055063744,
+        "BLEU-4": 0.14234121841688616,
+        "BERTScore-Precision": 0.6060956716537476,
+        "BERTScore-Recall": 0.8448119163513184,
+        "BERTScore-F1": 0.7058159708976746
+      },
+      "image_id": 17
+    },
+    {
+      "id": "18",
+      "generated_caption": "A busy street with parked motorcycles, people walking, and colorful buildings.",
+      "reference_captions": [
+        "Rows of motor bikes and helmets in a city",
+        "A lot of motorbikes line up down a busy street.",
+        "Large set of motorcycles all lined up down a street.",
+        "A large group of motorcycles lined up on the street.",
+        "A series of motorbikes parked in a row on a street"
+      ],
+      "metrics": {
+        "BLEU-1": 0.45454545446281003,
+        "BLEU-2": 6.741998623375958e-09,
+        "BLEU-3": 1.7157141636715995e-11,
+        "BLEU-4": 8.913765519636197e-13,
+        "BERTScore-Precision": 0.5790498852729797,
+        "BERTScore-Recall": 0.6030123829841614,
+        "BERTScore-F1": 0.5907882452011108
+      },
+      "image_id": 18
+    },
+    {
+      "id": "19",
+      "generated_caption": "A white and black kitten sitting in a red bowl on a blue towel, surrounded by books and papers.",
+      "reference_captions": [
+        "A cute kitten is sitting in a dish on a table.",
+        "A small white cat on a large bowl.",
+        "A small kitten is sitting in a bowl. ",
+        "A cat is curled up in a bowl",
+        "A kitten is sitting in a bowl on a table."
+      ],
+      "metrics": {
+        "BLEU-1": 0.47368421050138515,
+        "BLEU-2": 0.32444284224397485,
+        "BLEU-3": 0.23135869341855983,
+        "BLEU-4": 2.9660903201795385e-05,
+        "BERTScore-Precision": 0.6436738967895508,
+        "BERTScore-Recall": 0.7989814281463623,
+        "BERTScore-F1": 0.7089056372642517
+      },
+      "image_id": 19
+    },
+    {
+      "id": "20",
+      "generated_caption": "A man in a green hoodie leaning over a white toilet, drinking water from the tap.",
+      "reference_captions": [
+        "A man getting a drink from a water fountain that is a toilet.",
+        "A boy drinking water from a toilet water fountain.",
+        "A young man drinking from a water fountain in the shape of a toilet.",
+        "A young person has his face close to the toilet bowl.",
+        "A man taking a drink from a water fountain."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5624999999648439,
+        "BLEU-2": 0.3354101966033067,
+        "BLEU-3": 0.2002971772439066,
+        "BLEU-4": 2.803950119799468e-05,
+        "BERTScore-Precision": 0.662540853023529,
+        "BERTScore-Recall": 0.7881734371185303,
+        "BERTScore-F1": 0.7057443261146545
+      },
+      "image_id": 20
+    },
+    {
+      "id": "21",
+      "generated_caption": "A delicious dessert served on a white plate with silverware, with a small puddle of water on the table.",
+      "reference_captions": [
+        "A beautiful dessert waiting to be shared by two people",
+        "There is a piece of cake on a plate with decorations on it.",
+        "Creamy cheesecake dessert with whip cream and caramel.",
+        "An extravagant dessert on a plate overlooking the water.",
+        "This is a picture of an extremely fancy desert."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5263157894459835,
+        "BLEU-2": 0.2418254166902561,
+        "BLEU-3": 1.509564437279047e-06,
+        "BLEU-4": 3.829206137800793e-09,
+        "BERTScore-Precision": 0.6269420385360718,
+        "BERTScore-Recall": 0.7551129460334778,
+        "BERTScore-F1": 0.6850842237472534
+      },
+      "image_id": 21
+    },
+    {
+      "id": "22",
+      "generated_caption": "A young person with curly hair sits on a grassy hill, holding a red skateboard, surrounded by a field of green grass and trees.",
+      "reference_captions": [
+        "A person holding a skateboard overlooks a dead field of crops.",
+        "A person sits on a patch of grass observing the scenery.",
+        "A person holding a skate board sitting in an empty open field.",
+        "A child with a skateboard sitting on the grass and looking at an empty field",
+        "A skateboarder sitting on the edge of an open field."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4999999999791667,
+        "BLEU-2": 0.32969023668385783,
+        "BLEU-3": 0.17031902563878978,
+        "BLEU-4": 2.2023814945605372e-05,
+        "BERTScore-Precision": 0.6455466747283936,
+        "BERTScore-Recall": 0.7794903516769409,
+        "BERTScore-F1": 0.7062236666679382
+      },
+      "image_id": 22
+    },
+    {
+      "id": "23",
+      "generated_caption": "A bathroom with a white sink, silver faucet, mirror, and shower curtain featuring a map of New York.",
+      "reference_captions": [
+        "A bathroom with a sink and shower curtain with a map print.",
+        "A small and crowded bathroom with little furnishing ",
+        "A small bathroom with a shower curtain with the NYC Subway map on it. ",
+        "A bathroom with a map as a shower curtain. ",
+        "A bathroom with pedestal sink and mirror over it."
+      ],
+      "metrics": {
+        "BLEU-1": 0.49999999997222233,
+        "BLEU-2": 0.4200840251843786,
+        "BLEU-3": 0.32103905506656993,
+        "BLEU-4": 0.21671830062472106,
+        "BERTScore-Precision": 0.6897952556610107,
+        "BERTScore-Recall": 0.853655219078064,
+        "BERTScore-F1": 0.7630271911621094
+      },
+      "image_id": 23
+    },
+    {
+      "id": "24",
+      "generated_caption": "A large gray military plane with four engines and a distinctive tail fin, flying in a cloudy sky.",
+      "reference_captions": [
+        "A random plane in the sky flying alone",
+        "An airplane flying high in the blue sky. ",
+        "A silver color jet flying through the clear sky.",
+        "An airplane with the letters 'MT' on it, flying in the sky.",
+        "A very large plane is flying through the sky."
+      ],
+      "metrics": {
+        "BLEU-1": 0.388888888867284,
+        "BLEU-2": 0.15124753548685535,
+        "BLEU-3": 1.1265545092734809e-06,
+        "BLEU-4": 3.124577800966808e-09,
+        "BERTScore-Precision": 0.5834336280822754,
+        "BERTScore-Recall": 0.6961765289306641,
+        "BERTScore-F1": 0.6210617423057556
+      },
+      "image_id": 24
+    },
+    {
+      "id": "25",
+      "generated_caption": "Two horses, one brown and one black, are standing on a patch of grass near a white car and a blue building.",
+      "reference_captions": [
+        "A brown and black horse in the middle of the city eating grass.",
+        "Two horses eating grass near a parking lot. ",
+        "Two horses standing in a field across the stre.et from a building",
+        "Two mules eating grass in a parking lot in front of a hotel. ",
+        "Two horses eat grass next to a group of parked cars."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4090909090723141,
+        "BLEU-2": 0.24174688919636403,
+        "BLEU-3": 0.14296528607319603,
+        "BLEU-4": 1.980316235285737e-05,
+        "BERTScore-Precision": 0.5697164535522461,
+        "BERTScore-Recall": 0.7129921913146973,
+        "BERTScore-F1": 0.633352518081665
+      },
+      "image_id": 25
+    },
+    {
+      "id": "26",
+      "generated_caption": "A brown leather handbag with gold-colored hardware is sitting on a green metal bench in a park.",
+      "reference_captions": [
+        "A brown purse is sitting on a green bench.",
+        "a brown purse abandoned on a green bench.",
+        "A woman's purse sitting on a park bench.",
+        "A leather purse laying on it's side on a green metal bench.",
+        "A purse sits alone on a park bench."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5882352940830451,
+        "BLEU-2": 0.4696682182853713,
+        "BLEU-3": 0.3889111187084499,
+        "BLEU-4": 0.3350704079297443,
+        "BERTScore-Precision": 0.7091935873031616,
+        "BERTScore-Recall": 0.8981173038482666,
+        "BERTScore-F1": 0.7925524115562439
+      },
+      "image_id": 26
+    },
+    {
+      "id": "27",
+      "generated_caption": "A delicious cake with white frosting and yellow filling, cut into two layers, and a spatula with a piece of cake on it.",
+      "reference_captions": [
+        "Half of a white cake with coconuts on top.",
+        "The coconut cake on a red plate is half gone.",
+        "A half eaten dessert cake sitting on a cake plate.",
+        "A half eaten cake with coconut shavings and creme filling.",
+        "Half of a cake sits on a plate."
+      ],
+      "metrics": {
+        "BLEU-1": 0.43478260867674867,
+        "BLEU-2": 0.1988106931130457,
+        "BLEU-3": 1.2346771041881935e-06,
+        "BLEU-4": 3.1146377791205494e-09,
+        "BERTScore-Precision": 0.5813995599746704,
+        "BERTScore-Recall": 0.6955716609954834,
+        "BERTScore-F1": 0.6312330961227417
+      },
+      "image_id": 27
+    },
+    {
+      "id": "28",
+      "generated_caption": "A white toilet with a pink lid and a Hello Kitty seat, placed on a dirty ground with a metal grate and a blue suitcase nearby.",
+      "reference_captions": [
+        "An old toilet with a hello kitty cover top. ",
+        "A toilet with a Hello Kitty symbol on it.",
+        "A toilette with a pink hello kitty toilette seat cover.",
+        "A toilet with a Hello Kitty seat sitting in a room.",
+        "A broken toilet bowl with  a Hello Kitty toilet seat cover."
+      ],
+      "metrics": {
+        "BLEU-1": 0.34615384614053263,
+        "BLEU-2": 0.2631174057817865,
+        "BLEU-3": 0.2053066689333913,
+        "BLEU-4": 2.476682488798212e-05,
+        "BERTScore-Precision": 0.6254274845123291,
+        "BERTScore-Recall": 0.791039228439331,
+        "BERTScore-F1": 0.6941019296646118
+      },
+      "image_id": 28
+    },
+    {
+      "id": "29",
+      "generated_caption": "A well-organized workspace with a silver laptop, a computer monitor, a printer, and a computer mouse on a wooden desk.",
+      "reference_captions": [
+        "Office space with office equipment on desk top.",
+        "A hope office setup of computers and printers.",
+        "a home office with laptop, printer, scanner, and extra monitor",
+        "The computer desk in the corner is by a window.",
+        "A laptop, monitor, printer and tablet on a desk."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4999999999750001,
+        "BLEU-2": 0.16222142112243812,
+        "BLEU-3": 1.1349619434831917e-06,
+        "BLEU-4": 3.0452555558176168e-09,
+        "BERTScore-Precision": 0.6647237539291382,
+        "BERTScore-Recall": 0.8027259111404419,
+        "BERTScore-F1": 0.7272357940673828
+      },
+      "image_id": 29
+    },
+    {
+      "id": "30",
+      "generated_caption": "Two dogs with black and white fur and pink tongues hanging out of their mouths, looking out of a car window.",
+      "reference_captions": [
+        "Two husky's hanging out of the car windows.",
+        "Dogs stick their heads out of car windows",
+        "Two husky dogs ride in a car with their heads hanging out windows.",
+        "Two happy dogs have their head out the car window.",
+        "Some dogs stick their heads out the car window."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4761904761678005,
+        "BLEU-2": 0.30860669990912093,
+        "BLEU-3": 0.17114033061407738,
+        "BLEU-4": 2.297185935726835e-05,
+        "BERTScore-Precision": 0.6151971817016602,
+        "BERTScore-Recall": 0.7191241979598999,
+        "BERTScore-F1": 0.6631133556365967
+      },
+      "image_id": 30
+    },
+    {
+      "id": "31",
+      "generated_caption": "A white door with a window, a deadbolt, and a black metal grill, with a paper towel roll and a bottle of dish soap on the counter.",
+      "reference_captions": [
+        "The back door with a window in the kitchen.",
+        "The kitchen has a white door with a window.",
+        "A kitchen door next to a kitchen sing and counter top.",
+        "A sink next to a large white door ",
+        "A door for exiting and entering the house in the kitchen."
+      ],
+      "metrics": {
+        "BLEU-1": 0.29629629628532245,
+        "BLEU-2": 0.18490006540142992,
+        "BLEU-3": 0.13984749949973427,
+        "BLEU-4": 0.10332090907862553,
+        "BERTScore-Precision": 0.5595937967300415,
+        "BERTScore-Recall": 0.7650139927864075,
+        "BERTScore-F1": 0.6463755965232849
+      },
+      "image_id": 31
+    },
+    {
+      "id": "32",
+      "generated_caption": "A large airplane flying high in the sky with white clouds scattered around.",
+      "reference_captions": [
+        "Jet liner flying off into the distance on an overcast day",
+        "An airplane flying away in a cloudy sky.",
+        "A plane that is flying in a clear blue sky.",
+        "An airplane flying away in the cloudy sky.",
+        "Four engine plane flying in lightly overcast sky."
+      ],
+      "metrics": {
+        "BLEU-1": 0.38461538458579886,
+        "BLEU-2": 0.25318484175062944,
+        "BLEU-3": 1.7995375176065113e-06,
+        "BLEU-4": 4.913270547713079e-09,
+        "BERTScore-Precision": 0.6910873651504517,
+        "BERTScore-Recall": 0.7832803726196289,
+        "BERTScore-F1": 0.7343014478683472
+      },
+      "image_id": 32
+    },
+    {
+      "id": "33",
+      "generated_caption": "A white cat with long whiskers and pointy ears is eating a dead bird with a red spot on its head.",
+      "reference_captions": [
+        "A cat eating a bird it has caught.",
+        "A white cat caught a bird outside on a patio.",
+        "Grey house cat devours a song bird on a door step",
+        "A long haired cat eating a dead bird.",
+        "A cat eating a dead bird on the ground."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4761904761678005,
+        "BLEU-2": 0.3450327796543363,
+        "BLEU-3": 0.2658863991818757,
+        "BLEU-4": 0.17976451427836476,
+        "BERTScore-Precision": 0.5730304718017578,
+        "BERTScore-Recall": 0.7834048271179199,
+        "BERTScore-F1": 0.6619037985801697
+      },
+      "image_id": 33
+    },
+    {
+      "id": "34",
+      "generated_caption": "A woman in a black jacket and blue jeans is walking her small dog on a leash, surrounded by a black metal fence, green shrubs, and a row of orange traffic cones.",
+      "reference_captions": [
+        "A woman is walking a dog in the city.",
+        "A woman and her dog walking down a sidewalk next to a fence with some flowers. ",
+        "A woman walking her dog on the sidewalk.",
+        "A woman walks her dog along a city street.",
+        "A woman walks her dog on a city sidewalk."
+      ],
+      "metrics": {
+        "BLEU-1": 0.3437499999892579,
+        "BLEU-2": 0.23546453742246556,
+        "BLEU-3": 0.12271846683908968,
+        "BLEU-4": 1.5888501567858706e-05,
+        "BERTScore-Precision": 0.5410938262939453,
+        "BERTScore-Recall": 0.6891180276870728,
+        "BERTScore-F1": 0.5955468416213989
+      },
+      "image_id": 34
+    },
+    {
+      "id": "35",
+      "generated_caption": "A white toilet in a bathroom with green walls, wooden shelf, and a window.",
+      "reference_captions": [
+        "A tiny bathroom with only a toilet and a shelf.",
+        "Small bathroom with a toilet and a sink.",
+        "A narrow bathroom has a white door on its side",
+        "Rather narrow bath room that appears to be being remodeled.",
+        "Unfinished bathroom with broken toilet next to a bookshelf."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5714285713877553,
+        "BLEU-2": 0.29649972664244745,
+        "BLEU-3": 1.9421783838169644e-06,
+        "BLEU-4": 5.080057942628497e-09,
+        "BERTScore-Precision": 0.6645012497901917,
+        "BERTScore-Recall": 0.7771381139755249,
+        "BERTScore-F1": 0.7115987539291382
+      },
+      "image_id": 35
+    },
+    {
+      "id": "36",
+      "generated_caption": "A young girl in a blue dress and striped socks stands in a bathroom with a white toilet and black trash can.",
+      "reference_captions": [
+        "A little girl in a public bathroom for kids.",
+        "A girl standing next to a toilet in a bathroom.",
+        "Little girl in blue dress standing in a bathroom. ",
+        "An adorable little girl in a blue dress stands in a restroom.",
+        "A little girl in a blue dress stands in a bathroom."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4999999999772728,
+        "BLEU-2": 0.377964472991638,
+        "BLEU-3": 0.3057107087183002,
+        "BLEU-4": 0.23418123260701718,
+        "BERTScore-Precision": 0.7241804599761963,
+        "BERTScore-Recall": 0.9129654765129089,
+        "BERTScore-F1": 0.8076882362365723
+      },
+      "image_id": 36
+    },
+    {
+      "id": "37",
+      "generated_caption": "A man playing the violin in a kitchen with various objects around him.",
+      "reference_captions": [
+        "A picture of a man playing a violin in a kitchen.",
+        "A man is playing violin in his kitchen",
+        "A man is playing a fiddle in his kitchen.",
+        "A man plays the violin in a home.",
+        "An old man playing violin in a kitchen."
+      ],
+      "metrics": {
+        "BLEU-1": 0.6153846153372783,
+        "BLEU-2": 0.5063696835012589,
+        "BLEU-3": 0.359907503521302,
+        "BLEU-4": 0.26130226594483136,
+        "BERTScore-Precision": 0.735346257686615,
+        "BERTScore-Recall": 0.8887128233909607,
+        "BERTScore-F1": 0.8047879934310913
+      },
+      "image_id": 37
+    },
+    {
+      "id": "38",
+      "generated_caption": "A man wearing a blue jacket and a black hat, standing in a kitchen with various objects around him.",
+      "reference_captions": [
+        "A shot of an elderly man inside a kitchen.",
+        "An old man is wearing an odd hat",
+        "An older man is wearing a funny hat in his dining room.",
+        "A man in a jacket and hat looks at the camera.",
+        "An old man standing in a kitchen posing for a picture."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5263157894459835,
+        "BLEU-2": 0.41885390826903823,
+        "BLEU-3": 0.2743060625186815,
+        "BLEU-4": 0.1895162956650335,
+        "BERTScore-Precision": 0.6160522103309631,
+        "BERTScore-Recall": 0.6929588913917542,
+        "BERTScore-F1": 0.6500134468078613
+      },
+      "image_id": 38
+    },
+    {
+      "id": "39",
+      "generated_caption": "A woman and two dogs enjoying a car ride together.",
+      "reference_captions": [
+        "A trio of dogs sitting in their owner's lap in a red convertible.",
+        "Three little dogs looking out a car window while sitting on a woman's lap. ",
+        "A woman driver has three dogs in the seat with her.",
+        "A woman and her three dogs in a car.",
+        "Three dogs on the lap of a woman in the driver's seat of a convertible."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5999999999400001,
+        "BLEU-2": 0.4472135954527522,
+        "BLEU-3": 0.29240177378852694,
+        "BLEU-4": 4.347208718929372e-05,
+        "BERTScore-Precision": 0.7812577486038208,
+        "BERTScore-Recall": 0.7958050966262817,
+        "BERTScore-F1": 0.7884643077850342
+      },
+      "image_id": 39
+    },
+    {
+      "id": "40",
+      "generated_caption": "A gray and white cat with a blue collar standing on a patch of green grass near parked cars.",
+      "reference_captions": [
+        "A cat in between two cars in a parking lot.",
+        "A cat stands between two parked cars on a grassy sidewalk. ",
+        "A cat at attention between two parked cars.",
+        "A grey and white cat watches from between parked cars.",
+        "A grey and white cat standing in the grass in a parking lot. "
+      ],
+      "metrics": {
+        "BLEU-1": 0.5263157894459835,
+        "BLEU-2": 0.34199278400988514,
+        "BLEU-3": 0.19019320107005797,
+        "BLEU-4": 2.5607444804104896e-05,
+        "BERTScore-Precision": 0.7052554488182068,
+        "BERTScore-Recall": 0.8073070049285889,
+        "BERTScore-F1": 0.7528385519981384
+      },
+      "image_id": 40
+    },
+    {
+      "id": "41",
+      "generated_caption": "A small red car parked on a cobblestone street with a bus and a motorcycle nearby.",
+      "reference_captions": [
+        "A small car is parked in front of a scooter",
+        "A scooter is parked behind a red car.",
+        "A small car parked in by a vespa.",
+        "A bus rides by a small car parked in front of a motor scooter",
+        "A small car sits parked in front of a scooter. "
+      ],
+      "metrics": {
+        "BLEU-1": 0.4999999999687501,
+        "BLEU-2": 0.2581988897304859,
+        "BLEU-3": 1.6823908656274826e-06,
+        "BLEU-4": 4.374811430921123e-09,
+        "BERTScore-Precision": 0.6138314604759216,
+        "BERTScore-Recall": 0.687816321849823,
+        "BERTScore-F1": 0.6487212777137756
+      },
+      "image_id": 41
+    },
+    {
+      "id": "42",
+      "generated_caption": "A black and white cat with a sticker on its head standing in a doorway.",
+      "reference_captions": [
+        "A door with a sticker of a cat door on it",
+        "A blue door with a painting of a cat's rear end entering thru a cat door.",
+        "A blue door with a picture of a cat door with cats backside hanging out on it.",
+        "A picture of a cat door is on the bottom corner of a blue door.",
+        "A painting on a door of a cat going through a cat door."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4666666666044445,
+        "BLEU-2": 0.2581988897121199,
+        "BLEU-3": 0.17244679589836748,
+        "BLEU-4": 2.5567957491280606e-05,
+        "BERTScore-Precision": 0.6211449503898621,
+        "BERTScore-Recall": 0.7025684714317322,
+        "BERTScore-F1": 0.6593524813652039
+      },
+      "image_id": 42
+    },
+    {
+      "id": "43",
+      "generated_caption": "A busy office desk with various items such as a computer, phone, and books.",
+      "reference_captions": [
+        "An office cubicle with multiple computers in it",
+        "An office desk with two flat panel monitors.",
+        "An office desk with two computer screens, books diagrams and a phone on it.",
+        "Two computer monitors are placed beside each other on a desk.",
+        "A desk with two monitors depicting security cameras."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4285714285102042,
+        "BLEU-2": 0.2567762954691601,
+        "BLEU-3": 0.17645861679675823,
+        "BLEU-4": 2.6584835762615844e-05,
+        "BERTScore-Precision": 0.7107532620429993,
+        "BERTScore-Recall": 0.7323863506317139,
+        "BERTScore-F1": 0.7174507975578308
+      },
+      "image_id": 43
+    },
+    {
+      "id": "44",
+      "generated_caption": "A cozy kitchen with a wooden table, chairs, and green cabinets, featuring a white sink, a black oven, and a potted plant.",
+      "reference_captions": [
+        "A pinewood and green modern themed kitchen area.",
+        "A kitchen and dining room area with a large window.",
+        "A green kitchen with wooden counters and bright lights. ",
+        "A bright room with green walls and cabinets.",
+        "An empty kitchen area painted green with bulbous lights."
+      ],
+      "metrics": {
+        "BLEU-1": 0.3181818181673554,
+        "BLEU-2": 0.2132007163456888,
+        "BLEU-3": 1.314767947101946e-06,
+        "BLEU-4": 3.3071084016743344e-09,
+        "BERTScore-Precision": 0.6241231560707092,
+        "BERTScore-Recall": 0.7762213945388794,
+        "BERTScore-F1": 0.6919121742248535
+      },
+      "image_id": 44
+    },
+    {
+      "id": "45",
+      "generated_caption": "A cozy kitchen with wooden cabinets, stainless steel appliances, and a tiled countertop.",
+      "reference_captions": [
+        "A kitchen is shown with wooden cabinets and a wooden celling.",
+        "A recently remodeled kitchen with marble and wooden furnishings.",
+        "Well kept kitchen with marble counter tops and stainless steel fridge",
+        "A beautiful new kitchen with natural wood cabinets.",
+        "A neat, wood filled kitchen is photographed as if for a real estate ad."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5698222021537606,
+        "BLEU-2": 0.41937778547751736,
+        "BLEU-3": 2.4554831806939885e-06,
+        "BLEU-4": 6.084864417994155e-09,
+        "BERTScore-Precision": 0.6841217279434204,
+        "BERTScore-Recall": 0.7716264724731445,
+        "BERTScore-F1": 0.7202274203300476
+      },
+      "image_id": 45
+    },
+    {
+      "id": "46",
+      "generated_caption": "A busy street scene with people riding bikes, motorcycles, and a car, as well as traffic lights and various buildings.",
+      "reference_captions": [
+        "A group of people riding mopeds in a busy street. ",
+        "People riding bikes and cars down the street. ",
+        "Motorists and bicyclists in a busy city square.",
+        "A crowded city street filled with traffic and bicycles.",
+        "An Asian intersection is full of mopeds and motorcycles."
+      ],
+      "metrics": {
+        "BLEU-1": 0.44999999997750006,
+        "BLEU-2": 0.15389675280487589,
+        "BLEU-3": 1.0957937083643963e-06,
+        "BLEU-4": 2.966090320188808e-09,
+        "BERTScore-Precision": 0.6076533794403076,
+        "BERTScore-Recall": 0.7487775683403015,
+        "BERTScore-F1": 0.6708741188049316
+      },
+      "image_id": 46
+    },
+    {
+      "id": "47",
+      "generated_caption": "A rainy day in the city with a man walking with an umbrella, a bus, a car, a bicycle, and a street sign.",
+      "reference_captions": [
+        "A person walking in the rain on the sidewalk. ",
+        "A person walking through the rain with an umbrella.",
+        "A person walking in the rain while holding an umbrella.",
+        "A man walks down the strip as it rains.",
+        "A European street scene with a person and vehicles."
+      ],
+      "metrics": {
+        "BLEU-1": 0.43478260867674867,
+        "BLEU-2": 0.24349237676800983,
+        "BLEU-3": 1.413352466118729e-06,
+        "BLEU-4": 3.4469133165682757e-09,
+        "BERTScore-Precision": 0.5972899198532104,
+        "BERTScore-Recall": 0.7464644908905029,
+        "BERTScore-F1": 0.6635969877243042
+      },
+      "image_id": 47
+    },
+    {
+      "id": "48",
+      "generated_caption": "A group of people riding mopeds on a tree-lined street with a blue sign and a red and white striped barrier.",
+      "reference_captions": [
+        "A parade of motorcycles is going through a group of tall trees.",
+        "A group of motorcyclists drive down a tree lined street.",
+        "A group of motorcycles down a long street filled with trees on either side.",
+        "A group of people riding mopeds through a park.",
+        "A group of scooters rides down a street"
+      ],
+      "metrics": {
+        "BLEU-1": 0.4761904761678005,
+        "BLEU-2": 0.3450327796543363,
+        "BLEU-3": 0.2926458488563698,
+        "BLEU-4": 0.2542254141258753,
+        "BERTScore-Precision": 0.6326252818107605,
+        "BERTScore-Recall": 0.888857364654541,
+        "BERTScore-F1": 0.7391653060913086
+      },
+      "image_id": 48
+    },
+    {
+      "id": "49",
+      "generated_caption": "A clean bathroom with a white toilet, a trash can, a toilet brush, and a gold-framed picture on the wall.",
+      "reference_captions": [
+        "a modern flush toilet in a bathroom with tile. ",
+        "A toilet and trashcan in a white bathroom.",
+        "A white toilet sits on a tile floor.",
+        "A toilet in a bathroom that is next to a trash can",
+        "White toilet by built-in shelves in a tiled bathroom."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4999999999750001,
+        "BLEU-2": 0.28097574346008974,
+        "BLEU-3": 1.636898375303894e-06,
+        "BLEU-4": 4.007781699810763e-09,
+        "BERTScore-Precision": 0.6236672401428223,
+        "BERTScore-Recall": 0.7876953482627869,
+        "BERTScore-F1": 0.6961495876312256
+      },
+      "image_id": 49
+    },
+    {
+      "id": "50",
+      "generated_caption": "A foggy night at an intersection with traffic lights, street lights, and a building in the background.",
+      "reference_captions": [
+        "Fog is in the air at an intersection with several traffic lights.",
+        "An intersection during a cold and foggy night.",
+        "Empty fog covered streets in the night amongst traffic lights.",
+        "City street at night with several stop lights.",
+        "It is a foggy night by a traffic light."
+      ],
+      "metrics": {
+        "BLEU-1": 0.7058823528996541,
+        "BLEU-2": 0.46966821828537125,
+        "BLEU-3": 0.3086789594799613,
+        "BLEU-4": 0.21409092658369572,
+        "BERTScore-Precision": 0.5981814861297607,
+        "BERTScore-Recall": 0.713582456111908,
+        "BERTScore-F1": 0.6412174105644226
+      },
+      "image_id": 50
+    },
+    {
+      "id": "51",
+      "generated_caption": "A large white airplane taking off with a clear blue sky and white clouds in the background.",
+      "reference_captions": [
+        "An airplane with its landing wheels out landing. ",
+        "A plane that is taking off at an airport",
+        "A man takes a picture of an airplane taking off.",
+        "A large jet takes off from an airport runway.",
+        "The airplane is taking off on the runway at the airport."
+      ],
+      "metrics": {
+        "BLEU-1": 0.47058823526643606,
+        "BLEU-2": 0.29704426287498314,
+        "BLEU-3": 1.8051655058649962e-06,
+        "BLEU-4": 4.527471870659266e-09,
+        "BERTScore-Precision": 0.5509422421455383,
+        "BERTScore-Recall": 0.6928749084472656,
+        "BERTScore-F1": 0.6138105988502502
+      },
+      "image_id": 51
+    },
+    {
+      "id": "52",
+      "generated_caption": "Three birds perched on a giraffe's back, with a clear blue sky in the background.",
+      "reference_captions": [
+        "Little birds sitting on the shoulder of a giraffe. ",
+        "The top of a giraffe's head has birds on it.",
+        "Three birds sit on the back of a giraffe. ",
+        "A giraffe with 3 birds on his fur.",
+        "A flock of birds sits on top of a large giraffe."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4666666666355556,
+        "BLEU-2": 0.2581988897293332,
+        "BLEU-3": 1.7244679590986396e-06,
+        "BLEU-4": 4.546697236652585e-09,
+        "BERTScore-Precision": 0.6607350707054138,
+        "BERTScore-Recall": 0.8437026739120483,
+        "BERTScore-F1": 0.7410927414894104
+      },
+      "image_id": 52
+    },
+    {
+      "id": "53",
+      "generated_caption": "An elderly man with white hair and glasses is standing near a bicycle with a basket, holding a piece of paper, while surrounded by boats and buildings.",
+      "reference_captions": [
+        "a man with a bike at a marina",
+        "A man stands next to his bike at the marina.",
+        "an old man standing next to a bike and a chain fence.",
+        "A man holding some break standing by a bicycle.",
+        "A man who is standing next to his bicycle."
+      ],
+      "metrics": {
+        "BLEU-1": 0.370370370356653,
+        "BLEU-2": 0.2067245576408771,
+        "BLEU-3": 1.1956793017371355e-06,
+        "BLEU-4": 2.905080846557291e-09,
+        "BERTScore-Precision": 0.5685207843780518,
+        "BERTScore-Recall": 0.7426931858062744,
+        "BERTScore-F1": 0.6319661736488342
+      },
+      "image_id": 53
+    },
+    {
+      "id": "54",
+      "generated_caption": "A man in a green shirt and black hat sits on a bench with his bicycle, surrounded by parked cars and signs.",
+      "reference_captions": [
+        "A man is sitting on a bench next to a bike.",
+        "A man is sitting on a bench next to a bicycle.",
+        "A man sits on a street bench by a bike. ",
+        "Black man sitting on a bench behind a personal bicycle. ",
+        "A man is sitting in a busy area with his bike."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4999999999772728,
+        "BLEU-2": 0.377964472991638,
+        "BLEU-3": 0.2426427503086868,
+        "BLEU-4": 2.9446731048441884e-05,
+        "BERTScore-Precision": 0.6009811758995056,
+        "BERTScore-Recall": 0.8114938735961914,
+        "BERTScore-F1": 0.6905502676963806
+      },
+      "image_id": 54
+    },
+    {
+      "id": "55",
+      "generated_caption": "A busy street with people waiting for a bus, a man with a bicycle, and a woman with a suitcase.",
+      "reference_captions": [
+        "People are waiting for the bus near a bus stop.",
+        "A crowd of people are waiting to get on a red bus.",
+        "A crowd of people get ready to board a bus in the city.",
+        "Large group of people waiting for a train.",
+        "People are waiting in a city area to board a bus."
+      ],
+      "metrics": {
+        "BLEU-1": 0.29999999998500004,
+        "BLEU-2": 0.21764287502183505,
+        "BLEU-3": 0.17394640853977755,
+        "BLEU-4": 0.13264759166692586,
+        "BERTScore-Precision": 0.6240116357803345,
+        "BERTScore-Recall": 0.7720743417739868,
+        "BERTScore-F1": 0.6901915073394775
+      },
+      "image_id": 55
+    },
+    {
+      "id": "56",
+      "generated_caption": "A man sleeping on a bed with a cat laying on his chest.",
+      "reference_captions": [
+        "a man sleeping with his cat next to him",
+        "A young man and his cute cat enjoy a nap together.",
+        "A man is sleeping with his head on a pillow.",
+        "Man sleeping in his bedroom next to a cat.",
+        "Man sleeping next to a cat on a bed. "
+      ],
+      "metrics": {
+        "BLEU-1": 0.692307692254438,
+        "BLEU-2": 0.48038446137676916,
+        "BLEU-3": 2.7580051473758982e-06,
+        "BLEU-4": 6.767781115948732e-09,
+        "BERTScore-Precision": 0.7504390478134155,
+        "BERTScore-Recall": 0.8383045196533203,
+        "BERTScore-F1": 0.7919420599937439
+      },
+      "image_id": 56
+    },
+    {
+      "id": "57",
+      "generated_caption": "A dimly lit public restroom with four urinals, a window, and a black and white photo.",
+      "reference_captions": [
+        "four urinals in a public restroom with a window",
+        "A bathroom with four urinals on the wall.",
+        "An old bathroom with a row of urinals.",
+        "A row of urinals in with an open window above them.",
+        "A row of urinals stand beneath a open window."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4374999999726563,
+        "BLEU-2": 0.29580398913587685,
+        "BLEU-3": 0.1842015749197028,
+        "BLEU-4": 2.6332019390569436e-05,
+        "BERTScore-Precision": 0.6200461387634277,
+        "BERTScore-Recall": 0.8012877702713013,
+        "BERTScore-F1": 0.6943288445472717
+      },
+      "image_id": 57
+    },
+    {
+      "id": "58",
+      "generated_caption": "A young boy in a red and white shirt is sitting on a parked black motorcycle, with a car and a green plant in the background.",
+      "reference_captions": [
+        "A small child climbs atop a large motorcycle",
+        "A young boy riding a motorcycle next to a silver car.",
+        "A little baby is sitting on a huge motorcycle.",
+        "A little boy sitting alone on a motorcycle.",
+        "A toddler sitting on a motorcycle in a parking lot."
+      ],
+      "metrics": {
+        "BLEU-1": 0.34615384614053263,
+        "BLEU-2": 0.28823067683784936,
+        "BLEU-3": 0.21817089105240564,
+        "BLEU-4": 0.14576915794332718,
+        "BERTScore-Precision": 0.5888899564743042,
+        "BERTScore-Recall": 0.7512537240982056,
+        "BERTScore-F1": 0.6602362990379333
+      },
+      "image_id": 58
+    },
+    {
+      "id": "59",
+      "generated_caption": "A large silver U.S. Air Force plane parked on the tarmac with a clear blue sky in the background.",
+      "reference_captions": [
+        "A large U.S Air Force plain sits on an asphalt ramp.",
+        "A large propeller airplane sitting on a tarmac.",
+        "A large military plane parked in the landing area.",
+        "A U.S. Air Force plane sits on display.",
+        "A picture of a plane in a runway."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5789473683905818,
+        "BLEU-2": 0.4392976850832163,
+        "BLEU-3": 0.283160693887166,
+        "BLEU-4": 0.1940862326951359,
+        "BERTScore-Precision": 0.6285908818244934,
+        "BERTScore-Recall": 0.8121590614318848,
+        "BERTScore-F1": 0.7086806893348694
+      },
+      "image_id": 59
+    },
+    {
+      "id": "60",
+      "generated_caption": "Two men skiing in a snowy forest, one wearing a striped jacket and the other wearing a gray jacket.",
+      "reference_captions": [
+        "A black and white photo of an older man skiing.",
+        "Two people on the snow for cross country skiing.",
+        "The old man cross country skis through the forest.",
+        "A younger man and an older man skiing in the forest.",
+        "Two people on skis going through the woods.\n"
+      ],
+      "metrics": {
+        "BLEU-1": 0.2631578947229917,
+        "BLEU-2": 0.12091270834512809,
+        "BLEU-3": 9.509660053502904e-07,
+        "BLEU-4": 2.70765762660009e-09,
+        "BERTScore-Precision": 0.5787359476089478,
+        "BERTScore-Recall": 0.7098302841186523,
+        "BERTScore-F1": 0.6376145482063293
+      },
+      "image_id": 60
+    },
+    {
+      "id": "61",
+      "generated_caption": "A person riding a motorcycle on a street with a bright sun, houses, and trees in the background.",
+      "reference_captions": [
+        "Riding a motorcycle down a street that has no one else on it.",
+        "The view from a motorcyclist's point of view, looking down a street.",
+        "A man rides a motorcycle down an empty street next to houses.",
+        "The view of the street from the perspective of the rider of a motorcycle",
+        "A motorcycle moves forward down an empty street."
+      ],
+      "metrics": {
+        "BLEU-1": 0.388888888867284,
+        "BLEU-2": 0.21389631596101674,
+        "BLEU-3": 1.4193697400876474e-06,
+        "BLEU-4": 3.7157701522892835e-09,
+        "BERTScore-Precision": 0.618162989616394,
+        "BERTScore-Recall": 0.7365802526473999,
+        "BERTScore-F1": 0.6721962094306946
+      },
+      "image_id": 61
+    },
+    {
+      "id": "62",
+      "generated_caption": "A clean and organized kitchen with white appliances and cabinets",
+      "reference_captions": [
+        "An all white kitchen with an electric stovetop. ",
+        "A white stove sits between two small counter tops.",
+        "Close up of a white kitchen setup with a coffee maker on counter.",
+        "A white stove and cabinet inside a kitchen.",
+        "This is a small kitchen with white cabinets and appliances."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5999999998800002,
+        "BLEU-2": 0.3651483715950527,
+        "BLEU-3": 0.25543647741035597,
+        "BLEU-4": 3.9281465081419535e-05,
+        "BERTScore-Precision": 0.7661817669868469,
+        "BERTScore-Recall": 0.7453573346138,
+        "BERTScore-F1": 0.7556260824203491
+      },
+      "image_id": 62
+    },
+    {
+      "id": "63",
+      "generated_caption": "A banana on a white desk with a black phone and a notepad with writing.",
+      "reference_captions": [
+        "The telephone has a banana where the receiver should be.",
+        "A banana replacing the phone on an answering machine",
+        "A phone with a banana where the receiver should be.",
+        "A telephone has it receiver replaced with a banana.",
+        "A banana placed on a phone on a table."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4666666666355556,
+        "BLEU-2": 0.31622776599500324,
+        "BLEU-3": 1.9740230336070894e-06,
+        "BLEU-4": 5.03174762615483e-09,
+        "BERTScore-Precision": 0.6161792278289795,
+        "BERTScore-Recall": 0.7654204368591309,
+        "BERTScore-F1": 0.6827392578125
+      },
+      "image_id": 63
+    },
+    {
+      "id": "64",
+      "generated_caption": "A man with red hair and blue eyes is cooking in a pan using a wooden spoon, with a black and silver microwave in the background.",
+      "reference_captions": [
+        "The young man is stirring his pot of food with a wooden spoon.",
+        "A man enjoys cooking food in a pan",
+        "A smiling man is cooking in his kitchen.",
+        "A man smiles as he stirs his food in the pot.",
+        "A boy smiles while holding a pot and spoon."
+      ],
+      "metrics": {
+        "BLEU-1": 0.423076923060651,
+        "BLEU-2": 0.3679464843886852,
+        "BLEU-3": 0.22428282780438977,
+        "BLEU-4": 2.6464583188890184e-05,
+        "BERTScore-Precision": 0.568035364151001,
+        "BERTScore-Recall": 0.7261019349098206,
+        "BERTScore-F1": 0.6333205699920654
+      },
+      "image_id": 64
+    },
+    {
+      "id": "65",
+      "generated_caption": "A jet plane soaring through a clear blue sky",
+      "reference_captions": [
+        "A fighter jet is flying at a fast speed.",
+        "A fighter jet soars up into a blue sky.",
+        "An old military jet fighter climbing in altitude.",
+        "A fighter jet flying through the sky with smoke coming off of it.",
+        "A figher jet creating condensation flying through the blue sky."
+      ],
+      "metrics": {
+        "BLEU-1": 0.6666666665185187,
+        "BLEU-2": 9.128709289660775e-09,
+        "BLEU-3": 2.283355701439329e-11,
+        "BLEU-4": 1.1868405216583314e-12,
+        "BERTScore-Precision": 0.786662757396698,
+        "BERTScore-Recall": 0.7084035873413086,
+        "BERTScore-F1": 0.7368347644805908
+      },
+      "image_id": 65
+    },
+    {
+      "id": "66",
+      "generated_caption": "A public restroom with urinals, a white tiled wall, and a poster of a woman with black hair.",
+      "reference_captions": [
+        "A public bathroom with a bunch of urinals.",
+        "A picture of a woman hangs on the wall above the urinals.",
+        "A men's restroom with a poster of a woman over the urinals.",
+        "White tiled bathroom with line of tiles and Asian female poster on the wall",
+        "A mens restroom is lined up with urinals."
+      ],
+      "metrics": {
+        "BLEU-1": 0.6111111110771605,
+        "BLEU-2": 0.464420363986264,
+        "BLEU-3": 0.34324793013181454,
+        "BLEU-4": 0.27098211581820136,
+        "BERTScore-Precision": 0.7125556468963623,
+        "BERTScore-Recall": 0.8221597075462341,
+        "BERTScore-F1": 0.7507241368293762
+      },
+      "image_id": 66
+    },
+    {
+      "id": "67",
+      "generated_caption": "Two men walking on the tarmac, one wearing a white hat and the other wearing a green backpack, with a white airplane and orange traffic cones in the background.",
+      "reference_captions": [
+        "The airplane is on the runway with two young men standing by.",
+        "Two men walking the tarmac of an airport.",
+        "Two men at on an airport tarmac. \n",
+        "Two young men walking down a runway toward an airplane.",
+        "Young men are preparing to board a small passenger plane."
+      ],
+      "metrics": {
+        "BLEU-1": 0.2758620689560048,
+        "BLEU-2": 0.1719204765123417,
+        "BLEU-3": 0.10306166382509385,
+        "BLEU-4": 1.432450175851313e-05,
+        "BERTScore-Precision": 0.512738823890686,
+        "BERTScore-Recall": 0.7545257806777954,
+        "BERTScore-F1": 0.6081523299217224
+      },
+      "image_id": 67
+    },
+    {
+      "id": "68",
+      "generated_caption": "A woman in a yellow apron holding a pan in a kitchen with various appliances and items.",
+      "reference_captions": [
+        "The woman in the kitchen is holding a huge pan.",
+        "A chef carrying a large pan inside of a kitchen.",
+        "A woman is holding a large pan in a kitchen. ",
+        "A woman cooking in a kitchen with granite counters.",
+        "A woman cooking in her kitchen with a black pan."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5294117646747406,
+        "BLEU-2": 0.4812667109106165,
+        "BLEU-3": 0.35914284087790227,
+        "BLEU-4": 0.23983822496860596,
+        "BERTScore-Precision": 0.6739883422851562,
+        "BERTScore-Recall": 0.8281417489051819,
+        "BERTScore-F1": 0.7431551814079285
+      },
+      "image_id": 68
+    },
+    {
+      "id": "69",
+      "generated_caption": "A bathroom under renovation with a white toilet, blue shower curtain, and a window with a white frame.",
+      "reference_captions": [
+        "A toilet sits next to a window and in front of a shower.",
+        "A bathroom with only a toilet and tub with the wall covered in plastic",
+        "A photograph of a bathroom undergoing some renovations.",
+        "A bathroom being renovated featuring a toilette and shower.",
+        "A bathroom in the middle of a reconstruction phase."
+      ],
+      "metrics": {
+        "BLEU-1": 0.44444444441975317,
+        "BLEU-2": 0.22866478017693462,
+        "BLEU-3": 1.4839736555818711e-06,
+        "BLEU-4": 3.841906830017814e-09,
+        "BERTScore-Precision": 0.6247189044952393,
+        "BERTScore-Recall": 0.7518455982208252,
+        "BERTScore-F1": 0.6824121475219727
+      },
+      "image_id": 69
+    },
+    {
+      "id": "70",
+      "generated_caption": "A black and white dog and a white sheep looking at each other through a wire fence.",
+      "reference_captions": [
+        "A dog and a goat with their noses touching at fence.",
+        "A dog greets a sheep that is in a sheep pen.",
+        "Two animals get close through a fence. ",
+        "A sheep and a dog touching noses through a fence.",
+        "a couple of animals that are beside a fence"
+      ],
+      "metrics": {
+        "BLEU-1": 0.5294117646747406,
+        "BLEU-2": 0.31506301888719,
+        "BLEU-3": 0.18774477833405423,
+        "BLEU-4": 2.6220676434485454e-05,
+        "BERTScore-Precision": 0.7227122783660889,
+        "BERTScore-Recall": 0.8293083310127258,
+        "BERTScore-F1": 0.7723496556282043
+      },
+      "image_id": 70
+    },
+    {
+      "id": "71",
+      "generated_caption": "A busy street with people walking, a motorcycle, and a car driving down the road.",
+      "reference_captions": [
+        "Pedestrians walking down a sidewalk next to a small street.",
+        "People walking on a city street with light traffic.",
+        "A city street with people walking and vehicles on the road.",
+        "A scenic photograph of an urban street with people and traffic.",
+        "Pedestrians are strolling along a city sidestreet in a touristy neighborhood."
+      ],
+      "metrics": {
+        "BLEU-1": 0.6666666666222223,
+        "BLEU-2": 0.37796447298312974,
+        "BLEU-3": 0.2223239257546841,
+        "BLEU-4": 3.0934588292006376e-05,
+        "BERTScore-Precision": 0.7547836303710938,
+        "BERTScore-Recall": 0.8589704036712646,
+        "BERTScore-F1": 0.8035138249397278
+      },
+      "image_id": 71
+    },
+    {
+      "id": "72",
+      "generated_caption": "A man in a black shirt and glasses standing in a kitchen with various appliances and items around him.",
+      "reference_captions": [
+        "A man standing in a kitchen while closing a cupboard door.",
+        "A man standing in kitchen surrounded by items.",
+        "A kitchen area with a cooler and container stacked on the floor and a man getting an item out of a cabinet.",
+        "A man holding a cabinet in a kitchen.",
+        "a man stocking up his kitchen with groceries"
+      ],
+      "metrics": {
+        "BLEU-1": 0.4494419292282351,
+        "BLEU-2": 0.3265119917488287,
+        "BLEU-3": 0.22042905791797193,
+        "BLEU-4": 0.15462454493538927,
+        "BERTScore-Precision": 0.6074016094207764,
+        "BERTScore-Recall": 0.7946791648864746,
+        "BERTScore-F1": 0.6885329484939575
+      },
+      "image_id": 72
+    },
+    {
+      "id": "73",
+      "generated_caption": "A clean and organized kitchen with various appliances and accessories.",
+      "reference_captions": [
+        "A photograph of a kitchen inside a house.",
+        "This is an apartment kitchen with white cabinets and appliances.",
+        "A shot of a kitchen with a microwave, sink, dishwasher, and refrigerator. ",
+        "A kitchen with a refrigerator, microwave, dishwasher and sink.",
+        "A kitchen with a sink, dishwasher, microwave and refrigerator."
+      ],
+      "metrics": {
+        "BLEU-1": 0.3999999999200002,
+        "BLEU-2": 0.21081851063455723,
+        "BLEU-3": 1.771097614928816e-06,
+        "BLEU-4": 5.307712169906119e-09,
+        "BERTScore-Precision": 0.6556156277656555,
+        "BERTScore-Recall": 0.6587824821472168,
+        "BERTScore-F1": 0.6555942296981812
+      },
+      "image_id": 73
+    },
+    {
+      "id": "74",
+      "generated_caption": "A red bicycle parked near a river, surrounded by leaves and a metal fence.",
+      "reference_captions": [
+        "a bike leaning on a metal fence next to some flowing water. ",
+        "A bicycle parked next to a flooded river",
+        "A bicycle chained to a rail near a flooded area.",
+        "A bicycle leans against a fence near some flood waters.",
+        "A bicycle parked on a rail next to some flooding water."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4999999999642858,
+        "BLEU-2": 0.33968311021818254,
+        "BLEU-3": 2.1264518512507305e-06,
+        "BLEU-4": 5.437427681788999e-09,
+        "BERTScore-Precision": 0.7202662825584412,
+        "BERTScore-Recall": 0.8012758493423462,
+        "BERTScore-F1": 0.7434372305870056
+      },
+      "image_id": 74
+    },
+    {
+      "id": "75",
+      "generated_caption": "A clean bathroom with a white toilet, tiled floor, and various toiletries.",
+      "reference_captions": [
+        "a small toilet stall with a toilet brush and 3 rolls of toilet paper ",
+        "A clean, European toilet with toilet paper and cleaning brush.",
+        "A public toilet stall with toilet paper and a cleaning brush.",
+        "An empty, clean toilet stall with a stack of toilet paper.",
+        "There is a white toilet in a very narrow bathroom."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4999999999583334,
+        "BLEU-2": 0.30151134455149564,
+        "BLEU-3": 2.0870640222324466e-06,
+        "BLEU-4": 5.637560314716176e-09,
+        "BERTScore-Precision": 0.6697958111763,
+        "BERTScore-Recall": 0.7094534635543823,
+        "BERTScore-F1": 0.6843034029006958
+      },
+      "image_id": 75
+    },
+    {
+      "id": "76",
+      "generated_caption": "A cozy bathroom with a white shower curtain, two sinks, and a stool.",
+      "reference_captions": [
+        "A dual sink vanity with mirrors above the sinks.",
+        "A long marble like bath room vanity with a stool, two sink basins with mirrors and lights over them",
+        "A double sink with mirrors and a stool underneath it.",
+        "There are two sinks in the clean bathroom.",
+        "A bathroom with his and her mirrors and sinks."
+      ],
+      "metrics": {
+        "BLEU-1": 0.46153846150295863,
+        "BLEU-2": 0.3396831102161606,
+        "BLEU-3": 2.189030136139105e-06,
+        "BLEU-4": 5.691002879623073e-09,
+        "BERTScore-Precision": 0.6933268904685974,
+        "BERTScore-Recall": 0.7471753358840942,
+        "BERTScore-F1": 0.7192445993423462
+      },
+      "image_id": 76
+    },
+    {
+      "id": "77",
+      "generated_caption": "A cozy living room with a lit fireplace, a television, and various decorations.",
+      "reference_captions": [
+        "A fireplace with a fire built in it.",
+        "A living room containing a modern fireplace and miscellaneous items ",
+        "A lit fire place in a living room next to a TV.",
+        "A brick fireplace with fire adorned with knick-knacks.",
+        "A living room, with fireplace, television, and throw rug."
+      ],
+      "metrics": {
+        "BLEU-1": 0.7692307691715977,
+        "BLEU-2": 0.43852900961837615,
+        "BLEU-3": 2.5953822115200512e-06,
+        "BLEU-4": 6.4662276864500425e-09,
+        "BERTScore-Precision": 0.784792423248291,
+        "BERTScore-Recall": 0.8214379549026489,
+        "BERTScore-F1": 0.8026971220970154
+      },
+      "image_id": 77
+    },
+    {
+      "id": "78",
+      "generated_caption": "A restaurant sign with a green neon letter \"R\" and a black and white sign with the word \"restaurant\" on it.",
+      "reference_captions": [
+        "The sign of a restaurant in the outside of the store.",
+        "A sign on a building advertising an Italian restaurant.",
+        "A sign for an Italian restaurant hangs outside a building.",
+        "Italian Reaffaello restaurant sign at front of building.",
+        "A sign outside of a restaurant for Italian food. "
+      ],
+      "metrics": {
+        "BLEU-1": 0.2857142857006803,
+        "BLEU-2": 0.11952286092760558,
+        "BLEU-3": 9.09318694298973e-07,
+        "BLEU-4": 2.5422541412587532e-09,
+        "BERTScore-Precision": 0.5202084183692932,
+        "BERTScore-Recall": 0.6502174735069275,
+        "BERTScore-F1": 0.5779923796653748
+      },
+      "image_id": 78
+    },
+    {
+      "id": "79",
+      "generated_caption": "A Virgin Australia plane is on the ground, with a red and white plane taking off in the background, under a cloudy sky.",
+      "reference_captions": [
+        "an airport with one plane flying away and the other sitting on the runway",
+        "jumbo jet sits on the tarmac while another takes off",
+        "A Virgin Australia airline on the tarmac. ",
+        "Virgin sponsored airplane parked with a plane leaving in the background.",
+        "One airplane is taking off from an airport while others are parked."
+      ],
+      "metrics": {
+        "BLEU-1": 0.6086956521474481,
+        "BLEU-2": 0.4074406768151364,
+        "BLEU-3": 0.19920634084878608,
+        "BLEU-4": 2.5073783388298023e-05,
+        "BERTScore-Precision": 0.6138595938682556,
+        "BERTScore-Recall": 0.7551311254501343,
+        "BERTScore-F1": 0.6772062182426453
+      },
+      "image_id": 79
+    },
+    {
+      "id": "80",
+      "generated_caption": "A kitchen scene with a wooden cutting board, a salmon dish with lemon slices, asparagus, and a knife on a cutting board.",
+      "reference_captions": [
+        "a counter with vegetables, knife and cutting board on it. ",
+        "asparragus, lemons and a bowl of rice on a counter top",
+        "The preparation of salmon, asparagus and lemons. ",
+        "Cooking table with assorted fish and lemons with asparagus. ",
+        "A kitchen counter with cutting board, knife and food."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4999999999772728,
+        "BLEU-2": 0.3086066999098223,
+        "BLEU-3": 1.6823908656597404e-06,
+        "BLEU-4": 3.978842755121578e-09,
+        "BERTScore-Precision": 0.616024374961853,
+        "BERTScore-Recall": 0.7464535236358643,
+        "BERTScore-F1": 0.674996018409729
+      },
+      "image_id": 80
+    },
+    {
+      "id": "81",
+      "generated_caption": "A man driving a white speedboat with a black top, surrounded by calm blue water and a clear sky.",
+      "reference_captions": [
+        "A boat that looks like a car moves through the water. ",
+        "A car modified to drive in the water on a lake.",
+        "A car modified to be a boat on the water.",
+        "A picture of a boat that looks like a car in the water.",
+        "a car that has been converted into a boat floating on water"
+      ],
+      "metrics": {
+        "BLEU-1": 0.2105263157783934,
+        "BLEU-2": 3.4199278400988515e-09,
+        "BLEU-3": 8.827986383158518e-12,
+        "BLEU-4": 4.553719183884792e-13,
+        "BERTScore-Precision": 0.5213863253593445,
+        "BERTScore-Recall": 0.5874284505844116,
+        "BERTScore-F1": 0.5524406433105469
+      },
+      "image_id": 81
+    },
+    {
+      "id": "82",
+      "generated_caption": "A colorful food truck with a variety of images and text promoting a TV show, parked on a cobblestone street.",
+      "reference_captions": [
+        "A delivery truck with an advertisement for Entourage.",
+        "A large van features an ad for a television show.",
+        "A truck with an ad for a television show painted on its side",
+        "A large delivery truck with an advertisement painted on it's side.",
+        "An entourage decorated van is parked on the side of the road.  "
+      ],
+      "metrics": {
+        "BLEU-1": 0.34999999998250003,
+        "BLEU-2": 0.19194297397762897,
+        "BLEU-3": 1.2696693758578573e-06,
+        "BLEU-4": 3.3124989792866956e-09,
+        "BERTScore-Precision": 0.5614631772041321,
+        "BERTScore-Recall": 0.7061179876327515,
+        "BERTScore-F1": 0.6105210185050964
+      },
+      "image_id": 82
+    },
+    {
+      "id": "83",
+      "generated_caption": "A clean bathroom with a toilet, plunger, and scrub brush",
+      "reference_captions": [
+        "A black and white toilet with a plunger.",
+        "A toilet has a rug, and a plunger next to it.",
+        "A small stall with large tiles, a toilet and two plungers",
+        "A small restroom with a single toilet and wooden toilet seat.",
+        "A toilet, plunger and rug in a tiled bathroom stall."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5999999998800002,
+        "BLEU-2": 0.2581988896940871,
+        "BLEU-3": 2.0274006647612524e-06,
+        "BLEU-4": 5.873949093408464e-09,
+        "BERTScore-Precision": 0.6779072880744934,
+        "BERTScore-Recall": 0.7190674543380737,
+        "BERTScore-F1": 0.6953069567680359
+      },
+      "image_id": 83
+    },
+    {
+      "id": "84",
+      "generated_caption": "A bicycle parked on a grassy hill with a sign for Newcastle and a telephone number.",
+      "reference_captions": [
+        "A bike leaning against a sign in Scotland.",
+        "A bike in front of a scenic welcome sign. ",
+        "a welcome to Scotland sign with a bicycle leaning on it",
+        "Bicycle leaning up against a welcome to Scotland sign.",
+        "A sign for a village in Scotland with a bicycle in front of it."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4999999999687501,
+        "BLEU-2": 0.316227765996415,
+        "BLEU-3": 1.9258567854254082e-06,
+        "BLEU-4": 4.841524712698698e-09,
+        "BERTScore-Precision": 0.6035375595092773,
+        "BERTScore-Recall": 0.7116699814796448,
+        "BERTScore-F1": 0.651963472366333
+      },
+      "image_id": 84
+    },
+    {
+      "id": "85",
+      "generated_caption": "A man and his dog watching TV together, with the dog's paw on the man's foot.",
+      "reference_captions": [
+        "A dog sitting between its masters feet on a footstool watching tv\n",
+        "A dog between the feet of a person looking at a TV.",
+        "A dog and a person are watching television together.",
+        "A person is sitting with their dog watching tv.",
+        "A man relaxing at home, watching television with his dog."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5624999999648439,
+        "BLEU-2": 0.2738612787348963,
+        "BLEU-3": 1.7497570118210083e-06,
+        "BLEU-4": 4.505546423100306e-09,
+        "BERTScore-Precision": 0.6248221397399902,
+        "BERTScore-Recall": 0.7894728183746338,
+        "BERTScore-F1": 0.6824368834495544
+      },
+      "image_id": 85
+    },
+    {
+      "id": "86",
+      "generated_caption": "Two women in white uniforms working in a kitchen with various appliances and equipment.",
+      "reference_captions": [
+        "Women father around a desk and machinery in a factory.",
+        "A photo set of two women at work",
+        "Women working in a commercial bakery or kitchen.",
+        "Two old photos with women in a kitchen.",
+        "two women in white work at an industrial kitchen counter and stove"
+      ],
+      "metrics": {
+        "BLEU-1": 0.6428571428112246,
+        "BLEU-2": 0.44474958996367114,
+        "BLEU-3": 0.32064658638696786,
+        "BLEU-4": 4.160751651882288e-05,
+        "BERTScore-Precision": 0.6863527297973633,
+        "BERTScore-Recall": 0.729153037071228,
+        "BERTScore-F1": 0.7071057558059692
+      },
+      "image_id": 86
+    },
+    {
+      "id": "87",
+      "generated_caption": "A white toilet with a dirty seat, a plunger, and a toilet paper roll in a bathroom.",
+      "reference_captions": [
+        "A few items sit on top of a toilet in a bathroom stall.",
+        "A dirty toilet in a small bathroom.with items on top.",
+        "A toilet seat is left open inside of a bathroom.",
+        "A dirty toilet in a small cramped space.",
+        "A photo of a toilet with items on the tank."
+      ],
+      "metrics": {
+        "BLEU-1": 0.47058823526643606,
+        "BLEU-2": 0.34299717026421095,
+        "BLEU-3": 1.986841724193428e-06,
+        "BLEU-4": 4.865085139387331e-09,
+        "BERTScore-Precision": 0.6312031745910645,
+        "BERTScore-Recall": 0.7139036059379578,
+        "BERTScore-F1": 0.670011043548584
+      },
+      "image_id": 87
+    },
+    {
+      "id": "88",
+      "generated_caption": "A bathroom with a white toilet, sink, and cabinet, a poster on the wall, and various toiletries on the sink.",
+      "reference_captions": [
+        "A bathroom with a poster of an ugly face above the toilette.",
+        "A bathroom with a white toilet and sink.",
+        "Large bathroom with light flowing in the window.",
+        "A small bathroom with a toilet by the window and a pedestal sink with a mirrored medicine cabinet over it",
+        "A bathroom with a toilet and a sink."
+      ],
+      "metrics": {
+        "BLEU-1": 0.4999999999500001,
+        "BLEU-2": 0.3627381250182548,
+        "BLEU-3": 0.2799056848783868,
+        "BLEU-4": 0.22537412720325273,
+        "BERTScore-Precision": 0.6524638533592224,
+        "BERTScore-Recall": 0.9386110305786133,
+        "BERTScore-F1": 0.7698063254356384
+      },
+      "image_id": 88
+    },
+    {
+      "id": "89",
+      "generated_caption": "A daring motocross rider in a white helmet and colorful attire soars through the air on a red and white motorcycle.",
+      "reference_captions": [
+        "A dirt bike rider doing a stunt jump in the air",
+        "A man riding a dirt bike becomes airborne.",
+        "A motorcyclist is in mid air hanging on to the handlebars.",
+        "A person performs a stunt jump on a motorcycle.",
+        "Daring guy does tricks mid air on motorcycle"
+      ],
+      "metrics": {
+        "BLEU-1": 0.4285714285510205,
+        "BLEU-2": 0.25354627640617955,
+        "BLEU-3": 1.5012520873175305e-06,
+        "BLEU-4": 3.702730401509976e-09,
+        "BERTScore-Precision": 0.5317111015319824,
+        "BERTScore-Recall": 0.6665142178535461,
+        "BERTScore-F1": 0.5869600176811218
+      },
+      "image_id": 89
+    },
+    {
+      "id": "90",
+      "generated_caption": "A picturesque beach scene with people flying a kite under a cloudy blue sky.",
+      "reference_captions": [
+        "A couple of birds fly through a blue cloudy sky.",
+        "Group of three people sailing kites up in the sky. ",
+        "A beautiful blue and pink sky overlooking the beach.",
+        "Group of people are flying kites on the beach.",
+        "This is a gorgeous sunset at a beach with a parasailor in the distance."
+      ],
+      "metrics": {
+        "BLEU-1": 0.7142857141836737,
+        "BLEU-2": 7.412493165531723e-09,
+        "BLEU-3": 1.6605391601226066e-11,
+        "BLEU-4": 8.032276871593784e-13,
+        "BERTScore-Precision": 0.6684331297874451,
+        "BERTScore-Recall": 0.7153439521789551,
+        "BERTScore-F1": 0.6898553967475891
+      },
+      "image_id": 90
+    },
+    {
+      "id": "91",
+      "generated_caption": "A large flat screen television displaying a woman jumping in the air, surrounded by signs and a carpeted floor.",
+      "reference_captions": [
+        "A picture advertising Arizona tourism in an airport",
+        "A television that is sitting next to signs",
+        "A television is shown in the middle of a baggage claim area.",
+        "An airport terminal has a big screen displaying an ad for Arizona.",
+        "A flat screen TV with a picture of a person jumping on it."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5789473683905818,
+        "BLEU-2": 0.25362863673717445,
+        "BLEU-3": 1.5582933516032407e-06,
+        "BLEU-4": 3.92154242404797e-09,
+        "BERTScore-Precision": 0.6476069688796997,
+        "BERTScore-Recall": 0.7494523525238037,
+        "BERTScore-F1": 0.6948174238204956
+      },
+      "image_id": 91
+    },
+    {
+      "id": "92",
+      "generated_caption": "A group of bikers gathered in a parking lot, with one man wearing a blue vest and another man wearing a black bandana.",
+      "reference_captions": [
+        "Man in motorcycle leathers standing in front of a group of bikes",
+        "Bikers, dressed in their gear, standing near their motorcycles.",
+        "A group of men stand next to their bicycles.",
+        "Three men standing around their motorcycles in a parking lot.",
+        "Group of three motorcyclists standing in front of their motorcycles."
+      ],
+      "metrics": {
+        "BLEU-1": 0.2608695652060492,
+        "BLEU-2": 0.2177862025825042,
+        "BLEU-3": 0.1653067072511224,
+        "BLEU-4": 2.1800193955041513e-05,
+        "BERTScore-Precision": 0.5250232815742493,
+        "BERTScore-Recall": 0.6534231901168823,
+        "BERTScore-F1": 0.5822281837463379
+      },
+      "image_id": 92
+    },
+    {
+      "id": "93",
+      "generated_caption": "A cozy room with a brick fireplace, various baskets, and a white curtain.",
+      "reference_captions": [
+        "A variety of pots are stored in a nook by a fireplace.",
+        "A room contains baskets and has a fireplace. ",
+        "A room filled with clutter and a fireplace.",
+        "A small living room with a fireplace and work baskets.\n",
+        "A room with a fir place and several baskets and a bench in the background."
+      ],
+      "metrics": {
+        "BLEU-1": 0.46153846150295863,
+        "BLEU-2": 0.3396831102161606,
+        "BLEU-3": 0.21890301361391043,
+        "BLEU-4": 3.200286100989332e-05,
+        "BERTScore-Precision": 0.7112881541252136,
+        "BERTScore-Recall": 0.8048800230026245,
+        "BERTScore-F1": 0.7551953792572021
+      },
+      "image_id": 93
+    },
+    {
+      "id": "94",
+      "generated_caption": "A person crossing the street at a crosswalk, with a car driving on the road and a red traffic light.",
+      "reference_captions": [
+        "A car is stopped at a red light",
+        "The car is at the intersection while the sun is setting.",
+        "A truck nears a stop light in rainy weather.",
+        "A car is at a red light in the rain.",
+        "An intersection with a red traffic light and a vehicle."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5499999999725,
+        "BLEU-2": 0.38044295510681836,
+        "BLEU-3": 0.2003405503917158,
+        "BLEU-4": 2.622493476644012e-05,
+        "BERTScore-Precision": 0.6519025564193726,
+        "BERTScore-Recall": 0.7778735160827637,
+        "BERTScore-F1": 0.7093386650085449
+      },
+      "image_id": 94
+    },
+    {
+      "id": "95",
+      "generated_caption": "A bathroom with a toilet, squat toilet, and a red basket on the floor.",
+      "reference_captions": [
+        "A bathroom with a traditional toilet next to a floor toilet.",
+        "A squat toilet and a Western toilet are next to each other.",
+        "Mans bathroom with two visible fixtures, trash basket and plunger in sight.",
+        "A toilet stall, complete with two clean toilets.",
+        "A bathroom with an odd toilette next to a normal toilette."
+      ],
+      "metrics": {
+        "BLEU-1": 0.5714285713877553,
+        "BLEU-2": 0.4193139346576645,
+        "BLEU-3": 0.3083016009580945,
+        "BLEU-4": 0.227187097787101,
+        "BERTScore-Precision": 0.6530490517616272,
+        "BERTScore-Recall": 0.7593376040458679,
+        "BERTScore-F1": 0.7021939754486084
+      },
+      "image_id": 95
+    },
+    {
+      "id": "96",
+      "generated_caption": "A group of people wearing black hats and gloves, preparing vegetables in a kitchen.",
+      "reference_captions": [
+        "A group of people preparing food in a kitchen.",
+        "Group of people all sorting vegetables in a line.",
+        "Six different people in aprons and hats preparing vegetables",
+        "A group of people are in a line working on green vegetables.",
+        "A team of chefs work together to prepare a meal."
+      ],
+      "metrics": {
+        "BLEU-1": 0.7857142856581634,
+        "BLEU-2": 0.6504436355397438,
+        "BLEU-3": 0.5205143345346209,
+        "BLEU-4": 0.3364932442058776,
+        "BERTScore-Precision": 0.7317231893539429,
+        "BERTScore-Recall": 0.9106928706169128,
+        "BERTScore-F1": 0.8114571571350098
+      },
+      "image_id": 96
+    },
+    {
+      "id": "97",
+      "generated_caption": "A dimly lit parking garage with various signs, including a red stop sign, a blue pedestrian sign, and a white arrow on the ground.",
+      "reference_captions": [
+        "Posted signs point the way through a parking garage.",
+        "Three traffic signs at the entrance of a parking garage. ",
+        "Three road signs posted in a parking garage.",
+        "This is a parking garage with several signs.",
+        " directing signs in front of a parking garage"
+      ],
+      "metrics": {
+        "BLEU-1": 0.20833333332465281,
+        "BLEU-2": 0.13459547550881135,
+        "BLEU-3": 0.0937301719603171,
+        "BLEU-4": 1.4071964688690548e-05,
+        "BERTScore-Precision": 0.5623552799224854,
+        "BERTScore-Recall": 0.7258754968643188,
+        "BERTScore-F1": 0.6288388967514038
+      },
+      "image_id": 97
+    },
+    {
+      "id": "98",
+      "generated_caption": "A green and black bus parked on a street with a white and black taxi, a white car, and a green and black tire on a sidewalk.",
+      "reference_captions": [
+        "A green car on display next to a busy street.",
+        "A sculpture of a green hot rod on a city sidewalk",
+        "A sculpture of a hot rod sitting on a sidewalk.",
+        "This is a city art piece of a small car.",
+        "A small green vehicle model is on display next to a busy city street."
+      ],
+      "metrics": {
+        "BLEU-1": 0.2222222222139918,
+        "BLEU-2": 0.1849000654014299,
+        "BLEU-3": 0.11099703391050023,
+        "BLEU-4": 1.5450079546539118e-05,
+        "BERTScore-Precision": 0.6159670352935791,
+        "BERTScore-Recall": 0.7342004776000977,
+        "BERTScore-F1": 0.6699069738388062
+      },
+      "image_id": 98
+    },
+    {
+      "id": "99",
+      "generated_caption": "A large blue and white airplane taking off from a runway with a blue sky and white clouds in the background.",
+      "reference_captions": [
+        "A large passenger jet taking off from an airport.",
+        "A plane that just took off flying from an airport.",
+        "The airplane has begun its ascent in the skies.",
+        "A plane is shown taking off from an airstrip.",
+        "An airplane is taking off at an airport."
+      ],
+      "metrics": {
+        "BLEU-1": 0.38095238093424044,
+        "BLEU-2": 0.276026223723469,
+        "BLEU-3": 0.15887260951182014,
+        "BLEU-4": 2.1725443230337628e-05,
+        "BERTScore-Precision": 0.5713289976119995,
+        "BERTScore-Recall": 0.8053761124610901,
+        "BERTScore-F1": 0.6662114858627319
+      },
+      "image_id": 99
+    }
+  ]
+}

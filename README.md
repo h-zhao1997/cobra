@@ -65,7 +65,7 @@ from pathlib import Path
 
 from cobra import load
 
-hf_token = Path(".hf_token").read_text().strip()
+hf_token = Path(".hf_token").read_text().strip() ## generate your token here: https://huggingface.co/settings/tokens
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 # In case your GPU does not support bf16
 dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16

@@ -1,0 +1,69 @@
+{
+  "baseline_method": "baseline",
+  "total_samples": 10,
+  "method_aggregates": {
+    "baseline": {
+      "BLEU-1": 0.4805722212429129,
+      "BLEU-2": 0.29980013690815266,
+      "BLEU-3": 0.14168870267476602,
+      "BLEU-4": 0.04546836711105495,
+      "BERTScore-Precision": 0.6435957431793213,
+      "BERTScore-Recall": 0.7906087040901184,
+      "BERTScore-F1": 0.70451340675354
+    },
+    "scratchpad": {
+      "BLEU-1": 0.38881266222026184,
+      "BLEU-2": 0.2005088316952235,
+      "BLEU-3": 0.07667920903611516,
+      "BLEU-4": 0.04467166527581854,
+      "BERTScore-Precision": 0.6033022701740265,
+      "BERTScore-Recall": 0.7510688841342926,
+      "BERTScore-F1": 0.6653768658638001
+    },
+    "llava_cot": {
+      "BLEU-1": 0.1072503558549526,
+      "BLEU-2": 0.0338396394510097,
+      "BLEU-3": 0.00866841423050196,
+      "BLEU-4": 0.006134227787267263,
+      "BERTScore-Precision": 0.39732983708381653,
+      "BERTScore-Recall": 0.5727963507175445,
+      "BERTScore-F1": 0.4669611811637878
+    }
+  },
+  "comparisons": {
+    "scratchpad": {
+      "vs_baseline": {
+        "BLEU-1": -0.09175955902265105,
+        "BLEU-2": -0.09929130521292917,
+        "BLEU-3": -0.06500949363865088,
+        "BLEU-4": -0.0007967018352364269,
+        "BERTScore-Precision": -0.0402934730052948,
+        "BERTScore-Recall": -0.039539819955825804,
+        "BERTScore-F1": -0.03913654088973999
+      },
+      "win_rates": {
+        "BLEU-2": 10.0,
+        "BLEU-3": 20.0,
+        "BLEU-4": 20.0,
+        "BERTScore-Recall": 30.0,
+        "BERTScore-F1": 20.0,
+        "BLEU-1": 20.0,
+        "BERTScore-Precision": 10.0
+      }
+    },
+    "llava_cot": {
+      "vs_baseline": {
+        "BLEU-1": -0.3733218653879603,
+        "BLEU-2": -0.2659604974571429,
+        "BLEU-3": -0.13302028844426408,
+        "BLEU-4": -0.039334139323787695,
+        "BERTScore-Precision": -0.24626590609550475,
+        "BERTScore-Recall": -0.21781235337257385,
+        "BERTScore-F1": -0.2375522255897522
+      },
+      "win_rates": {
+        "BLEU-4": 10.0
+      }
+    }
+  }
+}

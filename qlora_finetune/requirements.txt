@@ -1,0 +1,37 @@
+# Core dependencies from main project
+# Note: Install PyTorch from CUDA 12.1 index for compatibility
+# pip install torch==2.1.0 torchvision==0.16.0 torchaudio --index-url https://download.pytorch.org/whl/cu121
+torch==2.1.0
+torchvision==0.16.0
+torchaudio
+transformers==4.34.1  # Match main project version
+tokenizers>=0.14,<0.15  # Required by transformers 4.34.1
+accelerate==0.26.1  # Compatible with transformers 4.34.1
+huggingface_hub>=0.16.4,<0.18  # Compatible with tokenizers 0.14.x and transformers 4.34.1
+numpy>=1.17,<2.0.0  # Required by accelerate
+dill<0.3.9,>=0.3.0  # Required by datasets
+fsspec>=2023.1.0,<2023.11.0  # Required by datasets
+triton==2.1.0  # Required by torch 2.1.0
+einops
+timm==0.9.10
+pillow
+wandb
+
+# QLoRA specific dependencies
+peft==0.7.1  # Compatible with transformers 4.34.1
+bitsandbytes>=0.41.0
+trl==0.7.4  # Compatible with transformers 4.34.1
+datasets>=2.14.0,<2.18.0  # Compatible with huggingface_hub<0.18 (using range to allow pip to resolve)
+
+# Additional utilities
+jsonlines
+rich
+tqdm
+
+# Mamba SSM dependencies (required for Cobra models)
+# NOTE: mamba-ssm requires torch to be installed first, and needs --no-build-isolation flag
+# Install with: pip install --user --no-build-isolation 'mamba-ssm<2.0.0' causal-conv1d
+packaging  # Required build dependency for mamba-ssm
+mamba-ssm<2.0.0
+causal-conv1d
+

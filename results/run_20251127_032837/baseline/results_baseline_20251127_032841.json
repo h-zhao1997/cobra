@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "timestamp": "2025-11-27T03:28:41.992688",
+    "config": {
+      "method": "baseline",
+      "dataset": "mmstar",
+      "num_samples": 2,
+      "no_streaming": false,
+      "scratchpad_passes": 1,
+      "model_id": "cobra+3b",
+      "hf_token": ".hf_token",
+      "temperature": 0.4,
+      "max_new_tokens": 512,
+      "reasoning_max_tokens": 256,
+      "repetition_penalty": 1.2,
+      "output_dir": "results",
+      "clear_cache": false,
+      "min_free_gb": 8.0,
+      "load_results": null
+    }
+  },
+  "aggregate_metrics": {
+    "MMStar-Accuracy": 0.0,
+    "MMStar-Correct": 0,
+    "MMStar-Total": 2
+  },
+  "results": [
+    {
+      "image_id": 0,
+      "question": "Which option describe the object relationship in the image correctly?\nOptions: A: The suitcase is on the book., B: The suitcase is beneath the cat., C: The suitcase is beneath the bed., D: The suitcase is beneath the book.",
+      "reference_answer": "A",
+      "generated_answer": "B: The suitcase is beneath the cat.",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {
+        "MMStar-Correct": 0.0,
+        "MMStar-Predicted": "B",
+        "MMStar-Reference": "A"
+      }
+    },
+    {
+      "image_id": 1,
+      "question": "What is the main feature in the background of the image?\nOptions: A: A park bench near the water., B: A couple sitting on a bench., C: A body of water and the Golden Gate Bridge., D: A mountain in the distance.",
+      "reference_answer": "B",
+      "generated_answer": "A: A park bench near the water.",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {
+        "MMStar-Correct": 0.0,
+        "MMStar-Predicted": "A",
+        "MMStar-Reference": "B"
+      }
+    }
+  ]
+}

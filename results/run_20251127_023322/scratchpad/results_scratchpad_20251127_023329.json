@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "timestamp": "2025-11-27T02:33:29.999001",
+    "config": {
+      "method": "scratchpad",
+      "dataset": "mmstar",
+      "num_samples": 1,
+      "no_streaming": false,
+      "scratchpad_passes": 1,
+      "model_id": "cobra+3b",
+      "hf_token": ".hf_token",
+      "temperature": 0.4,
+      "max_new_tokens": 512,
+      "reasoning_max_tokens": 256,
+      "repetition_penalty": 1.2,
+      "output_dir": "results",
+      "clear_cache": false,
+      "min_free_gb": 8.0,
+      "load_results": null
+    }
+  },
+  "aggregate_metrics": {},
+  "results": [
+    {
+      "image_id": 0,
+      "question": "Which option describe the object relationship in the image correctly?\nOptions: A: The suitcase is on the book., B: The suitcase is beneath the cat., C: The suitcase is beneath the bed., D: The suitcase is beneath the book.",
+      "reference_answer": "A",
+      "generated_answer": "B: The suitcase is beneath the car's back seat with its lid open; there are no other significant interactions among these elements within that bounding box set provided by you.",
+      "reasoning_trace": "D:The suitcase is below a car's back seat with its lid open; there are no other significant interactions among these elements within that bounding box set provided by you.)",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "D:The suitcase is below a car's back seat with its lid open; there are no other significant interactions among these elements within that bounding box set provided by you.)"
+        ]
+      },
+      "metrics": {}
+    }
+  ]
+}

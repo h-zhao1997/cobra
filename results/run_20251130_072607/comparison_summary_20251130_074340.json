@@ -1,0 +1,72 @@
+{
+  "baseline_method": "baseline",
+  "total_samples": 100,
+  "method_aggregates": {
+    "baseline": {
+      "BLEU-1": 0.4835590527477431,
+      "BLEU-2": 0.3019946237915309,
+      "BLEU-3": 0.136066346828513,
+      "BLEU-4": 0.05494649910756069,
+      "BERTScore-Precision": 0.640029227733612,
+      "BERTScore-Recall": 0.7650554233789444,
+      "BERTScore-F1": 0.6931137222051621
+    },
+    "scratchpad": {
+      "BLEU-1": 0.40807399266514466,
+      "BLEU-2": 0.2397669923780537,
+      "BLEU-3": 0.08991230425386675,
+      "BLEU-4": 0.02995629443388224,
+      "BERTScore-Precision": 0.6035562354326248,
+      "BERTScore-Recall": 0.7513750702142715,
+      "BERTScore-F1": 0.6645654952526092
+    },
+    "llava_cot": {
+      "BLEU-1": 0.16069586322691518,
+      "BLEU-2": 0.0634673302208157,
+      "BLEU-3": 0.018532931560704395,
+      "BLEU-4": 0.0024119606874382464,
+      "BERTScore-Precision": 0.4408678963780403,
+      "BERTScore-Recall": 0.6328072008490563,
+      "BERTScore-F1": 0.5145244696736335
+    }
+  },
+  "comparisons": {
+    "scratchpad": {
+      "vs_baseline": {
+        "BLEU-1": -0.07548506008259846,
+        "BLEU-2": -0.062227631413477306,
+        "BLEU-3": -0.04615404257464635,
+        "BLEU-4": -0.024990204673678473,
+        "BERTScore-Precision": -0.036472992300987245,
+        "BERTScore-Recall": -0.013680353164672851,
+        "BERTScore-F1": -0.028548226952552797
+      },
+      "win_rates": {
+        "BLEU-1": 25.0,
+        "BLEU-3": 28.000000000000004,
+        "BLEU-4": 28.000000000000004,
+        "BERTScore-Precision": 30.0,
+        "BERTScore-Recall": 34.0,
+        "BERTScore-F1": 24.0,
+        "BLEU-2": 26.0
+      }
+    },
+    "llava_cot": {
+      "vs_baseline": {
+        "BLEU-1": -0.32286318952082804,
+        "BLEU-2": -0.23852729357071534,
+        "BLEU-3": -0.11753341526780864,
+        "BLEU-4": -0.05253453842012248,
+        "BERTScore-Precision": -0.19916133135557174,
+        "BERTScore-Recall": -0.13224822252988816,
+        "BERTScore-F1": -0.17858925253152846
+      },
+      "win_rates": {
+        "BLEU-4": 13.0,
+        "BERTScore-Recall": 4.0,
+        "BLEU-3": 11.0,
+        "BLEU-2": 4.0
+      }
+    }
+  }
+}

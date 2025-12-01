@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "timestamp": "2025-11-27T03:27:01.812620",
+    "config": {
+      "method": "baseline",
+      "dataset": "coco",
+      "num_samples": 2,
+      "no_streaming": false,
+      "scratchpad_passes": 1,
+      "model_id": "cobra+3b",
+      "hf_token": ".hf_token",
+      "temperature": 0.4,
+      "max_new_tokens": 512,
+      "reasoning_max_tokens": 256,
+      "repetition_penalty": 1.2,
+      "output_dir": "results",
+      "clear_cache": false,
+      "min_free_gb": 8.0,
+      "load_results": null
+    }
+  },
+  "aggregate_metrics": {
+    "BLEU-1": 0.34782608694896033,
+    "BLEU-2": 0.23523598444325236,
+    "BLEU-3": 0.10962747416936122,
+    "BLEU-4": 1.347176685337498e-05,
+    "BERTScore-Precision": 0.6118780374526978,
+    "BERTScore-Recall": 0.7537607550621033,
+    "BERTScore-F1": 0.6753780841827393
+  },
+  "results": [
+    {
+      "image_id": 0,
+      "reference_captions": [
+        "A bicycle replica with a clock as the front wheel.",
+        "The bike has a clock as a tire.",
+        "A black metal bicycle with a clock inside the front wheel.",
+        "A bicycle figurine in which the front wheel is replaced with a clock\n",
+        "A clock with the appearance of the wheel of a bicycle "
+      ],
+      "generated_caption": "A black bicycle-shaped clock with a white face and black numbers, featuring a round handlebar and a small black seat, set against a white wall.",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {
+        "BLEU-1": 0.23999999999040003,
+        "BLEU-2": 0.17320508074981522,
+        "BLEU-3": 1.0926082435777022e-06,
+        "BLEU-4": 2.774870273442235e-09,
+        "BERTScore-Precision": 0.5903005003929138,
+        "BERTScore-Recall": 0.7116749286651611,
+        "BERTScore-F1": 0.6453301906585693
+      }
+    },
+    {
+      "image_id": 1,
+      "reference_captions": [
+        "A black Honda motorcycle parked in front of a garage.",
+        "A Honda motorcycle parked in a grass driveway",
+        "A black Honda motorcycle with a dark burgundy seat.",
+        "Ma motorcycle parked on the gravel in front of a garage",
+        "A motorcycle with its brake extended standing outside"
+      ],
+      "generated_caption": "A black and silver motorcycle parked on a grassy area with a white garage door and green trees in the background.",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {
+        "BLEU-1": 0.4761904761678005,
+        "BLEU-2": 0.30860669990912093,
+        "BLEU-3": 0.17114033061407738,
+        "BLEU-4": 2.297185935726835e-05,
+        "BERTScore-Precision": 0.6334555149078369,
+        "BERTScore-Recall": 0.7958465814590454,
+        "BERTScore-F1": 0.7054259777069092
+      }
+    }
+  ]
+}

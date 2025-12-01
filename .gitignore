@@ -145,12 +145,11 @@ pyrightconfig.json
 
 # Caches and Datasets
 cache/
-data/
+__pycache__
 
 # Runs and Results
 runs/
-results/
 
 # Test scripts
 test*.py
-*.sh
+# *.sh

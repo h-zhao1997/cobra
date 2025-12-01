@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "timestamp": "2025-11-30T05:15:30.298432",
+    "config": {
+      "method": "scratchpad",
+      "num_samples": 10,
+      "no_streaming": false,
+      "scratchpad_passes": 1,
+      "model_id": "cobra+3b",
+      "hf_token": ".hf_token",
+      "temperature": 0.4,
+      "max_new_tokens": 512,
+      "reasoning_max_tokens": 256,
+      "repetition_penalty": 1.2,
+      "output_dir": "results/scratchpad_passes_comparison",
+      "clear_cache": false,
+      "min_free_gb": 8.0,
+      "load_results": null,
+      "no_baseline_cache": false,
+      "num_workers": 1
+    }
+  },
+  "aggregate_metrics": {
+    "BLEU-1": 0.3999999999979487,
+    "BLEU-2": 0.2370995913442789,
+    "BLEU-3": 0.13101083080841103,
+    "BLEU-4": 0.07225483496552768,
+    "BERTScore-Precision": 0.6136132478713989,
+    "BERTScore-Recall": 0.7569482326507568,
+    "BERTScore-F1": 0.6733323335647583
+  },
+  "results": [
+    {
+      "image_id": 0,
+      "reference_captions": [
+        "A bicycle replica with a clock as the front wheel.",
+        "The bike has a clock as a tire.",
+        "A black metal bicycle with a clock inside the front wheel.",
+        "A bicycle figurine in which the front wheel is replaced with a clock\n",
+        "A clock with the appearance of the wheel of a bicycle "
+      ],
+      "generated_caption": "A black bicycle with a white clock face, featuring a handlebar, seat, and small wheels, is displayed in the image.",
+      "reasoning_trace": "The bicycle is black with thin tires; it has handlebars for steering control at position Y:X=0-1/2 from top left corner to 1+3/4 times width by height). The clock face shows white numbers on an offwhite background positioned X:-Y*width_of(clock)xheight_(from\\_top)/2 near bottom center horizontally aligned below bike's frame); there are small holes around edge where spokes would be if wheel were visible), size=(Width\\*5)/(6*(Height + Width)) x Height = Size/(Width \\* 5)); Bicycle seat located above middle part @ Position 0+(Width / 2):((Height * 3)  + 4)*size/100 ; Handlebar area measures approximately half as wide & twice lengthwise along sidewall@Positions(-Width//2 : -(Size // 6)*(Width/_10))*position(&y&z)-Width/*half*/scale(Width /* scale */)(Size///2)+8 pixels up y axis respectively.). Clock hands' lengths measure about one third each way down timepiece, while hour hand points toward 10 ocklock hours mark ) Location:(Width*-7)+(Width*9)/20-(Width*11)/40 distance=-Width*((Width-",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "The bicycle is black with thin tires; it has handlebars for steering control at position Y:X=0-1/2 from top left corner to 1+3/4 times width by height). The clock face shows white numbers on an offwhite background positioned X:-Y*width_of(clock)xheight_(from\\_top)/2 near bottom center horizontally aligned below bike's frame); there are small holes around edge where spokes would be if wheel were visible), size=(Width\\*5)/(6*(Height + Width)) x Height = Size/(Width \\* 5)); Bicycle seat located above middle part @ Position 0+(Width / 2):((Height * 3)  + 4)*size/100 ; Handlebar area measures approximately half as wide & twice lengthwise along sidewall@Positions(-Width//2 : -(Size // 6)*(Width/_10))*position(&y&z)-Width/*half*/scale(Width /* scale */)(Size///2)+8 pixels up y axis respectively.). Clock hands' lengths measure about one third each way down timepiece, while hour hand points toward 10 ocklock hours mark ) Location:(Width*-7)+(Width*9)/20-(Width*11)/40 distance=-Width*((Width-"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.4999999999750001,
+        "BLEU-2": 0.28097574346008974,
+        "BLEU-3": 0.16368983753038932,
+        "BLEU-4": 2.253741272145215e-05,
+        "BERTScore-Precision": 0.5438163876533508,
+        "BERTScore-Recall": 0.6674661636352539,
+        "BERTScore-F1": 0.5993300676345825
+      }
+    },
+    {
+      "image_id": 1,
+      "reference_captions": [
+        "A black Honda motorcycle parked in front of a garage.",
+        "A Honda motorcycle parked in a grass driveway",
+        "A black Honda motorcycle with a dark burgundy seat.",
+        "Ma motorcycle parked on the gravel in front of a garage",
+        "A motorcycle with its brake extended standing outside"
+      ],
+      "generated_caption": "A black motorcycle with silver accents parked on a gravel driveway, featuring a kickstand, headlight, taillight, and orange light, with a white garage door and green grassy yard nearby.",
+      "reasoning_trace": "The motorcycle is black with silver accents; it has an orange light on its left side near red taillight that's also lit up at nighttime setting outdoors during daytime hours featuring green grassy yard leaves scattered around dirt patches gravel driveway white garage door open revealing house interior including windows closed doors brown wooden wall paneling grey concrete floor area surrounding bike which includes various parts like seat gas tank fender handlebars headlight tailpipe exhaust pipe kickstand license plate frame lights turn signals brake system engine components wheel spokes rims muffler pipes chain coverings footrests handgrips rearview mirrors overall composition creates dynamic scene capturing attention from viewer as they observe each distinct element within picture-perfect arrangement for photography enthusiasts to appreciate every detail while appreciating beauty found simplicity amidst complexity life lessons learned through observation can be applied elsewhere beyond just motorcycles themselves such understanding perspective helps viewers better understand world we live navigate daily interactions personal experiences shared moments captured memories cherished forevermore! 🏍️🚗❤️ #motorcyclephotography @HondaMotorsports ✨#Motorcycleride ♬ original sound – [Your Name] Photography Student 😎",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "The motorcycle is black with silver accents; it has an orange light on its left side near red taillight that's also lit up at nighttime setting outdoors during daytime hours featuring green grassy yard leaves scattered around dirt patches gravel driveway white garage door open revealing house interior including windows closed doors brown wooden wall paneling grey concrete floor area surrounding bike which includes various parts like seat gas tank fender handlebars headlight tailpipe exhaust pipe kickstand license plate frame lights turn signals brake system engine components wheel spokes rims muffler pipes chain coverings footrests handgrips rearview mirrors overall composition creates dynamic scene capturing attention from viewer as they observe each distinct element within picture-perfect arrangement for photography enthusiasts to appreciate every detail while appreciating beauty found simplicity amidst complexity life lessons learned through observation can be applied elsewhere beyond just motorcycles themselves such understanding perspective helps viewers better understand world we live navigate daily interactions personal experiences shared moments captured memories cherished forevermore! 🏍️🚗❤️ #motorcyclephotography @HondaMotorsports ✨#Motorcycleride ♬ original sound – [Your Name] Photography Student 😎"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.3103448275755054,
+        "BLEU-2": 0.21055872189568867,
+        "BLEU-3": 1.1797615444182845e-06,
+        "BLEU-4": 2.8190471506777327e-09,
+        "BERTScore-Precision": 0.4991527795791626,
+        "BERTScore-Recall": 0.8060729503631592,
+        "BERTScore-F1": 0.6127646565437317
+      }
+    },
+    {
+      "image_id": 2,
+      "reference_captions": [
+        "A room with blue walls and a white sink and door.",
+        "Blue and white color scheme in a small bathroom.",
+        "This is a blue and white bathroom with a wall sink and a lifesaver on the wall.",
+        "A blue boat themed bathroom with a life preserver on the wall",
+        "A bathroom with walls that are painted baby blue."
+      ],
+      "generated_caption": "A cozy bathroom with a light turquoise wall, ceramic fixtures, and a life preserver art print above the toilet paper holder.",
+      "reasoning_trace": "Major Objects: white bathroom sink with silver faucet; green vase on countertop containing various items such as mugs & jars ; door handle is gold color.; blue wall painted to look like water under boat signage for welcome aboard message at sea shore house interior design style. The scene takes place inside an ocean-themed restroom featuring light turquoise walls, ceramic fixtures including sinks / toilets/ mirrors along wth decorative elements that include life preserver art print above toilet paper holder which has roll placed within wooden frame mounted onto back splash area near windowpane revealing outside view through open doorway leading out into garden space where plants are visible growing alongside building exterior's siding material made from wood paneling instead traditional brickwork due weather conditions not suitable support growth hardy plant species preferred by coastal regions around world while still maintaining aesthetic appeal indoors without sacrificing natural beauty found outdoors during daytime hours when sunlight streams thru windows illuminating room evenly across surfaces creating soft glows upon touching surface areas throughout home decorating scheme designed harmonious blend comfort functionality aesthetics seamlessly integrated living spaces both functional yet aesthetically pleasing environment perfect example modern minimalist approach towards residential interiors today'contemporary designs focus less ornamentation more function combined practicality efficient use available square footage maximizing storage solutions",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "Major Objects: white bathroom sink with silver faucet; green vase on countertop containing various items such as mugs & jars ; door handle is gold color.; blue wall painted to look like water under boat signage for welcome aboard message at sea shore house interior design style. The scene takes place inside an ocean-themed restroom featuring light turquoise walls, ceramic fixtures including sinks / toilets/ mirrors along wth decorative elements that include life preserver art print above toilet paper holder which has roll placed within wooden frame mounted onto back splash area near windowpane revealing outside view through open doorway leading out into garden space where plants are visible growing alongside building exterior's siding material made from wood paneling instead traditional brickwork due weather conditions not suitable support growth hardy plant species preferred by coastal regions around world while still maintaining aesthetic appeal indoors without sacrificing natural beauty found outdoors during daytime hours when sunlight streams thru windows illuminating room evenly across surfaces creating soft glows upon touching surface areas throughout home decorating scheme designed harmonious blend comfort functionality aesthetics seamlessly integrated living spaces both functional yet aesthetically pleasing environment perfect example modern minimalist approach towards residential interiors today'contemporary designs focus less ornamentation more function combined practicality efficient use available square footage maximizing storage solutions"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.4285714285510205,
+        "BLEU-2": 0.327326835338012,
+        "BLEU-3": 0.22425727432945428,
+        "BLEU-4": 2.8134666934143293e-05,
+        "BERTScore-Precision": 0.6356344223022461,
+        "BERTScore-Recall": 0.7206504344940186,
+        "BERTScore-F1": 0.6670111417770386
+      }
+    },
+    {
+      "image_id": 3,
+      "reference_captions": [
+        "A car that seems to be parked illegally behind a legally parked car",
+        "two cars parked on the sidewalk on the street",
+        "City street with parked cars and a bench.",
+        "Cars try to maneuver into parking spaces along a densely packed city street. ",
+        "A couple of cars parked in a busy street sidewalk."
+      ],
+      "generated_caption": "A street scene with parked cars, trees, and a bench near the sidewalk.",
+      "reasoning_trace": "The scene contains multiple cars parked on both sides along with trees lining up above them; there is also an empty bench situated near these vehicles as well other elements like flags hanging from buildings' windows are present too such that one can infer about object's position relative to eachother based upon size/color attributes provided within bounding boxes data set for analysis purposes if needed).",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "The scene contains multiple cars parked on both sides along with trees lining up above them; there is also an empty bench situated near these vehicles as well other elements like flags hanging from buildings' windows are present too such that one can infer about object's position relative to eachother based upon size/color attributes provided within bounding boxes data set for analysis purposes if needed)."
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.6153846152899412,
+        "BLEU-2": 0.3202563075598778,
+        "BLEU-3": 2.104751848662491e-06,
+        "BLEU-4": 5.525870141214305e-09,
+        "BERTScore-Precision": 0.7031869292259216,
+        "BERTScore-Recall": 0.837005078792572,
+        "BERTScore-F1": 0.7642826437950134
+      }
+    },
+    {
+      "image_id": 4,
+      "reference_captions": [
+        "A large passenger airplane flying through the air.",
+        "There is a GOL plane taking off in a partly cloudy sky.",
+        "An airplane that is, either, landing or just taking off.",
+        "An red and white airplane is in the cloudy sky.",
+        "A passenger plane taking off into the sky. "
+      ],
+      "generated_caption": "A white and orange airplane takes off, with trees and buildings in the background.",
+      "reasoning_trace": "The airplane is white with orange accents; it has two engines on each wing that are large enough to be seen from below them as well: one engine under its left-wing's center section at position Y=160+Y*10 for top part & X=-X/2 + 10% width / 2 = 50%, another beneath an extended landing gear near bottom edge @position=(X\\*100)/50+. The plane also displays \"GOL\" written across both sides' upper parts along w/a red logo inside blue circle above main body color which includes windows lining side edges starting around 20%. A green tree line can appear just beyond airport runway where planes take off&land nearby buildings like hotels@positions=[(-X)*20,-(Y)<<0]. Clouds fill sky background throughout entire scene except areas occupied by trees). Overall dimensions include Width:(X), Height((Y)), Top Part ((Y)-1)*(Width/(Height)+5%), Bottom Part ((-3*(Y))*Width/((Height)+(4))+(6)/(Width)); Color Code=#00FF66#0000CC#. This object appears twice within bounding box coordinates (-X): once centered horizontally but slightly shifted vertically upward (+/-30%) due partly cloudy weather conditions during photo capture timeframe",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "The airplane is white with orange accents; it has two engines on each wing that are large enough to be seen from below them as well: one engine under its left-wing's center section at position Y=160+Y*10 for top part & X=-X/2 + 10% width / 2 = 50%, another beneath an extended landing gear near bottom edge @position=(X\\*100)/50+. The plane also displays \"GOL\" written across both sides' upper parts along w/a red logo inside blue circle above main body color which includes windows lining side edges starting around 20%. A green tree line can appear just beyond airport runway where planes take off&land nearby buildings like hotels@positions=[(-X)*20,-(Y)<<0]. Clouds fill sky background throughout entire scene except areas occupied by trees). Overall dimensions include Width:(X), Height((Y)), Top Part ((Y)-1)*(Width/(Height)+5%), Bottom Part ((-3*(Y))*Width/((Height)+(4))+(6)/(Width)); Color Code=#00FF66#0000CC#. This object appears twice within bounding box coordinates (-X): once centered horizontally but slightly shifted vertically upward (+/-30%) due partly cloudy weather conditions during photo capture timeframe"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.42857142854081637,
+        "BLEU-2": 0.18156825978717286,
+        "BLEU-3": 1.400552969760177e-06,
+        "BLEU-4": 3.975360175943345e-09,
+        "BERTScore-Precision": 0.6605163216590881,
+        "BERTScore-Recall": 0.7349655628204346,
+        "BERTScore-F1": 0.6957550644874573
+      }
+    },
+    {
+      "image_id": 5,
+      "reference_captions": [
+        "A bathroom with a toilet, sink, and shower.",
+        "A full bathroom with a wicker laundry basket.",
+        "A little bathrood decorated with many colorful objects",
+        "A small bathroom containing a toilet and sink. ",
+        "Bathroom containing a toilet, a sink and a wicker basket."
+      ],
+      "generated_caption": "A cozy bathroom with a toilet, sink, vanity, and wicker hamper, featuring a wooden floor and brown walls, and a window with a floral curtain.",
+      "reasoning_trace": "Major Objects: white toilet with closed lid; wooden wicker hamper on floor next to sink cabinet door handle is silver color metal ; brown wood bathroom vanity has two drawers one under other, both are light tan colored cabinets made from bamboo material near window curtain rod above mirror which holds floral print shower curtains that have blue flowers printed upon them. The room also contains an open-lid trash can positioned at corner by wall beside small round hanging pot containing green plant leaves inside it as well decorative items like potted plants placed around windowsill area along side flower vase holding pink roses & purple petals sitting atop countertop surface within space surrounded closely bordered walls painted offwhite shade while baseboard edges feature dark stained hardwood floorsing throughout entire living quarters interior setting overall design theme appears rustic yet charmingly inviting atmosphere for daily use purposes such activities taking place here include but not limited bathing using water source provided faucet over washbasin basin located beneath rectangular framed glass paneled medicine cupboards situated directly overhead storage shelves mounted against backwall underneath upper section ceiling track lighting fixture providing illumination during nighttime hours when natural daylight insufficient enough reason need additional artificial sources illuminating task areas surrounding home's interiors spaces where people engage various tasks related personal hygiene groom care routines including washing hands",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "Major Objects: white toilet with closed lid; wooden wicker hamper on floor next to sink cabinet door handle is silver color metal ; brown wood bathroom vanity has two drawers one under other, both are light tan colored cabinets made from bamboo material near window curtain rod above mirror which holds floral print shower curtains that have blue flowers printed upon them. The room also contains an open-lid trash can positioned at corner by wall beside small round hanging pot containing green plant leaves inside it as well decorative items like potted plants placed around windowsill area along side flower vase holding pink roses & purple petals sitting atop countertop surface within space surrounded closely bordered walls painted offwhite shade while baseboard edges feature dark stained hardwood floorsing throughout entire living quarters interior setting overall design theme appears rustic yet charmingly inviting atmosphere for daily use purposes such activities taking place here include but not limited bathing using water source provided faucet over washbasin basin located beneath rectangular framed glass paneled medicine cupboards situated directly overhead storage shelves mounted against backwall underneath upper section ceiling track lighting fixture providing illumination during nighttime hours when natural daylight insufficient enough reason need additional artificial sources illuminating task areas surrounding home's interiors spaces where people engage various tasks related personal hygiene groom care routines including washing hands"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.39999999998400004,
+        "BLEU-2": 0.28867513458302535,
+        "BLEU-3": 0.22151546798227478,
+        "BLEU-4": 0.17729842263938844,
+        "BERTScore-Precision": 0.6554027795791626,
+        "BERTScore-Recall": 0.883838951587677,
+        "BERTScore-F1": 0.7453038692474365
+      }
+    },
+    {
+      "image_id": 6,
+      "reference_captions": [
+        "A long empty, minimal modern skylit home kitchen.",
+        "A picture of a modern looking kitchen area\n",
+        "A narrow kitchen ending with a chrome refrigerator.",
+        "A narrow kitchen is decorated in shades of white, gray, and black.",
+        "a room that has a stove and a icebox in it"
+      ],
+      "generated_caption": "A modern kitchen with stainless steel appliances, a toaster, a blue dish towel, and a large window.",
+      "reasoning_trace": "Major Objects: stainless steel refrigerator on left side; white kitchen cabinets with silver handles throughout space including above oven door at top-right corner & below sink area near center bottom); black toaster next to stove's control panel towards middle/bottom part) ; blue dish towel hanging from handle by window located far back wall). Distinctive Features include large windows allowing natural light into room along ceiling line), modern design elements such as sleek countertops adorned wih chrome appliances like fridge freezer combo unit, builtin ovens integrated seamlessly cabinetry structure )+ additional storage options around them + stylish glass block accents adding visual interest overall aesthetic appeal.) Contextual Elements involve well thought out layout for efficient use available square footage combined functionality appliance placements within confined indoor living spaces while maintaining clean lines contemporary style aesthetics. Overall Scene Composition emphasizes balance compositional harmony achieved through strategic placement functional components each other without overwhelming viewer attention span across entire scene viewable frame ). Additional Details : see also reflections off shiny surfaces metallic finishes which add depth dimensionality atmosphere interior environment further enhancing ambiance cozy inviting feel homey warmth welcoming comforts personal touches that make everyday life more enjoyable lived experiences shared moments spent together loved ones cherished memories created treasured possessions valued beyond monetary worth material things can't",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "Major Objects: stainless steel refrigerator on left side; white kitchen cabinets with silver handles throughout space including above oven door at top-right corner & below sink area near center bottom); black toaster next to stove's control panel towards middle/bottom part) ; blue dish towel hanging from handle by window located far back wall). Distinctive Features include large windows allowing natural light into room along ceiling line), modern design elements such as sleek countertops adorned wih chrome appliances like fridge freezer combo unit, builtin ovens integrated seamlessly cabinetry structure )+ additional storage options around them + stylish glass block accents adding visual interest overall aesthetic appeal.) Contextual Elements involve well thought out layout for efficient use available square footage combined functionality appliance placements within confined indoor living spaces while maintaining clean lines contemporary style aesthetics. Overall Scene Composition emphasizes balance compositional harmony achieved through strategic placement functional components each other without overwhelming viewer attention span across entire scene viewable frame ). Additional Details : see also reflections off shiny surfaces metallic finishes which add depth dimensionality atmosphere interior environment further enhancing ambiance cozy inviting feel homey warmth welcoming comforts personal touches that make everyday life more enjoyable lived experiences shared moments spent together loved ones cherished memories created treasured possessions valued beyond monetary worth material things can't"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.47058823526643606,
+        "BLEU-2": 0.17149858513210553,
+        "BLEU-3": 1.2516318555603621e-06,
+        "BLEU-4": 3.4401346931106828e-09,
+        "BERTScore-Precision": 0.6268758177757263,
+        "BERTScore-Recall": 0.7489551305770874,
+        "BERTScore-F1": 0.682499349117279
+      }
+    },
+    {
+      "image_id": 7,
+      "reference_captions": [
+        "An office cubicle with four different types of computers.",
+        "The home office space seems to be very cluttered.",
+        "an office with desk computer and chair and laptop.",
+        "Office setting with a lot of computer screens.",
+        "A desk and chair in an office cubicle."
+      ],
+      "generated_caption": "A busy office with computers, keyboards, a ball, and a recycling bin, with a window and a plant.",
+      "reasoning_trace": "The scene is an office with various items such as computer monitors on desks at different locations; there are also two laptops placed near each other along side some keyboards that have red lights shining from them while others sit idle nearby empty cups left by workers who've taken breaks to hydrate themselves using water bottles found throughout room – one close blue recycling bin sits next corner desk area where people work hard day long surrounded not just computers but books too! A ball lies unclaimed among these belongings making it easy spot for someone looking grab quick workout break before getting back into productivity mode again soon enough thanks everyone here working together towards common goal success through teamwork & dedication under management's guidance!. The floor has carpeted surface providing comfort those walking around during lunchtime outside building enjoying fresh air coming inside via open windows letting sunlight stream down upon everything within reachable distance without obstruction except maybe small plant growing out growtrap door leading somewhere else entirely separate world away yet still connected somehow? Maybe even more so now than ever since we started seeing things like green backpacks being used instead traditional black ones which might indicate something new happening over time?. Overall picture paints vivid story about modern workspace filled lifeblood energy movement creativity ideas shared freely exchanged knowledge gained experience growth opportunities await anyone willing take chance explore possibilities offered environment",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "The scene is an office with various items such as computer monitors on desks at different locations; there are also two laptops placed near each other along side some keyboards that have red lights shining from them while others sit idle nearby empty cups left by workers who've taken breaks to hydrate themselves using water bottles found throughout room – one close blue recycling bin sits next corner desk area where people work hard day long surrounded not just computers but books too! A ball lies unclaimed among these belongings making it easy spot for someone looking grab quick workout break before getting back into productivity mode again soon enough thanks everyone here working together towards common goal success through teamwork & dedication under management's guidance!. The floor has carpeted surface providing comfort those walking around during lunchtime outside building enjoying fresh air coming inside via open windows letting sunlight stream down upon everything within reachable distance without obstruction except maybe small plant growing out growtrap door leading somewhere else entirely separate world away yet still connected somehow? Maybe even more so now than ever since we started seeing things like green backpacks being used instead traditional black ones which might indicate something new happening over time?. Overall picture paints vivid story about modern workspace filled lifeblood energy movement creativity ideas shared freely exchanged knowledge gained experience growth opportunities await anyone willing take chance explore possibilities offered environment"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.33333333331481485,
+        "BLEU-2": 0.1980295085840097,
+        "BLEU-3": 1.3482795443891036e-06,
+        "BLEU-4": 3.575297164232122e-09,
+        "BERTScore-Precision": 0.5995194911956787,
+        "BERTScore-Recall": 0.7445098161697388,
+        "BERTScore-F1": 0.6641941070556641
+      }
+    },
+    {
+      "image_id": 8,
+      "reference_captions": [
+        "A bathroom sink with toiletries on the counter.",
+        "A bathroom sink and various personal hygiene items.",
+        "A messy bathroom countertop perched atop black cabinetry.",
+        "A bathroom vanity with cabinets and basin sink and several grooming products scattered across it",
+        "A bathroom sink cluttered with multiple personal care items."
+      ],
+      "generated_caption": "A well-organized bathroom vanity with a variety of toiletries and a clean, inviting atmosphere.",
+      "reasoning_trace": "Major Objects: black bathroom vanity with silver hardware; white sink on countertop surrounded by brown cabinets below it featuring metal knobs for drawers/cabinets doors which are closed & have gold-colored handles as well); beige floor tiles adjacent to dark gray rugs placed under cabinet areas near wall sockets located at various heights along walls surrounding room's perimeter including one above left side mirror reflecting ceiling light fixture). Additional details include an empty glass vase positioned atop granite surface next to faucet head adorned wth chrome finish handle while soap dispenser rests nearby within reachable distance from toothbrush holder containing used tissues alongside other toiletries such as hand sanitizer bottles sporting blue caps)---all contributing elements that collectively create functional yet aesthetically pleasing space perfected through thoughtful design choices like color coordination among fixtures components complementing overall decor theme throughout entire setting.)",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "Major Objects: black bathroom vanity with silver hardware; white sink on countertop surrounded by brown cabinets below it featuring metal knobs for drawers/cabinets doors which are closed & have gold-colored handles as well); beige floor tiles adjacent to dark gray rugs placed under cabinet areas near wall sockets located at various heights along walls surrounding room's perimeter including one above left side mirror reflecting ceiling light fixture). Additional details include an empty glass vase positioned atop granite surface next to faucet head adorned wth chrome finish handle while soap dispenser rests nearby within reachable distance from toothbrush holder containing used tissues alongside other toiletries such as hand sanitizer bottles sporting blue caps)---all contributing elements that collectively create functional yet aesthetically pleasing space perfected through thoughtful design choices like color coordination among fixtures components complementing overall decor theme throughout entire setting.)"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.39902690553043463,
+        "BLEU-2": 0.23907485142161766,
+        "BLEU-3": 0.1642940502575167,
+        "BLEU-4": 2.4752151083116022e-05,
+        "BERTScore-Precision": 0.6083354353904724,
+        "BERTScore-Recall": 0.7578024864196777,
+        "BERTScore-F1": 0.6748924851417542
+      }
+    },
+    {
+      "image_id": 9,
+      "reference_captions": [
+        "A small closed toilet in a cramped space.",
+        "A tan toilet and sink combination in a small room.",
+        "This is an advanced toilet with a sink and control panel.",
+        "A close-up picture of a toilet with a fountain.",
+        "Off white toilet with a faucet and controls. "
+      ],
+      "generated_caption": "A bathroom scene with a yellow toilet, a sink, a green bath mat, a white paper, a toothbrush holder, and a colorful tile floor.",
+      "reasoning_trace": "Major Objects: Toilet with lid up; sink attached to toilet tank by hose for water supply.; Green bath mat on floor near baseboard heater ; white wall socket above bathroom countertop at edge of frame.. Sizes & Positions : The green rug is under both items.,The yellow ceramic bowl has silver faucet over it, A small metal handle sits atop left side basin's rim,.A black cord hangs from top-right corner beside electrical outlet.-Hose connects them together as well.) Size/Position Notes:-Handle located upper middle part backwash area.),+Sink spout pokes out center while hot cold buttons sit below).) Bathmat lies directly beneath where feet would be placed when using restroom facilities./Colorful tiles line bottom half walls around fixtures / White paper rests inside basket next door room), +Toothbrush holder can hold toothbrushes during use time ) ).(Note that there are no other notable details about these particular elements within given bounding boxes information provided earlier.)) Additional Details::There isn't enough space here discuss additional minor points like color differences among mentioned hues along object edges but hope you found some useful insights into identifying various components' locations relative one another based upon described data set! Please let me know if anything",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "Major Objects: Toilet with lid up; sink attached to toilet tank by hose for water supply.; Green bath mat on floor near baseboard heater ; white wall socket above bathroom countertop at edge of frame.. Sizes & Positions : The green rug is under both items.,The yellow ceramic bowl has silver faucet over it, A small metal handle sits atop left side basin's rim,.A black cord hangs from top-right corner beside electrical outlet.-Hose connects them together as well.) Size/Position Notes:-Handle located upper middle part backwash area.),+Sink spout pokes out center while hot cold buttons sit below).) Bathmat lies directly beneath where feet would be placed when using restroom facilities./Colorful tiles line bottom half walls around fixtures / White paper rests inside basket next door room), +Toothbrush holder can hold toothbrushes during use time ) ).(Note that there are no other notable details about these particular elements within given bounding boxes information provided earlier.)) Additional Details::There isn't enough space here discuss additional minor points like color differences among mentioned hues along object edges but hope you found some useful insights into identifying various components' locations relative one another based upon described data set! Please let me know if anything"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.24999999998958336,
+        "BLEU-2": 0.10425720702409896,
+        "BLEU-3": 7.905508875568159e-07,
+        "BLEU-4": 2.2023814945605373e-09,
+        "BERTScore-Precision": 0.6036917567253113,
+        "BERTScore-Recall": 0.6682162284851074,
+        "BERTScore-F1": 0.6272903084754944
+      }
+    }
+  ]
+}

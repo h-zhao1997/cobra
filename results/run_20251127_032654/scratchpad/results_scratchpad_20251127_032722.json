@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "timestamp": "2025-11-27T03:27:22.884980",
+    "config": {
+      "method": "scratchpad",
+      "dataset": "coco",
+      "num_samples": 2,
+      "no_streaming": false,
+      "scratchpad_passes": 1,
+      "model_id": "cobra+3b",
+      "hf_token": ".hf_token",
+      "temperature": 0.4,
+      "max_new_tokens": 512,
+      "reasoning_max_tokens": 256,
+      "repetition_penalty": 1.2,
+      "output_dir": "results",
+      "clear_cache": false,
+      "min_free_gb": 8.0,
+      "load_results": null
+    }
+  },
+  "aggregate_metrics": {
+    "BLEU-1": 0.24418604650878853,
+    "BLEU-2": 0.10783277320216964,
+    "BLEU-3": 0.05214698840799171,
+    "BLEU-4": 6.488576470547251e-06,
+    "BERTScore-Precision": 0.4687761068344116,
+    "BERTScore-Recall": 0.7195497751235962,
+    "BERTScore-F1": 0.5665112733840942
+  },
+  "results": [
+    {
+      "image_id": 0,
+      "reference_captions": [
+        "A bicycle replica with a clock as the front wheel.",
+        "The bike has a clock as a tire.",
+        "A black metal bicycle with a clock inside the front wheel.",
+        "A bicycle figurine in which the front wheel is replaced with a clock\n",
+        "A clock with the appearance of the wheel of a bicycle "
+      ],
+      "generated_caption": "The image features a black bicycle clock with white numbers, a round clock face, and various bike parts like handlebars, seat tube, chain guard spokes, and pedals. The clock is displayed against an off-white wall background, and the overall composition showcases the bike's unique features while still maintaining a cohesive theme around timekeeping.",
+      "reasoning_trace": "A black bicycle clock featuring white numbers on its face is displayed against an off-white wall background; it has no distinguishable unique feature but showcases various bike parts like handlebars, seat tube, chain guard spokes & pedals as well as small details such as screws holding components together within each part's bounding box descriptions provided earlier by users who contributed to creating these captions based upon visual analysis alone without additional information about object interactions, materials used during construction process. The overall composition suggests that timekeeping device was designed specifically around theme involving bicycles rather than being merely decorative piece showcasing artistic talent ; however still remains open ended enough allowing room interpretation depending individual preferences when viewing scene through different lenses / perspectives beyond just simple functionality clocks serve traditionally over centuries past century+1/2 years now! 🚲💼⛓️☄️ #bicycleclockartwork @kensington_london ✍️#timeanddatephotographycompetition2019@Kensingtondlc picuresbyjulianadaviscom (@JuliaDavisPhotographer) via Instagram stories Highly recommended checking out her work if you haven't already!!! 😎 Thank You For Reading My Caption Analysis Post On This Bike",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "A black bicycle clock featuring white numbers on its face is displayed against an off-white wall background; it has no distinguishable unique feature but showcases various bike parts like handlebars, seat tube, chain guard spokes & pedals as well as small details such as screws holding components together within each part's bounding box descriptions provided earlier by users who contributed to creating these captions based upon visual analysis alone without additional information about object interactions, materials used during construction process. The overall composition suggests that timekeeping device was designed specifically around theme involving bicycles rather than being merely decorative piece showcasing artistic talent ; however still remains open ended enough allowing room interpretation depending individual preferences when viewing scene through different lenses / perspectives beyond just simple functionality clocks serve traditionally over centuries past century+1/2 years now! 🚲💼⛓️☄️ #bicycleclockartwork @kensington_london ✍️#timeanddatephotographycompetition2019@Kensingtondlc picuresbyjulianadaviscom (@JuliaDavisPhotographer) via Instagram stories Highly recommended checking out her work if you haven't already!!! 😎 Thank You For Reading My Caption Analysis Post On This Bike"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.2075471698074048,
+        "BLEU-2": 0.06317667074948415,
+        "BLEU-3": 4.277412148886299e-07,
+        "BLEU-4": 1.1185188895571612e-09,
+        "BERTScore-Precision": 0.4640312194824219,
+        "BERTScore-Recall": 0.6449798345565796,
+        "BERTScore-F1": 0.5397435426712036
+      }
+    },
+    {
+      "image_id": 1,
+      "reference_captions": [
+        "A black Honda motorcycle parked in front of a garage.",
+        "A Honda motorcycle parked in a grass driveway",
+        "A black Honda motorcycle with a dark burgundy seat.",
+        "Ma motorcycle parked on the gravel in front of a garage",
+        "A motorcycle with its brake extended standing outside"
+      ],
+      "generated_caption": "A black motorcycle parked on grass near an old white garage door, with various parts like seat cover handlebars headlight brake light, kickstands, fender emblem logo, lights turned on, and a red taillight.",
+      "reasoning_trace": "A black motorcycle parked on grass near an old white garage door; various parts like seat cover handlebars headlight brake light are visible along w/ distinct shadows & background elements such as green leaves brown mulch red taillight orange reflector license plate kickstands fender emblem logo lights turn signals exhaust pipe pipes muffler disc brakes disk rotor chain guard windshield visors rearview mirrors side view mirror engine block motorcycles' frame spokes spoked wheels tires rubber treaded surface mudguard metal footpegs chrome accents silver springs suspension system leather seats cushioned backrest tailpipe emissions control systems safety equipment storage compartments vehicle identification number VIN numbers brand logos company names model year details maintenance notes accessories additional components unique identifiers technical specifications performance data historical significance design evolution development timeline production run sales figures market share competition pricing trends consumer reviews user ratings reliability rankings resale value long-term ownership experience overall satisfaction customer testimonials industry awards showroom presence dealership network service centers promotional campaigns advertising slogans marketing strategies product placement media coverage events sponsorship collaborations partnerships promotions test drives road tests track days custom builds concept vehicles prototypes racing bikes special editions limited edition models anniversary releases commemorative collections vintage reissues restoration projects resto modifications chopper style cafe racer bobber streetfighter naked bike cruiser",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "A black motorcycle parked on grass near an old white garage door; various parts like seat cover handlebars headlight brake light are visible along w/ distinct shadows & background elements such as green leaves brown mulch red taillight orange reflector license plate kickstands fender emblem logo lights turn signals exhaust pipe pipes muffler disc brakes disk rotor chain guard windshield visors rearview mirrors side view mirror engine block motorcycles' frame spokes spoked wheels tires rubber treaded surface mudguard metal footpegs chrome accents silver springs suspension system leather seats cushioned backrest tailpipe emissions control systems safety equipment storage compartments vehicle identification number VIN numbers brand logos company names model year details maintenance notes accessories additional components unique identifiers technical specifications performance data historical significance design evolution development timeline production run sales figures market share competition pricing trends consumer reviews user ratings reliability rankings resale value long-term ownership experience overall satisfaction customer testimonials industry awards showroom presence dealership network service centers promotional campaigns advertising slogans marketing strategies product placement media coverage events sponsorship collaborations partnerships promotions test drives road tests track days custom builds concept vehicles prototypes racing bikes special editions limited edition models anniversary releases commemorative collections vintage reissues restoration projects resto modifications chopper style cafe racer bobber streetfighter naked bike cruiser"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.3030303030211204,
+        "BLEU-2": 0.16854996561062321,
+        "BLEU-3": 0.0971326448056359,
+        "BLEU-4": 1.3220369604551863e-05,
+        "BERTScore-Precision": 0.473520964384079,
+        "BERTScore-Recall": 0.7941197156906128,
+        "BERTScore-F1": 0.5932790040969849
+      }
+    }
+  ]
+}

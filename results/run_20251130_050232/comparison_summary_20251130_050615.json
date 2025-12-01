@@ -1,0 +1,66 @@
+{
+  "baseline_method": "baseline",
+  "total_samples": 10,
+  "method_aggregates": {
+    "baseline": {
+      "BLEU-1": 0.4805722212429129,
+      "BLEU-2": 0.29980013690815266,
+      "BLEU-3": 0.14168870267476602,
+      "BLEU-4": 0.04546836711105495,
+      "BERTScore-Precision": 0.6435957431793213,
+      "BERTScore-Recall": 0.7906087040901184,
+      "BERTScore-F1": 0.70451340675354
+    },
+    "scratchpad": {
+      "BLEU-1": 0.35173475359241146,
+      "BLEU-2": 0.1803179127577673,
+      "BLEU-3": 0.06675050729141592,
+      "BLEU-4": 0.025744590310962073,
+      "BERTScore-Precision": 0.5916472017765045,
+      "BERTScore-Recall": 0.7450336396694184,
+      "BERTScore-F1": 0.6550392210483551
+    },
+    "llava_cot": {
+      "BLEU-1": 0.10791600672999942,
+      "BLEU-2": 0.025223467282006317,
+      "BLEU-3": 1.838935153529866e-07,
+      "BLEU-4": 5.031683565469801e-10,
+      "BERTScore-Precision": 0.3865263551473618,
+      "BERTScore-Recall": 0.5675127327442169,
+      "BERTScore-F1": 0.4576711028814316
+    }
+  },
+  "comparisons": {
+    "scratchpad": {
+      "vs_baseline": {
+        "BLEU-1": -0.1288374676505014,
+        "BLEU-2": -0.11948222415038531,
+        "BLEU-3": -0.07493819538335014,
+        "BLEU-4": -0.019723776800092897,
+        "BERTScore-Precision": -0.051948541402816774,
+        "BERTScore-Recall": -0.04557506442070007,
+        "BERTScore-F1": -0.049474185705184935
+      },
+      "win_rates": {
+        "BLEU-3": 20.0,
+        "BLEU-4": 20.0,
+        "BERTScore-Precision": 10.0,
+        "BERTScore-Recall": 40.0,
+        "BERTScore-F1": 20.0,
+        "BLEU-1": 10.0
+      }
+    },
+    "llava_cot": {
+      "vs_baseline": {
+        "BLEU-1": -0.3726562145129134,
+        "BLEU-2": -0.2745766696261463,
+        "BLEU-3": -0.1416885187812507,
+        "BLEU-4": -0.0454683666078866,
+        "BERTScore-Precision": -0.25706938803195956,
+        "BERTScore-Recall": -0.22309597134590148,
+        "BERTScore-F1": -0.24684230387210845
+      },
+      "win_rates": {}
+    }
+  }
+}
