@@ -1,0 +1,13 @@
+{
+  "comparison": "scratchpad (A) vs baseline (B)",
+  "diff_meaning": "A - B",
+  "total_samples": 1000,
+  "baseline_accuracy": 0.366,
+  "scratchpad_accuracy": 0.338,
+  "accuracy_diff": -0.02799999999999997,
+  "baseline_correct": 366,
+  "scratchpad_correct": 338,
+  "baseline_total": 1000,
+  "scratchpad_total": 1000,
+  "accuracy_win_rate": 6.5
+}

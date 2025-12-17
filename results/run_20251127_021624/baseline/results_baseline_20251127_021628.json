@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "timestamp": "2025-11-27T02:16:28.514905",
+    "config": {
+      "method": "baseline",
+      "dataset": "mmstar",
+      "num_samples": 1,
+      "no_streaming": false,
+      "scratchpad_passes": 1,
+      "model_id": "cobra+3b",
+      "hf_token": ".hf_token",
+      "temperature": 0.4,
+      "max_new_tokens": 512,
+      "reasoning_max_tokens": 256,
+      "repetition_penalty": 1.2,
+      "output_dir": "results",
+      "clear_cache": false,
+      "min_free_gb": 8.0,
+      "load_results": null
+    }
+  },
+  "aggregate_metrics": {},
+  "results": [
+    {
+      "image_id": 0,
+      "question": "Which option describe the object relationship in the image correctly?\nOptions: A: The suitcase is on the book., B: The suitcase is beneath the cat., C: The suitcase is beneath the bed., D: The suitcase is beneath the book.",
+      "reference_answer": "A",
+      "generated_answer": "B: The suitcase is beneath the cat.",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {}
+    }
+  ]
+}

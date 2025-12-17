@@ -34,11 +34,12 @@ dependencies = [
     "jsonlines",
     "rich",
     "timm==0.9.10",
-    "torch>=2.1.0",
-    "torchvision>=0.16.0",
+    "torch==2.1.0",
+    "torchvision==0.16.0",
     "torchaudio",
     "transformers==4.34.1",
-    "wandb"
+    "wandb",
+    "wheel"
 ]
 
 [project.optional-dependencies]

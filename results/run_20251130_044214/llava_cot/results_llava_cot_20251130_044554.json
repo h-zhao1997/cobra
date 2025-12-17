@@ -1,0 +1,474 @@
+{
+  "meta": {
+    "timestamp": "2025-11-30T04:45:54.115023",
+    "config": {
+      "method": "llava_cot",
+      "num_samples": 10,
+      "no_streaming": false,
+      "scratchpad_passes": 2,
+      "model_id": "cobra+3b",
+      "hf_token": ".hf_token",
+      "temperature": 0.4,
+      "max_new_tokens": 512,
+      "reasoning_max_tokens": 256,
+      "repetition_penalty": 1.2,
+      "output_dir": "results",
+      "clear_cache": false,
+      "min_free_gb": 8.0,
+      "load_results": null,
+      "no_baseline_cache": false,
+      "num_workers": 1
+    }
+  },
+  "aggregate_metrics": {
+    "BLEU-1": 0.11316397228611279,
+    "BLEU-2": 0.0490687690001308,
+    "BLEU-3": 0.02267584205125106,
+    "BLEU-4": 0.013042063364988853,
+    "BERTScore-Precision": 0.39732983708381653,
+    "BERTScore-Recall": 0.5727963447570801,
+    "BERTScore-F1": 0.46696120500564575
+  },
+  "results": [
+    {
+      "image_id": 0,
+      "reference_captions": [
+        "A bicycle replica with a clock as the front wheel.",
+        "The bike has a clock as a tire.",
+        "A black metal bicycle with a clock inside the front wheel.",
+        "A bicycle figurine in which the front wheel is replaced with a clock\n",
+        "A clock with the appearance of the wheel of a bicycle "
+      ],
+      "generated_caption": "Summary (The clock is black, round), Caption (\"Kensington London\" on face; \"London Time\", date shown as June 1st\"), Reasoning (<b>\"This unique bicycle has been creatively designed to resemble an analog timepiece.\" \"</b\">) Conclusion (#)",
+      "reasoning_trace": "CAPTION: Summary (The clock is black, round), Caption (\"Kensington London\" on face; \"London Time\", date shown as June 1st\"), Reasoning (<b>\"This unique bicycle has been creatively designed to resemble an analog timepiece.\" \"</b\">) Conclusion (#)\n\nREASONING: Summary (The clock is black, round), Caption (\"Kensington London\" on face; \"London Time\", date shown as June 1st\"), Reasoning (<b>\"This unique bicycle has been creatively designed to resemble an analog timepiece.\" \"</b\">) Conclusion (#). The bike's handlebars are shaped like hands pointing at 12 o'clock while its seat post mimics pedals that move back when one turns them by hand\". This creative design showcases how bicycles can be repurposed into clocks - making it both functional & decorative! #cyclistlove#uniqueartwork\").",
+      "metadata": {
+        "method": "llava_cot",
+        "passes": 2,
+        "actual_passes": 1,
+        "stages": {
+          "summary": null,
+          "caption": "Summary (The clock is black, round), Caption (\"Kensington London\" on face; \"London Time\", date shown as June 1st\"), Reasoning (<b>\"This unique bicycle has been creatively designed to resemble an analog timepiece.\" \"</b\">) Conclusion (#)",
+          "reasoning": "Summary (The clock is black, round), Caption (\"Kensington London\" on face; \"London Time\", date shown as June 1st\"), Reasoning (<b>\"This unique bicycle has been creatively designed to resemble an analog timepiece.\" \"</b\">) Conclusion (#). The bike's handlebars are shaped like hands pointing at 12 o'clock while its seat post mimics pedals that move back when one turns them by hand\". This creative design showcases how bicycles can be repurposed into clocks - making it both functional & decorative! #cyclistlove#uniqueartwork\").",
+          "conclusion": "Summary (The clock is black, round), Caption (\"Kensington London\" on face; \"London Time\", date shown as June 1st\"), Reasoning (<b>\"This unique bicycle has been creatively designed to resemble an analog timepiece.\" \"</b\">) Conclusion (#)"
+        },
+        "all_passes": [
+          {
+            "pass": 1,
+            "raw_response": "Summary (The clock is black, round), Caption (\"Kensington London\" on face; \"London Time\", date shown as June 1st\"), Reasoning (<b>\"This unique bicycle has been creatively designed to resemble an analog timepiece.\" \"</b\">) Conclusion (#). The bike's handlebars are shaped like hands pointing at 12 o'clock while its seat post mimics pedals that move back when one turns them by hand\". This creative design showcases how bicycles can be repurposed into clocks - making it both functional & decorative! #cyclistlove#uniqueartwork\").",
+            "stages": {
+              "summary": null,
+              "caption": "Summary (The clock is black, round), Caption (\"Kensington London\" on face; \"London Time\", date shown as June 1st\"), Reasoning (<b>\"This unique bicycle has been creatively designed to resemble an analog timepiece.\" \"</b\">) Conclusion (#)",
+              "reasoning": "Summary (The clock is black, round), Caption (\"Kensington London\" on face; \"London Time\", date shown as June 1st\"), Reasoning (<b>\"This unique bicycle has been creatively designed to resemble an analog timepiece.\" \"</b\">) Conclusion (#). The bike's handlebars are shaped like hands pointing at 12 o'clock while its seat post mimics pedals that move back when one turns them by hand\". This creative design showcases how bicycles can be repurposed into clocks - making it both functional & decorative! #cyclistlove#uniqueartwork\").",
+              "conclusion": "Summary (The clock is black, round), Caption (\"Kensington London\" on face; \"London Time\", date shown as June 1st\"), Reasoning (<b>\"This unique bicycle has been creatively designed to resemble an analog timepiece.\" \"</b\">) Conclusion (#)"
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.14705882352508653,
+        "BLEU-2": 2.1110016545407165e-09,
+        "BLEU-3": 5.183332351184448e-12,
+        "BLEU-4": 2.5889065173146466e-13,
+        "BERTScore-Precision": 0.3514319062232971,
+        "BERTScore-Recall": 0.5885417461395264,
+        "BERTScore-F1": 0.4399164915084839
+      }
+    },
+    {
+      "image_id": 1,
+      "reference_captions": [
+        "A black Honda motorcycle parked in front of a garage.",
+        "A Honda motorcycle parked in a grass driveway",
+        "A black Honda motorcycle with a dark burgundy seat.",
+        "Ma motorcycle parked on the gravel in front of a garage",
+        "A motorcycle with its brake extended standing outside"
+      ],
+      "generated_caption": "Summary (The motorcycle is parked on grass near an old house): The black Honda motorbike has its headlight, brake light turned off signal lights visible along w/ red tail turn signals & chrome exhaust pipe; it's situated next to dead leaves scattered around green lawns bordered by trees behind...",
+      "reasoning_trace": "CAPTION: Summary (The motorcycle is parked on grass near an old house): The black Honda motorbike has its headlight, brake light turned off signal lights visible along w/ red tail turn signals & chrome exhaust pipe; it's situated next to dead leaves scattered around green lawns bordered by trees behind...\n\nREASONING: Summary (The motorcycle is parked on grass near an old house): The black Honda motorbike has its headlight, brake light turned off signal lights visible along w/ red tail turn signals & chrome exhaust pipe; it's situated next to dead leaves scattered around green lawns bordered by trees behind garage door openers mounted outside windows above front doors at home address numbers 687&687 also seen as license plate number \"6887\". Reasoning statement about object placement within scene context (\"the bike appears well maintained\" implies that owner takes pride). Conclusion sentence stating overall theme based upon objects present together(\"a peaceful outdoor setting\"). Image information provided includes details like color variations such as brown seat leather+ silver metal parts= shiny appearance) + additional elements not directly related but still relevant = background scenery including white wooden fence gate opening into yard where bikes are found resting against wall between two houses - one being older style gray shingle siding while other features newer paint colors reflecting current trends among homeowners who value aesthetics over practicality when choosing exterior materials which can be observed through various design choices made throughout property from roofline downwards towards ground level encompassing all living spaces inside homes plus surrounding landscape areas encompassed under single umbrella term 'property' denoting shared ownership rights amongst neighbors even though they",
+      "metadata": {
+        "method": "llava_cot",
+        "passes": 2,
+        "actual_passes": 1,
+        "stages": {
+          "summary": null,
+          "caption": "Summary (The motorcycle is parked on grass near an old house): The black Honda motorbike has its headlight, brake light turned off signal lights visible along w/ red tail turn signals & chrome exhaust pipe; it's situated next to dead leaves scattered around green lawns bordered by trees behind...",
+          "reasoning": "Summary (The motorcycle is parked on grass near an old house): The black Honda motorbike has its headlight, brake light turned off signal lights visible along w/ red tail turn signals & chrome exhaust pipe; it's situated next to dead leaves scattered around green lawns bordered by trees behind garage door openers mounted outside windows above front doors at home address numbers 687&687 also seen as license plate number \"6887\". Reasoning statement about object placement within scene context (\"the bike appears well maintained\" implies that owner takes pride). Conclusion sentence stating overall theme based upon objects present together(\"a peaceful outdoor setting\"). Image information provided includes details like color variations such as brown seat leather+ silver metal parts= shiny appearance) + additional elements not directly related but still relevant = background scenery including white wooden fence gate opening into yard where bikes are found resting against wall between two houses - one being older style gray shingle siding while other features newer paint colors reflecting current trends among homeowners who value aesthetics over practicality when choosing exterior materials which can be observed through various design choices made throughout property from roofline downwards towards ground level encompassing all living spaces inside homes plus surrounding landscape areas encompassed under single umbrella term 'property' denoting shared ownership rights amongst neighbors even though they",
+          "conclusion": "Summary (The motorcycle is parked on grass near an old house): The black Honda motorbike has its headlight, brake light turned off signal lights visible along w/ red tail turn signals & chrome exhaust pipe; it's situated next to dead leaves scattered around green lawns bordered by trees behind..."
+        },
+        "all_passes": [
+          {
+            "pass": 1,
+            "raw_response": "Summary (The motorcycle is parked on grass near an old house): The black Honda motorbike has its headlight, brake light turned off signal lights visible along w/ red tail turn signals & chrome exhaust pipe; it's situated next to dead leaves scattered around green lawns bordered by trees behind garage door openers mounted outside windows above front doors at home address numbers 687&687 also seen as license plate number \"6887\". Reasoning statement about object placement within scene context (\"the bike appears well maintained\" implies that owner takes pride). Conclusion sentence stating overall theme based upon objects present together(\"a peaceful outdoor setting\"). Image information provided includes details like color variations such as brown seat leather+ silver metal parts= shiny appearance) + additional elements not directly related but still relevant = background scenery including white wooden fence gate opening into yard where bikes are found resting against wall between two houses - one being older style gray shingle siding while other features newer paint colors reflecting current trends among homeowners who value aesthetics over practicality when choosing exterior materials which can be observed through various design choices made throughout property from roofline downwards towards ground level encompassing all living spaces inside homes plus surrounding landscape areas encompassed under single umbrella term 'property' denoting shared ownership rights amongst neighbors even though they",
+            "stages": {
+              "summary": null,
+              "caption": "Summary (The motorcycle is parked on grass near an old house): The black Honda motorbike has its headlight, brake light turned off signal lights visible along w/ red tail turn signals & chrome exhaust pipe; it's situated next to dead leaves scattered around green lawns bordered by trees behind...",
+              "reasoning": "Summary (The motorcycle is parked on grass near an old house): The black Honda motorbike has its headlight, brake light turned off signal lights visible along w/ red tail turn signals & chrome exhaust pipe; it's situated next to dead leaves scattered around green lawns bordered by trees behind garage door openers mounted outside windows above front doors at home address numbers 687&687 also seen as license plate number \"6887\". Reasoning statement about object placement within scene context (\"the bike appears well maintained\" implies that owner takes pride). Conclusion sentence stating overall theme based upon objects present together(\"a peaceful outdoor setting\"). Image information provided includes details like color variations such as brown seat leather+ silver metal parts= shiny appearance) + additional elements not directly related but still relevant = background scenery including white wooden fence gate opening into yard where bikes are found resting against wall between two houses - one being older style gray shingle siding while other features newer paint colors reflecting current trends among homeowners who value aesthetics over practicality when choosing exterior materials which can be observed through various design choices made throughout property from roofline downwards towards ground level encompassing all living spaces inside homes plus surrounding landscape areas encompassed under single umbrella term 'property' denoting shared ownership rights amongst neighbors even though they",
+              "conclusion": "Summary (The motorcycle is parked on grass near an old house): The black Honda motorbike has its headlight, brake light turned off signal lights visible along w/ red tail turn signals & chrome exhaust pipe; it's situated next to dead leaves scattered around green lawns bordered by trees behind..."
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.16326530611911708,
+        "BLEU-2": 0.08247860988253151,
+        "BLEU-3": 5.250430761975165e-07,
+        "BLEU-4": 1.3318543818752488e-09,
+        "BERTScore-Precision": 0.4274008870124817,
+        "BERTScore-Recall": 0.6600095629692078,
+        "BERTScore-F1": 0.5188264846801758
+      }
+    },
+    {
+      "image_id": 2,
+      "reference_captions": [
+        "A room with blue walls and a white sink and door.",
+        "Blue and white color scheme in a small bathroom.",
+        "This is a blue and white bathroom with a wall sink and a lifesaver on the wall.",
+        "A blue boat themed bathroom with a life preserver on the wall",
+        "A bathroom with walls that are painted baby blue."
+      ],
+      "generated_caption": "Summary (informal): A bathroom scene featuring various objects like sink, mirror reflection door knob handle lock on white doors; green vase mug coffee cup tea kettle soap dispenser faucet holder tile wall decorating elements such as welcome sign life preserver figurine mugs cups jars tissue box tissues paper towel...",
+      "reasoning_trace": "CAPTION: Summary (informal): A bathroom scene featuring various objects like sink, mirror reflection door knob handle lock on white doors; green vase mug coffee cup tea kettle soap dispenser faucet holder tile wall decorating elements such as welcome sign life preserver figurine mugs cups jars tissue box tissues paper towel...\n\nREASONING: Summary (informal): A bathroom scene featuring various objects like sink, mirror reflection door knob handle lock on white doors; green vase mug coffee cup tea kettle soap dispenser faucet holder tile wall decorating elements such as welcome sign life preserver figurine mugs cups jars tissue box tissues paper towel roll hand towels hanging from rack near window sill light blue painted walls tan floor tiles brown wooden frame around doorway silver metal doorknob brass fixtures chrome hardware black lettering \"welcome aboard\" lifesaver art print above round ceramic vessel style porcelain toilet bowl bidet tank top right corner shower curtain rod over tub area small square glass bottle inside large clear jar next to it pink tiled back splash under windowsill dark wood framed picture leaning against teal colored cabinet below countertop edge where two colors meet - one being lime/light turquoise other deep aqua) overall cleanliness neatness tidy appearance well maintained space inviting atmosphere pleasant color scheme calming effect soothing visual appeal functional design layout efficient use available spaces practical storage solutions easy access essential items daily routines convenience user experience comfort personal touch decorative touches artistic expression creativity imagination homeowner's personality taste preferences lifestyle habits hobbies interests passions favorite things displayed proudly shared stories exchanged laughter memories cherished moments lived through these everyday",
+      "metadata": {
+        "method": "llava_cot",
+        "passes": 2,
+        "actual_passes": 1,
+        "stages": {
+          "summary": null,
+          "caption": "Summary (informal): A bathroom scene featuring various objects like sink, mirror reflection door knob handle lock on white doors; green vase mug coffee cup tea kettle soap dispenser faucet holder tile wall decorating elements such as welcome sign life preserver figurine mugs cups jars tissue box tissues paper towel...",
+          "reasoning": "Summary (informal): A bathroom scene featuring various objects like sink, mirror reflection door knob handle lock on white doors; green vase mug coffee cup tea kettle soap dispenser faucet holder tile wall decorating elements such as welcome sign life preserver figurine mugs cups jars tissue box tissues paper towel roll hand towels hanging from rack near window sill light blue painted walls tan floor tiles brown wooden frame around doorway silver metal doorknob brass fixtures chrome hardware black lettering \"welcome aboard\" lifesaver art print above round ceramic vessel style porcelain toilet bowl bidet tank top right corner shower curtain rod over tub area small square glass bottle inside large clear jar next to it pink tiled back splash under windowsill dark wood framed picture leaning against teal colored cabinet below countertop edge where two colors meet - one being lime/light turquoise other deep aqua) overall cleanliness neatness tidy appearance well maintained space inviting atmosphere pleasant color scheme calming effect soothing visual appeal functional design layout efficient use available spaces practical storage solutions easy access essential items daily routines convenience user experience comfort personal touch decorative touches artistic expression creativity imagination homeowner's personality taste preferences lifestyle habits hobbies interests passions favorite things displayed proudly shared stories exchanged laughter memories cherished moments lived through these everyday",
+          "conclusion": "Summary (informal): A bathroom scene featuring various objects like sink, mirror reflection door knob handle lock on white doors; green vase mug coffee cup tea kettle soap dispenser faucet holder tile wall decorating elements such as welcome sign life preserver figurine mugs cups jars tissue box tissues paper towel..."
+        },
+        "all_passes": [
+          {
+            "pass": 1,
+            "raw_response": "Summary (informal): A bathroom scene featuring various objects like sink, mirror reflection door knob handle lock on white doors; green vase mug coffee cup tea kettle soap dispenser faucet holder tile wall decorating elements such as welcome sign life preserver figurine mugs cups jars tissue box tissues paper towel roll hand towels hanging from rack near window sill light blue painted walls tan floor tiles brown wooden frame around doorway silver metal doorknob brass fixtures chrome hardware black lettering \"welcome aboard\" lifesaver art print above round ceramic vessel style porcelain toilet bowl bidet tank top right corner shower curtain rod over tub area small square glass bottle inside large clear jar next to it pink tiled back splash under windowsill dark wood framed picture leaning against teal colored cabinet below countertop edge where two colors meet - one being lime/light turquoise other deep aqua) overall cleanliness neatness tidy appearance well maintained space inviting atmosphere pleasant color scheme calming effect soothing visual appeal functional design layout efficient use available spaces practical storage solutions easy access essential items daily routines convenience user experience comfort personal touch decorative touches artistic expression creativity imagination homeowner's personality taste preferences lifestyle habits hobbies interests passions favorite things displayed proudly shared stories exchanged laughter memories cherished moments lived through these everyday",
+            "stages": {
+              "summary": null,
+              "caption": "Summary (informal): A bathroom scene featuring various objects like sink, mirror reflection door knob handle lock on white doors; green vase mug coffee cup tea kettle soap dispenser faucet holder tile wall decorating elements such as welcome sign life preserver figurine mugs cups jars tissue box tissues paper towel...",
+              "reasoning": "Summary (informal): A bathroom scene featuring various objects like sink, mirror reflection door knob handle lock on white doors; green vase mug coffee cup tea kettle soap dispenser faucet holder tile wall decorating elements such as welcome sign life preserver figurine mugs cups jars tissue box tissues paper towel roll hand towels hanging from rack near window sill light blue painted walls tan floor tiles brown wooden frame around doorway silver metal doorknob brass fixtures chrome hardware black lettering \"welcome aboard\" lifesaver art print above round ceramic vessel style porcelain toilet bowl bidet tank top right corner shower curtain rod over tub area small square glass bottle inside large clear jar next to it pink tiled back splash under windowsill dark wood framed picture leaning against teal colored cabinet below countertop edge where two colors meet - one being lime/light turquoise other deep aqua) overall cleanliness neatness tidy appearance well maintained space inviting atmosphere pleasant color scheme calming effect soothing visual appeal functional design layout efficient use available spaces practical storage solutions easy access essential items daily routines convenience user experience comfort personal touch decorative touches artistic expression creativity imagination homeowner's personality taste preferences lifestyle habits hobbies interests passions favorite things displayed proudly shared stories exchanged laughter memories cherished moments lived through these everyday",
+              "conclusion": "Summary (informal): A bathroom scene featuring various objects like sink, mirror reflection door knob handle lock on white doors; green vase mug coffee cup tea kettle soap dispenser faucet holder tile wall decorating elements such as welcome sign life preserver figurine mugs cups jars tissue box tissues paper towel..."
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.14285714285422743,
+        "BLEU-2": 0.07715167497945506,
+        "BLEU-3": 5.021856363784844e-07,
+        "BLEU-4": 1.2881272186771893e-09,
+        "BERTScore-Precision": 0.44377589225769043,
+        "BERTScore-Recall": 0.5994269847869873,
+        "BERTScore-F1": 0.5099894404411316
+      }
+    },
+    {
+      "image_id": 3,
+      "reference_captions": [
+        "A car that seems to be parked illegally behind a legally parked car",
+        "two cars parked on the sidewalk on the street",
+        "City street with parked cars and a bench.",
+        "Cars try to maneuver into parking spaces along a densely packed city street. ",
+        "A couple of cars parked in a busy street sidewalk."
+      ],
+      "generated_caption": "Image contains two cars parked on street, one black SUV next to wooden bench; red flag hanging from building's side window sill near green tree leaves above sidewalk scene featuring yellow line painted across road surface as well white lines marking parking spaces between buildings' storefronts along brick pavement...",
+      "reasoning_trace": "CAPTION: Image contains two cars parked on street, one black SUV next to wooden bench; red flag hanging from building's side window sill near green tree leaves above sidewalk scene featuring yellow line painted across road surface as well white lines marking parking spaces between buildings' storefronts along brick pavement...\n\nREASONING: Image contains two cars parked on street, one black SUV next to wooden bench; red flag hanging from building's side window sill near green tree leaves above sidewalk scene featuring yellow line painted across road surface as well white lines marking parking spaces between buildings' storefronts along brick pavement where people walk by daily while motorcyclist passes nearby at high speed during daytime hours when sun is shining brightly upon city streets lined w/ various shops & businesses including Chinese restaurant offering takeout service via phone call ahead reservations made over telephone before arriving there - all under clear blue sky without any clouds visible overhead! (Note that some objects may not be present within bounding boxes provided.)",
+      "metadata": {
+        "method": "llava_cot",
+        "passes": 2,
+        "actual_passes": 1,
+        "stages": {
+          "summary": null,
+          "caption": "Image contains two cars parked on street, one black SUV next to wooden bench; red flag hanging from building's side window sill near green tree leaves above sidewalk scene featuring yellow line painted across road surface as well white lines marking parking spaces between buildings' storefronts along brick pavement...",
+          "reasoning": "Image contains two cars parked on street, one black SUV next to wooden bench; red flag hanging from building's side window sill near green tree leaves above sidewalk scene featuring yellow line painted across road surface as well white lines marking parking spaces between buildings' storefronts along brick pavement where people walk by daily while motorcyclist passes nearby at high speed during daytime hours when sun is shining brightly upon city streets lined w/ various shops & businesses including Chinese restaurant offering takeout service via phone call ahead reservations made over telephone before arriving there - all under clear blue sky without any clouds visible overhead! (Note that some objects may not be present within bounding boxes provided.)",
+          "conclusion": "Image contains two cars parked on street, one black SUV next to wooden bench; red flag hanging from building's side window sill near green tree leaves above sidewalk scene featuring yellow line painted across road surface as well white lines marking parking spaces between buildings' storefronts along brick pavement..."
+        },
+        "all_passes": [
+          {
+            "pass": 1,
+            "raw_response": "Image contains two cars parked on street, one black SUV next to wooden bench; red flag hanging from building's side window sill near green tree leaves above sidewalk scene featuring yellow line painted across road surface as well white lines marking parking spaces between buildings' storefronts along brick pavement where people walk by daily while motorcyclist passes nearby at high speed during daytime hours when sun is shining brightly upon city streets lined w/ various shops & businesses including Chinese restaurant offering takeout service via phone call ahead reservations made over telephone before arriving there - all under clear blue sky without any clouds visible overhead! (Note that some objects may not be present within bounding boxes provided.)",
+            "stages": {
+              "summary": null,
+              "caption": "Image contains two cars parked on street, one black SUV next to wooden bench; red flag hanging from building's side window sill near green tree leaves above sidewalk scene featuring yellow line painted across road surface as well white lines marking parking spaces between buildings' storefronts along brick pavement...",
+              "reasoning": "Image contains two cars parked on street, one black SUV next to wooden bench; red flag hanging from building's side window sill near green tree leaves above sidewalk scene featuring yellow line painted across road surface as well white lines marking parking spaces between buildings' storefronts along brick pavement where people walk by daily while motorcyclist passes nearby at high speed during daytime hours when sun is shining brightly upon city streets lined w/ various shops & businesses including Chinese restaurant offering takeout service via phone call ahead reservations made over telephone before arriving there - all under clear blue sky without any clouds visible overhead! (Note that some objects may not be present within bounding boxes provided.)",
+              "conclusion": "Image contains two cars parked on street, one black SUV next to wooden bench; red flag hanging from building's side window sill near green tree leaves above sidewalk scene featuring yellow line painted across road surface as well white lines marking parking spaces between buildings' storefronts along brick pavement..."
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.18367346938400672,
+        "BLEU-2": 0.12371791482379726,
+        "BLEU-3": 0.08668270200700182,
+        "BLEU-4": 0.06134227411374885,
+        "BERTScore-Precision": 0.4539400339126587,
+        "BERTScore-Recall": 0.6663755178451538,
+        "BERTScore-F1": 0.5284661650657654
+      }
+    },
+    {
+      "image_id": 4,
+      "reference_captions": [
+        "A large passenger airplane flying through the air.",
+        "There is a GOL plane taking off in a partly cloudy sky.",
+        "An airplane that is, either, landing or just taking off.",
+        "An red and white airplane is in the cloudy sky.",
+        "A passenger plane taking off into the sky. "
+      ],
+      "generated_caption": "Summary (in Spanish): Una aeronave de color blanco con un logotipo en su alas, vuelando bajo una nube oscura y cielos grises durante el día despejado; la imagen fue tomada desde arriba para mostrar detalles del avión como las puertas e instalaciones mecánicas inferiores que se encuentran debajo los...",
+      "reasoning_trace": "CAPTION: Summary (in Spanish): Una aeronave de color blanco con un logotipo en su alas, vuelando bajo una nube oscura y cielos grises durante el día despejado; la imagen fue tomada desde arriba para mostrar detalles del avión como las puertas e instalaciones mecánicas inferiores que se encuentran debajo los...\n\nREASONING: Summary (in Spanish): Una aeronave de color blanco con un logotipo en su alas, vuelando bajo una nube oscura y cielos grises durante el día despejado; la imagen fue tomada desde arriba para mostrar detalles del avión como las puertas e instalaciones mecánicas inferiores que se encuentran debajo los flaps extendidos por completo mientras sube lentamente hacia atrás después haber partido rumba abajo luego girar 180 grados antes regresarse nuevamente hasta sus posiciones originalmente previstas según lo indican algunas luces verdes distantadas sobre tierra adyacente donde hay variados edificios incluyendo uno grande llamativo conocida com \"La Catedral\". El clima es tranquilo ya no existe ninguna amenaza visible contra esta operación importante realizándose aquí dentro este campo próximo áreas residenciales urbanizadoras industriales portuarias marítimas etc., así mismo también aparece otro planeta celeste brillante entre estas",
+      "metadata": {
+        "method": "llava_cot",
+        "passes": 2,
+        "actual_passes": 1,
+        "stages": {
+          "summary": null,
+          "caption": "Summary (in Spanish): Una aeronave de color blanco con un logotipo en su alas, vuelando bajo una nube oscura y cielos grises durante el día despejado; la imagen fue tomada desde arriba para mostrar detalles del avión como las puertas e instalaciones mecánicas inferiores que se encuentran debajo los...",
+          "reasoning": "Summary (in Spanish): Una aeronave de color blanco con un logotipo en su alas, vuelando bajo una nube oscura y cielos grises durante el día despejado; la imagen fue tomada desde arriba para mostrar detalles del avión como las puertas e instalaciones mecánicas inferiores que se encuentran debajo los flaps extendidos por completo mientras sube lentamente hacia atrás después haber partido rumba abajo luego girar 180 grados antes regresarse nuevamente hasta sus posiciones originalmente previstas según lo indican algunas luces verdes distantadas sobre tierra adyacente donde hay variados edificios incluyendo uno grande llamativo conocida com \"La Catedral\". El clima es tranquilo ya no existe ninguna amenaza visible contra esta operación importante realizándose aquí dentro este campo próximo áreas residenciales urbanizadoras industriales portuarias marítimas etc., así mismo también aparece otro planeta celeste brillante entre estas",
+          "conclusion": "Summary (in Spanish): Una aeronave de color blanco con un logotipo en su alas, vuelando bajo una nube oscura y cielos grises durante el día despejado; la imagen fue tomada desde arriba para mostrar detalles del avión como las puertas e instalaciones mecánicas inferiores que se encuentran debajo los..."
+        },
+        "all_passes": [
+          {
+            "pass": 1,
+            "raw_response": "Summary (in Spanish): Una aeronave de color blanco con un logotipo en su alas, vuelando bajo una nube oscura y cielos grises durante el día despejado; la imagen fue tomada desde arriba para mostrar detalles del avión como las puertas e instalaciones mecánicas inferiores que se encuentran debajo los flaps extendidos por completo mientras sube lentamente hacia atrás después haber partido rumba abajo luego girar 180 grados antes regresarse nuevamente hasta sus posiciones originalmente previstas según lo indican algunas luces verdes distantadas sobre tierra adyacente donde hay variados edificios incluyendo uno grande llamativo conocida com \"La Catedral\". El clima es tranquilo ya no existe ninguna amenaza visible contra esta operación importante realizándose aquí dentro este campo próximo áreas residenciales urbanizadoras industriales portuarias marítimas etc., así mismo también aparece otro planeta celeste brillante entre estas",
+            "stages": {
+              "summary": null,
+              "caption": "Summary (in Spanish): Una aeronave de color blanco con un logotipo en su alas, vuelando bajo una nube oscura y cielos grises durante el día despejado; la imagen fue tomada desde arriba para mostrar detalles del avión como las puertas e instalaciones mecánicas inferiores que se encuentran debajo los...",
+              "reasoning": "Summary (in Spanish): Una aeronave de color blanco con un logotipo en su alas, vuelando bajo una nube oscura y cielos grises durante el día despejado; la imagen fue tomada desde arriba para mostrar detalles del avión como las puertas e instalaciones mecánicas inferiores que se encuentran debajo los flaps extendidos por completo mientras sube lentamente hacia atrás después haber partido rumba abajo luego girar 180 grados antes regresarse nuevamente hasta sus posiciones originalmente previstas según lo indican algunas luces verdes distantadas sobre tierra adyacente donde hay variados edificios incluyendo uno grande llamativo conocida com \"La Catedral\". El clima es tranquilo ya no existe ninguna amenaza visible contra esta operación importante realizándose aquí dentro este campo próximo áreas residenciales urbanizadoras industriales portuarias marítimas etc., así mismo también aparece otro planeta celeste brillante entre estas",
+              "conclusion": "Summary (in Spanish): Una aeronave de color blanco con un logotipo en su alas, vuelando bajo una nube oscura y cielos grises durante el día despejado; la imagen fue tomada desde arriba para mostrar detalles del avión como las puertas e instalaciones mecánicas inferiores que se encuentran debajo los..."
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 2.040816326488963e-17,
+        "BLEU-2": 2.0619652470632872e-17,
+        "BLEU-3": 2.0836348287113952e-17,
+        "BLEU-4": 2.1058466792007324e-17,
+        "BERTScore-Precision": 0.24192669987678528,
+        "BERTScore-Recall": 0.3415241837501526,
+        "BERTScore-F1": 0.27881574630737305
+      }
+    },
+    {
+      "image_id": 5,
+      "reference_captions": [
+        "A bathroom with a toilet, sink, and shower.",
+        "A full bathroom with a wicker laundry basket.",
+        "A little bathrood decorated with many colorful objects",
+        "A small bathroom containing a toilet and sink. ",
+        "Bathroom containing a toilet, a sink and a wicker basket."
+      ],
+      "generated_caption": "Summary (inclusive): A bathroom scene featuring various objects such as toilet, sink basin on cabinet top vanity unit; wicker basket under window sill/sink area & wooden drawer below it along side wall near floor to ceiling windows adorned by floral curtain valance above them all",
+      "reasoning_trace": "CAPTION: Summary (inclusive): A bathroom scene featuring various objects such as toilet, sink basin on cabinet top vanity unit; wicker basket under window sill/sink area & wooden drawer below it along side wall near floor to ceiling windows adorned by floral curtain valance above them all\n\nREASONING: Summary (inclusive): A bathroom scene featuring various objects such as toilet, sink basin on cabinet top vanity unit; wicker basket under window sill/sink area & wooden drawer below it along side wall near floor to ceiling windows adorned by floral curtain valance above them all! The room is well decorated but needs some cleaning before use!. Caption 1 - \"The view from my bedroom\": This photo was taken at night when I woke up feeling unwell so had trouble sleeping through until morning light came streaming into our home's living space where we live together happily ever after!! Captions 2&3 are redundant because they both describe same object (\"womans hand holding camera\") which appears twice within single sentence structure). Finally captioned 4 states that there were no people present during picture taking session making sure not miss any details about subjects being photographed here including their reflections upon looking back over captured moments while standing next door neighbor who lives across street also took pictures too!). So please don't bother asking me questions like how many times have been told already? Thanking everyone involved regardless if asked again later down line?. Image information provided includes dimensions width x height values associated each respective element found throughout entire compositional arrangement displayed herein:- Width : 495 Height : 495 ; Dimensions given refer",
+      "metadata": {
+        "method": "llava_cot",
+        "passes": 2,
+        "actual_passes": 1,
+        "stages": {
+          "summary": null,
+          "caption": "Summary (inclusive): A bathroom scene featuring various objects such as toilet, sink basin on cabinet top vanity unit; wicker basket under window sill/sink area & wooden drawer below it along side wall near floor to ceiling windows adorned by floral curtain valance above them all",
+          "reasoning": "Summary (inclusive): A bathroom scene featuring various objects such as toilet, sink basin on cabinet top vanity unit; wicker basket under window sill/sink area & wooden drawer below it along side wall near floor to ceiling windows adorned by floral curtain valance above them all! The room is well decorated but needs some cleaning before use!. Caption 1 - \"The view from my bedroom\": This photo was taken at night when I woke up feeling unwell so had trouble sleeping through until morning light came streaming into our home's living space where we live together happily ever after!! Captions 2&3 are redundant because they both describe same object (\"womans hand holding camera\") which appears twice within single sentence structure). Finally captioned 4 states that there were no people present during picture taking session making sure not miss any details about subjects being photographed here including their reflections upon looking back over captured moments while standing next door neighbor who lives across street also took pictures too!). So please don't bother asking me questions like how many times have been told already? Thanking everyone involved regardless if asked again later down line?. Image information provided includes dimensions width x height values associated each respective element found throughout entire compositional arrangement displayed herein:- Width : 495 Height : 495 ; Dimensions given refer",
+          "conclusion": "Summary (inclusive): A bathroom scene featuring various objects such as toilet, sink basin on cabinet top vanity unit; wicker basket under window sill/sink area & wooden drawer below it along side wall near floor to ceiling windows adorned by floral curtain valance above them all"
+        },
+        "all_passes": [
+          {
+            "pass": 1,
+            "raw_response": "Summary (inclusive): A bathroom scene featuring various objects such as toilet, sink basin on cabinet top vanity unit; wicker basket under window sill/sink area & wooden drawer below it along side wall near floor to ceiling windows adorned by floral curtain valance above them all! The room is well decorated but needs some cleaning before use!. Caption 1 - \"The view from my bedroom\": This photo was taken at night when I woke up feeling unwell so had trouble sleeping through until morning light came streaming into our home's living space where we live together happily ever after!! Captions 2&3 are redundant because they both describe same object (\"womans hand holding camera\") which appears twice within single sentence structure). Finally captioned 4 states that there were no people present during picture taking session making sure not miss any details about subjects being photographed here including their reflections upon looking back over captured moments while standing next door neighbor who lives across street also took pictures too!). So please don't bother asking me questions like how many times have been told already? Thanking everyone involved regardless if asked again later down line?. Image information provided includes dimensions width x height values associated each respective element found throughout entire compositional arrangement displayed herein:- Width : 495 Height : 495 ; Dimensions given refer",
+            "stages": {
+              "summary": null,
+              "caption": "Summary (inclusive): A bathroom scene featuring various objects such as toilet, sink basin on cabinet top vanity unit; wicker basket under window sill/sink area & wooden drawer below it along side wall near floor to ceiling windows adorned by floral curtain valance above them all",
+              "reasoning": "Summary (inclusive): A bathroom scene featuring various objects such as toilet, sink basin on cabinet top vanity unit; wicker basket under window sill/sink area & wooden drawer below it along side wall near floor to ceiling windows adorned by floral curtain valance above them all! The room is well decorated but needs some cleaning before use!. Caption 1 - \"The view from my bedroom\": This photo was taken at night when I woke up feeling unwell so had trouble sleeping through until morning light came streaming into our home's living space where we live together happily ever after!! Captions 2&3 are redundant because they both describe same object (\"womans hand holding camera\") which appears twice within single sentence structure). Finally captioned 4 states that there were no people present during picture taking session making sure not miss any details about subjects being photographed here including their reflections upon looking back over captured moments while standing next door neighbor who lives across street also took pictures too!). So please don't bother asking me questions like how many times have been told already? Thanking everyone involved regardless if asked again later down line?. Image information provided includes dimensions width x height values associated each respective element found throughout entire compositional arrangement displayed herein:- Width : 495 Height : 495 ; Dimensions given refer",
+              "conclusion": "Summary (inclusive): A bathroom scene featuring various objects such as toilet, sink basin on cabinet top vanity unit; wicker basket under window sill/sink area & wooden drawer below it along side wall near floor to ceiling windows adorned by floral curtain valance above them all"
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.1333333333303704,
+        "BLEU-2": 0.05504818825508087,
+        "BLEU-3": 4.130530831104297e-07,
+        "BLEU-4": 1.1381305436598615e-09,
+        "BERTScore-Precision": 0.5040596723556519,
+        "BERTScore-Recall": 0.7037433385848999,
+        "BERTScore-F1": 0.5873948335647583
+      }
+    },
+    {
+      "image_id": 6,
+      "reference_captions": [
+        "A long empty, minimal modern skylit home kitchen.",
+        "A picture of a modern looking kitchen area\n",
+        "A narrow kitchen ending with a chrome refrigerator.",
+        "A narrow kitchen is decorated in shades of white, gray, and black.",
+        "a room that has a stove and a icebox in it"
+      ],
+      "generated_caption": "Summary (in text): A modern kitchen featuring stainless steel appliances, white cabinets under an overhang light above glass block windows that let sunlight stream through; towel hanging on oven handle nearby sink area which has silver faucet as well.; chandelier hangs from ceiling adding to overall ambiance..",
+      "reasoning_trace": "CAPTION: Summary (in text): A modern kitchen featuring stainless steel appliances, white cabinets under an overhang light above glass block windows that let sunlight stream through; towel hanging on oven handle nearby sink area which has silver faucet as well.; chandelier hangs from ceiling adding to overall ambiance..\n\nREASONING: Summary (in text): A modern kitchen featuring stainless steel appliances, white cabinets under an overhang light above glass block windows that let sunlight stream through; towel hanging on oven handle nearby sink area which has silver faucet as well.; chandelier hangs from ceiling adding to overall ambiance..",
+      "metadata": {
+        "method": "llava_cot",
+        "passes": 2,
+        "actual_passes": 1,
+        "stages": {
+          "summary": null,
+          "caption": "Summary (in text): A modern kitchen featuring stainless steel appliances, white cabinets under an overhang light above glass block windows that let sunlight stream through; towel hanging on oven handle nearby sink area which has silver faucet as well.; chandelier hangs from ceiling adding to overall ambiance..",
+          "reasoning": "Summary (in text): A modern kitchen featuring stainless steel appliances, white cabinets under an overhang light above glass block windows that let sunlight stream through; towel hanging on oven handle nearby sink area which has silver faucet as well.; chandelier hangs from ceiling adding to overall ambiance..",
+          "conclusion": "Summary (in text): A modern kitchen featuring stainless steel appliances, white cabinets under an overhang light above glass block windows that let sunlight stream through; towel hanging on oven handle nearby sink area which has silver faucet as well.; chandelier hangs from ceiling adding to overall ambiance.."
+        },
+        "all_passes": [
+          {
+            "pass": 1,
+            "raw_response": "Summary (in text): A modern kitchen featuring stainless steel appliances, white cabinets under an overhang light above glass block windows that let sunlight stream through; towel hanging on oven handle nearby sink area which has silver faucet as well.; chandelier hangs from ceiling adding to overall ambiance..",
+            "stages": {
+              "summary": null,
+              "caption": "Summary (in text): A modern kitchen featuring stainless steel appliances, white cabinets under an overhang light above glass block windows that let sunlight stream through; towel hanging on oven handle nearby sink area which has silver faucet as well.; chandelier hangs from ceiling adding to overall ambiance..",
+              "reasoning": "Summary (in text): A modern kitchen featuring stainless steel appliances, white cabinets under an overhang light above glass block windows that let sunlight stream through; towel hanging on oven handle nearby sink area which has silver faucet as well.; chandelier hangs from ceiling adding to overall ambiance..",
+              "conclusion": "Summary (in text): A modern kitchen featuring stainless steel appliances, white cabinets under an overhang light above glass block windows that let sunlight stream through; towel hanging on oven handle nearby sink area which has silver faucet as well.; chandelier hangs from ceiling adding to overall ambiance.."
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.12765957446536896,
+        "BLEU-2": 1.6658955971162086e-09,
+        "BLEU-3": 3.950884638897794e-12,
+        "BLEU-4": 1.934895847695362e-13,
+        "BERTScore-Precision": 0.42922621965408325,
+        "BERTScore-Recall": 0.6194357872009277,
+        "BERTScore-F1": 0.507080614566803
+      }
+    },
+    {
+      "image_id": 7,
+      "reference_captions": [
+        "An office cubicle with four different types of computers.",
+        "The home office space seems to be very cluttered.",
+        "an office with desk computer and chair and laptop.",
+        "Office setting with a lot of computer screens.",
+        "A desk and chair in an office cubicle."
+      ],
+      "generated_caption": "The office is filled with various items such as computers, keyboards, monitors on desks; there are also two blue balls near each other at (405x205) pixels size - one ball has been thrown into an air hockey game while another sits idle nearby",
+      "reasoning_trace": "CAPTION: The office is filled with various items such as computers, keyboards, monitors on desks; there are also two blue balls near each other at (405x205) pixels size - one ball has been thrown into an air hockey game while another sits idle nearby\n\nREASONING: The office is filled with various items such as computers, keyboards, monitors on desks; there are also two blue balls near each other at (405x205) pixels size - one ball has been thrown into an air hockey game while another sits idle nearby! A green backpack lies open next to it all under fluorescent lighting from overhead fixtures that illuminate everything perfectly well within reason...(this description was written by someone who didn't have enough time).",
+      "metadata": {
+        "method": "llava_cot",
+        "passes": 2,
+        "actual_passes": 1,
+        "stages": {
+          "summary": null,
+          "caption": "The office is filled with various items such as computers, keyboards, monitors on desks; there are also two blue balls near each other at (405x205) pixels size - one ball has been thrown into an air hockey game while another sits idle nearby",
+          "reasoning": "The office is filled with various items such as computers, keyboards, monitors on desks; there are also two blue balls near each other at (405x205) pixels size - one ball has been thrown into an air hockey game while another sits idle nearby! A green backpack lies open next to it all under fluorescent lighting from overhead fixtures that illuminate everything perfectly well within reason...(this description was written by someone who didn't have enough time).",
+          "conclusion": "The office is filled with various items such as computers, keyboards, monitors on desks; there are also two blue balls near each other at (405x205) pixels size - one ball has been thrown into an air hockey game while another sits idle nearby"
+        },
+        "all_passes": [
+          {
+            "pass": 1,
+            "raw_response": "The office is filled with various items such as computers, keyboards, monitors on desks; there are also two blue balls near each other at (405x205) pixels size - one ball has been thrown into an air hockey game while another sits idle nearby! A green backpack lies open next to it all under fluorescent lighting from overhead fixtures that illuminate everything perfectly well within reason...(this description was written by someone who didn't have enough time).",
+            "stages": {
+              "summary": null,
+              "caption": "The office is filled with various items such as computers, keyboards, monitors on desks; there are also two blue balls near each other at (405x205) pixels size - one ball has been thrown into an air hockey game while another sits idle nearby",
+              "reasoning": "The office is filled with various items such as computers, keyboards, monitors on desks; there are also two blue balls near each other at (405x205) pixels size - one ball has been thrown into an air hockey game while another sits idle nearby! A green backpack lies open next to it all under fluorescent lighting from overhead fixtures that illuminate everything perfectly well within reason...(this description was written by someone who didn't have enough time).",
+              "conclusion": "The office is filled with various items such as computers, keyboards, monitors on desks; there are also two blue balls near each other at (405x205) pixels size - one ball has been thrown into an air hockey game while another sits idle nearby"
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.09302325581179019,
+        "BLEU-2": 1.4882336590863374e-09,
+        "BLEU-3": 3.780240780358952e-12,
+        "BLEU-4": 1.9170109753033433e-13,
+        "BERTScore-Precision": 0.4256554841995239,
+        "BERTScore-Recall": 0.6140152812004089,
+        "BERTScore-F1": 0.5027726292610168
+      }
+    },
+    {
+      "image_id": 8,
+      "reference_captions": [
+        "A bathroom sink with toiletries on the counter.",
+        "A bathroom sink and various personal hygiene items.",
+        "A messy bathroom countertop perched atop black cabinetry.",
+        "A bathroom vanity with cabinets and basin sink and several grooming products scattered across it",
+        "A bathroom sink cluttered with multiple personal care items."
+      ],
+      "generated_caption": "Summary (in HTML): \"<img src='https://i.imgur.com/0UQXZ8J.jpg' width=500px height=300px>\"; Caption (\"In [URL]\": \"This is an example\"); Reasoning (<a href=\"http://example\">More information here",
+      "reasoning_trace": "CAPTION: Summary (in HTML): \"<img src='https://i.imgur.com/0UQXZ8J.jpg' width=500px height=300px>\"; Caption (\"In [URL]\": \"This is an example\"); Reasoning (<a href=\"http://example\">More information here\n\nREASONING: Summary (in HTML): \"<img src='https://i.imgur.com/0UQXZ8J.jpg' width=500px height=300px>\"; Caption (\"In [URL]\": \"This is an example\"); Reasoning (<a href=\"http://example\">More information here! </a>) - This text will be used to explain why we chose that particular source; Conclusion ((HTML)) -- The final conclusion based on all sources combined, including any additional details provided by users through comments below each section.<br><BR>(Note 1) Please provide your reasoning as well so I can understand how it relates back to our main topic.</p>\\n\\t(Note 2)\\tIf there are multiple reasons given under one heading please separate them into individual captions.\\r\\n\\tFor instance if someone says \\u2018I think red lipstick looks great but also love wearing blue eye shadow too!\\u2019 then their reason would have two parts:\\\"\\r\\n\\t1\\. Red Lipsticks look amazing together!\").}\\n\\t---\\r\\n\\tAnd remember not every detail may fit perfectly within these categories just use common sense when deciding which ones do).\\r\\n--\\r\\",
+      "metadata": {
+        "method": "llava_cot",
+        "passes": 2,
+        "actual_passes": 1,
+        "stages": {
+          "summary": null,
+          "caption": "Summary (in HTML): \"<img src='https://i.imgur.com/0UQXZ8J.jpg' width=500px height=300px>\"; Caption (\"In [URL]\": \"This is an example\"); Reasoning (<a href=\"http://example\">More information here",
+          "reasoning": "Summary (in HTML): \"<img src='https://i.imgur.com/0UQXZ8J.jpg' width=500px height=300px>\"; Caption (\"In [URL]\": \"This is an example\"); Reasoning (<a href=\"http://example\">More information here! </a>) - This text will be used to explain why we chose that particular source; Conclusion ((HTML)) -- The final conclusion based on all sources combined, including any additional details provided by users through comments below each section.<br><BR>(Note 1) Please provide your reasoning as well so I can understand how it relates back to our main topic.</p>\\n\\t(Note 2)\\tIf there are multiple reasons given under one heading please separate them into individual captions.\\r\\n\\tFor instance if someone says \\u2018I think red lipstick looks great but also love wearing blue eye shadow too!\\u2019 then their reason would have two parts:\\\"\\r\\n\\t1\\. Red Lipsticks look amazing together!\").}\\n\\t---\\r\\n\\tAnd remember not every detail may fit perfectly within these categories just use common sense when deciding which ones do).\\r\\n--\\r\\",
+          "conclusion": "Summary (in HTML): \"<img src='https://i.imgur.com/0UQXZ8J.jpg' width=500px height=300px>\"; Caption (\"In [URL]\": \"This is an example\"); Reasoning (<a href=\"http://example\">More information here"
+        },
+        "all_passes": [
+          {
+            "pass": 1,
+            "raw_response": "Summary (in HTML): \"<img src='https://i.imgur.com/0UQXZ8J.jpg' width=500px height=300px>\"; Caption (\"In [URL]\": \"This is an example\"); Reasoning (<a href=\"http://example\">More information here! </a>) - This text will be used to explain why we chose that particular source; Conclusion ((HTML)) -- The final conclusion based on all sources combined, including any additional details provided by users through comments below each section.<br><BR>(Note 1) Please provide your reasoning as well so I can understand how it relates back to our main topic.</p>\\n\\t(Note 2)\\tIf there are multiple reasons given under one heading please separate them into individual captions.\\r\\n\\tFor instance if someone says \\u2018I think red lipstick looks great but also love wearing blue eye shadow too!\\u2019 then their reason would have two parts:\\\"\\r\\n\\t1\\. Red Lipsticks look amazing together!\").}\\n\\t---\\r\\n\\tAnd remember not every detail may fit perfectly within these categories just use common sense when deciding which ones do).\\r\\n--\\r\\",
+            "stages": {
+              "summary": null,
+              "caption": "Summary (in HTML): \"<img src='https://i.imgur.com/0UQXZ8J.jpg' width=500px height=300px>\"; Caption (\"In [URL]\": \"This is an example\"); Reasoning (<a href=\"http://example\">More information here",
+              "reasoning": "Summary (in HTML): \"<img src='https://i.imgur.com/0UQXZ8J.jpg' width=500px height=300px>\"; Caption (\"In [URL]\": \"This is an example\"); Reasoning (<a href=\"http://example\">More information here! </a>) - This text will be used to explain why we chose that particular source; Conclusion ((HTML)) -- The final conclusion based on all sources combined, including any additional details provided by users through comments below each section.<br><BR>(Note 1) Please provide your reasoning as well so I can understand how it relates back to our main topic.</p>\\n\\t(Note 2)\\tIf there are multiple reasons given under one heading please separate them into individual captions.\\r\\n\\tFor instance if someone says \\u2018I think red lipstick looks great but also love wearing blue eye shadow too!\\u2019 then their reason would have two parts:\\\"\\r\\n\\t1\\. Red Lipsticks look amazing together!\").}\\n\\t---\\r\\n\\tAnd remember not every detail may fit perfectly within these categories just use common sense when deciding which ones do).\\r\\n--\\r\\",
+              "conclusion": "Summary (in HTML): \"<img src='https://i.imgur.com/0UQXZ8J.jpg' width=500px height=300px>\"; Caption (\"In [URL]\": \"This is an example\"); Reasoning (<a href=\"http://example\">More information here"
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 5.2631578944598344e-17,
+        "BLEU-2": 5.4073807040662474e-17,
+        "BLEU-3": 5.561282936163367e-17,
+        "BLEU-4": 5.725998731205232e-17,
+        "BERTScore-Precision": 0.2589167654514313,
+        "BERTScore-Recall": 0.3319278359413147,
+        "BERTScore-F1": 0.2909112572669983
+      }
+    },
+    {
+      "image_id": 9,
+      "reference_captions": [
+        "A small closed toilet in a cramped space.",
+        "A tan toilet and sink combination in a small room.",
+        "This is an advanced toilet with a sink and control panel.",
+        "A close-up picture of a toilet with a fountain.",
+        "Off white toilet with a faucet and controls. "
+      ],
+      "generated_caption": "Summary (The toilet is white, has an open lid): The bathroom features beige walls adorned by striped wallpaper; it also includes green floor tiles featuring yellow diamond patterns as well as tan tile on one side near some electrical outlets that are plugged into them from behind while there's...",
+      "reasoning_trace": "CAPTION: Summary (The toilet is white, has an open lid): The bathroom features beige walls adorned by striped wallpaper; it also includes green floor tiles featuring yellow diamond patterns as well as tan tile on one side near some electrical outlets that are plugged into them from behind while there's...\n\nREASONING: Summary (The toilet is white, has an open lid): The bathroom features beige walls adorned by striped wallpaper; it also includes green floor tiles featuring yellow diamond patterns as well as tan tile on one side near some electrical outlets that are plugged into them from behind while there's water running through pipes under sink faucet which sits above tankless commode along w/ silver metal flush handle & control panel to its right - all within reachable distance! A small rug lies nearby too!. Caption(s) : \"This photo was taken at home.\" \". It shows off how cleanly designed everything looks!\"\". Reasoning(). Conclusion(). Image Information ()!!! Please note any objects not mentioned here will likely have no relevance unless they're part f your own description.. Thankyou very much indeed!!). This picture showcases various elements such as toilets, sinks  and other related items like hoses etc., making sure nothing important gets left out when discussing these topics further down below please let me know if anything else needs attention before we continue our discussion about plumbing fixtures found around homes today thanks again guys!!!,.---. ---. --.-''.--.''''-',----\"------\",-----,\"-------.\",--------\"\"---------\",\"----------','-----------'\"",
+      "metadata": {
+        "method": "llava_cot",
+        "passes": 2,
+        "actual_passes": 1,
+        "stages": {
+          "summary": null,
+          "caption": "Summary (The toilet is white, has an open lid): The bathroom features beige walls adorned by striped wallpaper; it also includes green floor tiles featuring yellow diamond patterns as well as tan tile on one side near some electrical outlets that are plugged into them from behind while there's...",
+          "reasoning": "Summary (The toilet is white, has an open lid): The bathroom features beige walls adorned by striped wallpaper; it also includes green floor tiles featuring yellow diamond patterns as well as tan tile on one side near some electrical outlets that are plugged into them from behind while there's water running through pipes under sink faucet which sits above tankless commode along w/ silver metal flush handle & control panel to its right - all within reachable distance! A small rug lies nearby too!. Caption(s) : \"This photo was taken at home.\" \". It shows off how cleanly designed everything looks!\"\". Reasoning(). Conclusion(). Image Information ()!!! Please note any objects not mentioned here will likely have no relevance unless they're part f your own description.. Thankyou very much indeed!!). This picture showcases various elements such as toilets, sinks  and other related items like hoses etc., making sure nothing important gets left out when discussing these topics further down below please let me know if anything else needs attention before we continue our discussion about plumbing fixtures found around homes today thanks again guys!!!,.---. ---. --.-''.--.''''-',----\"------\",-----,\"-------.\",--------\"\"---------\",\"----------','-----------'\"",
+          "conclusion": "Summary (The toilet is white, has an open lid): The bathroom features beige walls adorned by striped wallpaper; it also includes green floor tiles featuring yellow diamond patterns as well as tan tile on one side near some electrical outlets that are plugged into them from behind while there's..."
+        },
+        "all_passes": [
+          {
+            "pass": 1,
+            "raw_response": "Summary (The toilet is white, has an open lid): The bathroom features beige walls adorned by striped wallpaper; it also includes green floor tiles featuring yellow diamond patterns as well as tan tile on one side near some electrical outlets that are plugged into them from behind while there's water running through pipes under sink faucet which sits above tankless commode along w/ silver metal flush handle & control panel to its right - all within reachable distance! A small rug lies nearby too!. Caption(s) : \"This photo was taken at home.\" \". It shows off how cleanly designed everything looks!\"\". Reasoning(). Conclusion(). Image Information ()!!! Please note any objects not mentioned here will likely have no relevance unless they're part f your own description.. Thankyou very much indeed!!). This picture showcases various elements such as toilets, sinks  and other related items like hoses etc., making sure nothing important gets left out when discussing these topics further down below please let me know if anything else needs attention before we continue our discussion about plumbing fixtures found around homes today thanks again guys!!!,.---. ---. --.-''.--.''''-',----\"------\",-----,\"-------.\",--------\"\"---------\",\"----------','-----------'\"",
+            "stages": {
+              "summary": null,
+              "caption": "Summary (The toilet is white, has an open lid): The bathroom features beige walls adorned by striped wallpaper; it also includes green floor tiles featuring yellow diamond patterns as well as tan tile on one side near some electrical outlets that are plugged into them from behind while there's...",
+              "reasoning": "Summary (The toilet is white, has an open lid): The bathroom features beige walls adorned by striped wallpaper; it also includes green floor tiles featuring yellow diamond patterns as well as tan tile on one side near some electrical outlets that are plugged into them from behind while there's water running through pipes under sink faucet which sits above tankless commode along w/ silver metal flush handle & control panel to its right - all within reachable distance! A small rug lies nearby too!. Caption(s) : \"This photo was taken at home.\" \". It shows off how cleanly designed everything looks!\"\". Reasoning(). Conclusion(). Image Information ()!!! Please note any objects not mentioned here will likely have no relevance unless they're part f your own description.. Thankyou very much indeed!!). This picture showcases various elements such as toilets, sinks  and other related items like hoses etc., making sure nothing important gets left out when discussing these topics further down below please let me know if anything else needs attention before we continue our discussion about plumbing fixtures found around homes today thanks again guys!!!,.---. ---. --.-''.--.''''-',----\"------\",-----,\"-------.\",--------\"\"---------\",\"----------','-----------'\"",
+              "conclusion": "Summary (The toilet is white, has an open lid): The bathroom features beige walls adorned by striped wallpaper; it also includes green floor tiles featuring yellow diamond patterns as well as tan tile on one side near some electrical outlets that are plugged into them from behind while there's..."
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.08163265305955854,
+        "BLEU-2": 1.3041013273663614e-09,
+        "BLEU-3": 3.307564119014046e-12,
+        "BLEU-4": 1.67471822323964e-13,
+        "BERTScore-Precision": 0.43696480989456177,
+        "BERTScore-Recall": 0.6029632687568665,
+        "BERTScore-F1": 0.5054381489753723
+      }
+    }
+  ]
+}

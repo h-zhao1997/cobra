@@ -1,0 +1,6 @@
+{
+  "comparison": "scratchpad (A) vs baseline (B)",
+  "diff_meaning": "A - B",
+  "total_samples": 10,
+  "note": "MMStar dataset - metrics comparison not implemented yet"
+}

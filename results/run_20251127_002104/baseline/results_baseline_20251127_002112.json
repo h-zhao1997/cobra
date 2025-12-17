@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "timestamp": "2025-11-27T00:21:12.109411",
+    "config": {
+      "method": "baseline",
+      "dataset": "mmstar",
+      "num_samples": 10,
+      "no_streaming": false,
+      "scratchpad_passes": 1,
+      "model_id": "cobra+3b",
+      "hf_token": ".hf_token",
+      "temperature": 0.4,
+      "max_new_tokens": 512,
+      "reasoning_max_tokens": 256,
+      "repetition_penalty": 1.2,
+      "output_dir": "results",
+      "clear_cache": false,
+      "min_free_gb": 8.0,
+      "load_results": null
+    }
+  },
+  "aggregate_metrics": {},
+  "results": [
+    {
+      "image_id": 0,
+      "question": "Which option describe the object relationship in the image correctly?\nOptions: A: The suitcase is on the book., B: The suitcase is beneath the cat., C: The suitcase is beneath the bed., D: The suitcase is beneath the book.",
+      "reference_answer": "A",
+      "generated_answer": "B: The suitcase is beneath the cat.",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {}
+    },
+    {
+      "image_id": 1,
+      "question": "What is the main feature in the background of the image?\nOptions: A: A park bench near the water., B: A couple sitting on a bench., C: A body of water and the Golden Gate Bridge., D: A mountain in the distance.",
+      "reference_answer": "B",
+      "generated_answer": "A: A park bench near the water.",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {}
+    },
+    {
+      "image_id": 2,
+      "question": "What seems to be the theme of the image?\nOptions: A: Hanging Posters, B: Music, C: Home decoration, D: Playing guitar",
+      "reference_answer": "D",
+      "generated_answer": "B: Music",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {}
+    },
+    {
+      "image_id": 3,
+      "question": "What is the most prominent feature in the image?\nOptions: A: The skyline, B: The golf course, C: The trees, D: The person",
+      "reference_answer": "C",
+      "generated_answer": "B: The golf course",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {}
+    },
+    {
+      "image_id": 4,
+      "question": "What is the center of focus in the image?\nOptions: A: A man writing in a book, B: A boy with his head in his hands surrounded by books, C: A cluttered desk with books and a pen, D: A stack of books covering a young man's face",
+      "reference_answer": "A",
+      "generated_answer": "B: A boy with his head in his hands surrounded by books",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {}
+    },
+    {
+      "image_id": 5,
+      "question": "What is the main subject of the flyer seen in the image?\nOptions: A: Hair products, B: Makeup products, C: Spa services, D: Skin products",
+      "reference_answer": "D",
+      "generated_answer": "C: Spa services",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {}
+    },
+    {
+      "image_id": 6,
+      "question": "What is the overall theme of the image?\nOptions: A: A woman in different polka dot dresses, B: A stone wall along a stone path, C: A woman in an outdoor setting, D: A house with a black roof",
+      "reference_answer": "A",
+      "generated_answer": "B: A stone wall along a stone path",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {}
+    },
+    {
+      "image_id": 7,
+      "question": "What is the primary subject in this image?\nOptions: A: a guitar, B: a man on stage, C: a microphone, D: a concert",
+      "reference_answer": "D",
+      "generated_answer": "B: a man on stage",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {}
+    },
+    {
+      "image_id": 8,
+      "question": "What is the overall theme of the image?\nOptions: A: A businessman with a unique face, B: A man in a formal dress with a beard, C: An actor with a cut on his face, D: A man with a diagram of his face",
+      "reference_answer": "B",
+      "generated_answer": "A: A businessman with a unique face",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {}
+    },
+    {
+      "image_id": 9,
+      "question": "What feeling is represented in this image?\nOptions: A: engaged, B: distressed, C: angry, D: sad",
+      "reference_answer": "D",
+      "generated_answer": "B: distressed",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {}
+    }
+  ]
+}

@@ -1,0 +1,1016 @@
+Number of generated captions: 100
+
+BLEU Scores (BLEU-1 to BLEU-4):
+[0.4731997834323372, 0.31096386400940695, 0.19329047509357483, 0.11615861188100376]
+
+BLEU-1: 0.4732
+BLEU-2: 0.3110
+BLEU-3: 0.1933
+BLEU-4: 0.1162
+
+Image ID: 0
+Generated caption:
+  A black bicycle-shaped clock with a white face, black numbers, and black hands, featuring a London landmark on its face.
+Reference captions:
+  - A bicycle replica with a clock as the front wheel.
+  - The bike has a clock as a tire.
+  - A black metal bicycle with a clock inside the front wheel.
+  - A bicycle figurine in which the front wheel is replaced with a clock
+
+  - A clock with the appearance of the wheel of a bicycle 
+
+Image ID: 1
+Generated caption:
+  A black and silver motorcycle parked on a grassy area with a house in the background.
+Reference captions:
+  - A black Honda motorcycle parked in front of a garage.
+  - A Honda motorcycle parked in a grass driveway
+  - A black Honda motorcycle with a dark burgundy seat.
+  - Ma motorcycle parked on the gravel in front of a garage
+  - A motorcycle with its brake extended standing outside
+
+Image ID: 2
+Generated caption:
+  A cozy bathroom with a white door, a green vase, a white sink, and a life preserver on the wall.
+Reference captions:
+  - A room with blue walls and a white sink and door.
+  - Blue and white color scheme in a small bathroom.
+  - This is a blue and white bathroom with a wall sink and a lifesaver on the wall.
+  - A blue boat themed bathroom with a life preserver on the wall
+  - A bathroom with walls that are painted baby blue.
+
+Image ID: 3
+Generated caption:
+  A city street with parked cars, a wooden bench, a person riding a scooter, and various signs and buildings.
+Reference captions:
+  - A car that seems to be parked illegally behind a legally parked car
+  - two cars parked on the sidewalk on the street
+  - City street with parked cars and a bench.
+  - Cars try to maneuver into parking spaces along a densely packed city street. 
+  - A couple of cars parked in a busy street sidewalk.
+
+Image ID: 4
+Generated caption:
+  A white and orange airplane taking off into a cloudy sky.
+Reference captions:
+  - A large passenger airplane flying through the air.
+  - There is a GOL plane taking off in a partly cloudy sky.
+  - An airplane that is, either, landing or just taking off.
+  - An red and white airplane is in the cloudy sky.
+  - A passenger plane taking off into the sky. 
+
+Image ID: 5
+Generated caption:
+  A cozy bathroom with a white toilet, sink, and wooden cabinet, featuring a wicker hamper, a window with a floral curtain, and a potted plant on the window sill.
+Reference captions:
+  - A bathroom with a toilet, sink, and shower.
+  - A full bathroom with a wicker laundry basket.
+  - A little bathrood decorated with many colorful objects
+  - A small bathroom containing a toilet and sink. 
+  - Bathroom containing a toilet, a sink and a wicker basket.
+
+Image ID: 6
+Generated caption:
+  A modern kitchen with stainless steel appliances, a hanging towel, and a chandelier.
+Reference captions:
+  - A long empty, minimal modern skylit home kitchen.
+  - A picture of a modern looking kitchen area
+
+  - A narrow kitchen ending with a chrome refrigerator.
+  - A narrow kitchen is decorated in shades of white, gray, and black.
+  - a room that has a stove and a icebox in it
+
+Image ID: 7
+Generated caption:
+  A cluttered office space with various items such as a computer, keyboard, and a blue ball on the floor.
+Reference captions:
+  - An office cubicle with four different types of computers.
+  - The home office space seems to be very cluttered.
+  - an office with desk computer and chair and laptop.
+  - Office setting with a lot of computer screens.
+  - A desk and chair in an office cubicle.
+
+Image ID: 8
+Generated caption:
+  A bathroom scene with a black vanity, white sink, and various toiletries.
+Reference captions:
+  - A bathroom sink with toiletries on the counter.
+  - A bathroom sink and various personal hygiene items.
+  - A messy bathroom countertop perched atop black cabinetry.
+  - A bathroom vanity with cabinets and basin sink and several grooming products scattered across it
+  - A bathroom sink cluttered with multiple personal care items.
+
+Image ID: 9
+Generated caption:
+  A white toilet with a silver faucet, a green bathmat, and a white wall with a white cord plugged in.
+Reference captions:
+  - A small closed toilet in a cramped space.
+  - A tan toilet and sink combination in a small room.
+  - This is an advanced toilet with a sink and control panel.
+  - A close-up picture of a toilet with a fountain.
+  - Off white toilet with a faucet and controls. 
+
+Image ID: 10
+Generated caption:
+  Two women waiting for the bus at a bus stop on a sunny day
+Reference captions:
+  - Two women waiting at a bench next to a street.
+  - A woman sitting on a bench and a woman standing waiting for the bus.
+  - A woman sitting on a bench in the middle of the city
+  - A woman sitting on a bench and a woman standing behind the bench at a bus stop
+  - A woman and another woman waiting at a stop.
+
+Image ID: 11
+Generated caption:
+  A white box with four black beans inside, placed on a white table.
+Reference captions:
+  - This is an open box containing four cucumbers.
+  - An open food container box with four unknown food items.
+  - A small box filled with four green vegetables. 
+  - An opened box of four chocolate bananas. 
+  - An open box contains an unknown, purple object
+
+Image ID: 12
+Generated caption:
+  A green classic car with a surfboard on top parked on a street near a white church and a red truck.
+Reference captions:
+  - An old-fashioned green station wagon is parked on a shady driveway.
+  - An old teal colored car parked on the street.
+  - A classic car sitting beside the road with a surfboard on top. 
+  - An old green car parked on the side of the street.
+  - An antique, turquoise car is parked at the curb
+
+Image ID: 13
+Generated caption:
+  A cluttered kitchen with various appliances and utensils
+Reference captions:
+  - A gas stove next to a stainless steel kitchen sink and countertop.
+  - A kitchen stove, sink, and counter with stuff on it.
+  - A kitchen with a stove, sink, and drying area. 
+  - This is a kitchen with dishes and a silver sink.
+  - A kitchen with a stove, sick, and dishes
+
+Image ID: 14
+Generated caption:
+  A group of people riding motorcycles on a city street with a red and white building in the background.
+Reference captions:
+  - Several motorcycles riding down the road in formation.
+  - A group of motorcycle riders driving past buildings.
+  - A group of people are riding motorcycles on a road through a town. 
+  - A group of motorcyclists are driving down the city street.
+  - A group of motorcycles drive down a city street.
+
+Image ID: 15
+Generated caption:
+  A black cat curiously exploring a white toilet bowl in a bathroom with various toiletries.
+Reference captions:
+  - A black cat is inside a white toilet.
+  - A black cat drinking water from a toilet
+  - A cat drinking water from a toilet in a bathroom.
+  - A cat puts her head inside of a toilet. 
+  - A cat is drinking water out of a toilet.
+
+Image ID: 16
+Generated caption:
+  Two people sitting on a bench near the ocean, with a wooden bench, concrete barrier, and island in the distance.
+Reference captions:
+  - A man in a wheelchair and another sitting on a bench that is overlooking the water.
+  - Two people sitting on dock looking at the ocean.
+  - Two older people sitting down in front of a beach.
+  - An old couple at the beach during the day.
+  - A person on a bench, and one on a wheelchair sitting by a seawall looking out toward the ocean
+
+Image ID: 17
+Generated caption:
+  A man in an orange outfit and yellow scarf sits on the ground next to a decorated cow, with a red brick wall and a white wall in the background.
+Reference captions:
+  - A man sits with a traditionally decorated cow
+  - A decorative man sits on the ground with a cow.
+  - A man sits next to his horse in an alley in costume.
+  - Guy and cow are sitting on the floor 
+  - An Indian man in religious attire sitting with a decorated cow.
+
+Image ID: 18
+Generated caption:
+  A busy street with parked motorcycles and people walking on the sidewalk.
+Reference captions:
+  - Rows of motor bikes and helmets in a city
+  - A lot of motorbikes line up down a busy street.
+  - Large set of motorcycles all lined up down a street.
+  - A large group of motorcycles lined up on the street.
+  - A series of motorbikes parked in a row on a street
+
+Image ID: 19
+Generated caption:
+  A white and black kitten sitting in a red bowl on a blue towel, surrounded by books and papers.
+Reference captions:
+  - A cute kitten is sitting in a dish on a table.
+  - A small white cat on a large bowl.
+  - A small kitten is sitting in a bowl. 
+  - A cat is curled up in a bowl
+  - A kitten is sitting in a bowl on a table.
+
+Image ID: 20
+Generated caption:
+  A man in a green hoodie leaning over a white toilet, drinking water from the tap.
+Reference captions:
+  - A man getting a drink from a water fountain that is a toilet.
+  - A boy drinking water from a toilet water fountain.
+  - A young man drinking from a water fountain in the shape of a toilet.
+  - A young person has his face close to the toilet bowl.
+  - A man taking a drink from a water fountain.
+
+Image ID: 21
+Generated caption:
+  A delicious dessert served on a white plate with a slice of cake, whipped cream, and a sugar sculpture, accompanied by silver spoons and a glass of water.
+Reference captions:
+  - A beautiful dessert waiting to be shared by two people
+  - There is a piece of cake on a plate with decorations on it.
+  - Creamy cheesecake dessert with whip cream and caramel.
+  - An extravagant dessert on a plate overlooking the water.
+  - This is a picture of an extremely fancy desert.
+
+Image ID: 22
+Generated caption:
+  A young person with curly hair sits on a grassy hill, holding a red skateboard, surrounded by a field of green grass and trees.
+Reference captions:
+  - A person holding a skateboard overlooks a dead field of crops.
+  - A person sits on a patch of grass observing the scenery.
+  - A person holding a skate board sitting in an empty open field.
+  - A child with a skateboard sitting on the grass and looking at an empty field
+  - A skateboarder sitting on the edge of an open field.
+
+Image ID: 23
+Generated caption:
+  A bathroom with a white sink, silver trash can, blue towel, and a shower curtain with a map.
+Reference captions:
+  - A bathroom with a sink and shower curtain with a map print.
+  - A small and crowded bathroom with little furnishing 
+  - A small bathroom with a shower curtain with the NYC Subway map on it. 
+  - A bathroom with a map as a shower curtain. 
+  - A bathroom with pedestal sink and mirror over it.
+
+Image ID: 24
+Generated caption:
+  A large gray military plane with four engines and a distinctive tail fin, flying in a cloudy sky.
+Reference captions:
+  - A random plane in the sky flying alone
+  - An airplane flying high in the blue sky. 
+  - A silver color jet flying through the clear sky.
+  - An airplane with the letters 'MT' on it, flying in the sky.
+  - A very large plane is flying through the sky.
+
+Image ID: 25
+Generated caption:
+  Two horses, one brown and one black, are standing on a patch of grass near a white car and a blue building with a red sign.
+Reference captions:
+  - A brown and black horse in the middle of the city eating grass.
+  - Two horses eating grass near a parking lot. 
+  - Two horses standing in a field across the stre.et from a building
+  - Two mules eating grass in a parking lot in front of a hotel. 
+  - Two horses eat grass next to a group of parked cars.
+
+Image ID: 26
+Generated caption:
+  A brown leather handbag with gold-colored hardware is placed on a green metal bench, surrounded by fallen leaves.
+Reference captions:
+  - A brown purse is sitting on a green bench.
+  - a brown purse abandoned on a green bench.
+  - A woman's purse sitting on a park bench.
+  - A leather purse laying on it's side on a green metal bench.
+  - A purse sits alone on a park bench.
+
+Image ID: 27
+Generated caption:
+  A delicious cake with white frosting and yellow filling, cut into two layers, and a spatula with a piece of cake on it.
+Reference captions:
+  - Half of a white cake with coconuts on top.
+  - The coconut cake on a red plate is half gone.
+  - A half eaten dessert cake sitting on a cake plate.
+  - A half eaten cake with coconut shavings and creme filling.
+  - Half of a cake sits on a plate.
+
+Image ID: 28
+Generated caption:
+  A white toilet with a pink lid and a Hello Kitty seat, placed on a dirty ground with a metal grate and a blue suitcase nearby.
+Reference captions:
+  - An old toilet with a hello kitty cover top. 
+  - A toilet with a Hello Kitty symbol on it.
+  - A toilette with a pink hello kitty toilette seat cover.
+  - A toilet with a Hello Kitty seat sitting in a room.
+  - A broken toilet bowl with  a Hello Kitty toilet seat cover.
+
+Image ID: 29
+Generated caption:
+  A well-organized workspace with a silver laptop, a computer monitor, a printer, and a computer mouse on a wooden desk.
+Reference captions:
+  - Office space with office equipment on desk top.
+  - A hope office setup of computers and printers.
+  - a home office with laptop, printer, scanner, and extra monitor
+  - The computer desk in the corner is by a window.
+  - A laptop, monitor, printer and tablet on a desk.
+
+Image ID: 30
+Generated caption:
+  Two dogs with black and white fur and pink tongues hanging out of their mouths, looking out of a car window.
+Reference captions:
+  - Two husky's hanging out of the car windows.
+  - Dogs stick their heads out of car windows
+  - Two husky dogs ride in a car with their heads hanging out windows.
+  - Two happy dogs have their head out the car window.
+  - Some dogs stick their heads out the car window.
+
+Image ID: 31
+Generated caption:
+  A white door with a window, a deadbolt, and a black metal grill, with a paper towel roll and a bottle of dish soap on the counter.
+Reference captions:
+  - The back door with a window in the kitchen.
+  - The kitchen has a white door with a window.
+  - A kitchen door next to a kitchen sing and counter top.
+  - A sink next to a large white door 
+  - A door for exiting and entering the house in the kitchen.
+
+Image ID: 32
+Generated caption:
+  A large airplane flying high in the sky with white clouds scattered around.
+Reference captions:
+  - Jet liner flying off into the distance on an overcast day
+  - An airplane flying away in a cloudy sky.
+  - A plane that is flying in a clear blue sky.
+  - An airplane flying away in the cloudy sky.
+  - Four engine plane flying in lightly overcast sky.
+
+Image ID: 33
+Generated caption:
+  A white cat with long whiskers and pointy ears is eating a dead bird with a red spot on its head.
+Reference captions:
+  - A cat eating a bird it has caught.
+  - A white cat caught a bird outside on a patio.
+  - Grey house cat devours a song bird on a door step
+  - A long haired cat eating a dead bird.
+  - A cat eating a dead bird on the ground.
+
+Image ID: 34
+Generated caption:
+  A woman in a black jacket and blue jeans walks her small dog on a leash down a sidewalk lined with orange traffic cones, a green trash can, and a black metal fence.
+Reference captions:
+  - A woman is walking a dog in the city.
+  - A woman and her dog walking down a sidewalk next to a fence with some flowers. 
+  - A woman walking her dog on the sidewalk.
+  - A woman walks her dog along a city street.
+  - A woman walks her dog on a city sidewalk.
+
+Image ID: 35
+Generated caption:
+  A white toilet in a bathroom with a wooden shelf and green walls.
+Reference captions:
+  - A tiny bathroom with only a toilet and a shelf.
+  - Small bathroom with a toilet and a sink.
+  - A narrow bathroom has a white door on its side
+  - Rather narrow bath room that appears to be being remodeled.
+  - Unfinished bathroom with broken toilet next to a bookshelf.
+
+Image ID: 36
+Generated caption:
+  A young girl in a blue dress and striped socks stands in a bathroom with a white toilet and black trash can.
+Reference captions:
+  - A little girl in a public bathroom for kids.
+  - A girl standing next to a toilet in a bathroom.
+  - Little girl in blue dress standing in a bathroom. 
+  - An adorable little girl in a blue dress stands in a restroom.
+  - A little girl in a blue dress stands in a bathroom.
+
+Image ID: 37
+Generated caption:
+  A man playing the violin in a kitchen with various objects around him.
+Reference captions:
+  - A picture of a man playing a violin in a kitchen.
+  - A man is playing violin in his kitchen
+  - A man is playing a fiddle in his kitchen.
+  - A man plays the violin in a home.
+  - An old man playing violin in a kitchen.
+
+Image ID: 38
+Generated caption:
+  A man wearing a blue jacket and a black hat, standing in a kitchen with various objects around him.
+Reference captions:
+  - A shot of an elderly man inside a kitchen.
+  - An old man is wearing an odd hat
+  - An older man is wearing a funny hat in his dining room.
+  - A man in a jacket and hat looks at the camera.
+  - An old man standing in a kitchen posing for a picture.
+
+Image ID: 39
+Generated caption:
+  A woman and two dogs enjoying a car ride together.
+Reference captions:
+  - A trio of dogs sitting in their owner's lap in a red convertible.
+  - Three little dogs looking out a car window while sitting on a woman's lap. 
+  - A woman driver has three dogs in the seat with her.
+  - A woman and her three dogs in a car.
+  - Three dogs on the lap of a woman in the driver's seat of a convertible.
+
+Image ID: 40
+Generated caption:
+  A gray and white cat with a blue collar standing on a patch of green grass near parked cars.
+Reference captions:
+  - A cat in between two cars in a parking lot.
+  - A cat stands between two parked cars on a grassy sidewalk. 
+  - A cat at attention between two parked cars.
+  - A grey and white cat watches from between parked cars.
+  - A grey and white cat standing in the grass in a parking lot. 
+
+Image ID: 41
+Generated caption:
+  A small red car parked on a cobblestone street with a bus and a white car nearby, and a building with lights in the background.
+Reference captions:
+  - A small car is parked in front of a scooter
+  - A scooter is parked behind a red car.
+  - A small car parked in by a vespa.
+  - A bus rides by a small car parked in front of a motor scooter
+  - A small car sits parked in front of a scooter. 
+
+Image ID: 42
+Generated caption:
+  A black and white cat with a sticker on its head standing in a doorway.
+Reference captions:
+  - A door with a sticker of a cat door on it
+  - A blue door with a painting of a cat's rear end entering thru a cat door.
+  - A blue door with a picture of a cat door with cats backside hanging out on it.
+  - A picture of a cat door is on the bottom corner of a blue door.
+  - A painting on a door of a cat going through a cat door.
+
+Image ID: 43
+Generated caption:
+  A busy office desk with various items such as a computer, phone, and books.
+Reference captions:
+  - An office cubicle with multiple computers in it
+  - An office desk with two flat panel monitors.
+  - An office desk with two computer screens, books diagrams and a phone on it.
+  - Two computer monitors are placed beside each other on a desk.
+  - A desk with two monitors depicting security cameras.
+
+Image ID: 44
+Generated caption:
+  A cozy kitchen with a wooden table, chairs, and green cabinets, featuring a white sink, a black oven, and a potted plant.
+Reference captions:
+  - A pinewood and green modern themed kitchen area.
+  - A kitchen and dining room area with a large window.
+  - A green kitchen with wooden counters and bright lights. 
+  - A bright room with green walls and cabinets.
+  - An empty kitchen area painted green with bulbous lights.
+
+Image ID: 45
+Generated caption:
+  A cozy kitchen with wooden cabinets, stainless steel appliances, and a tiled countertop.
+Reference captions:
+  - A kitchen is shown with wooden cabinets and a wooden celling.
+  - A recently remodeled kitchen with marble and wooden furnishings.
+  - Well kept kitchen with marble counter tops and stainless steel fridge
+  - A beautiful new kitchen with natural wood cabinets.
+  - A neat, wood filled kitchen is photographed as if for a real estate ad.
+
+Image ID: 46
+Generated caption:
+  A busy street scene with people riding bikes, motorcycles, and a car, surrounded by buildings and traffic lights.
+Reference captions:
+  - A group of people riding mopeds in a busy street. 
+  - People riding bikes and cars down the street. 
+  - Motorists and bicyclists in a busy city square.
+  - A crowded city street filled with traffic and bicycles.
+  - An Asian intersection is full of mopeds and motorcycles.
+
+Image ID: 47
+Generated caption:
+  A rainy day in the city with a man walking with an umbrella, a bus, a car, a bicycle, and a street sign.
+Reference captions:
+  - A person walking in the rain on the sidewalk. 
+  - A person walking through the rain with an umbrella.
+  - A person walking in the rain while holding an umbrella.
+  - A man walks down the strip as it rains.
+  - A European street scene with a person and vehicles.
+
+Image ID: 48
+Generated caption:
+  A group of people riding mopeds on a tree-lined street with a blue sign and a red and white striped barrier.
+Reference captions:
+  - A parade of motorcycles is going through a group of tall trees.
+  - A group of motorcyclists drive down a tree lined street.
+  - A group of motorcycles down a long street filled with trees on either side.
+  - A group of people riding mopeds through a park.
+  - A group of scooters rides down a street
+
+Image ID: 49
+Generated caption:
+  A clean bathroom with a white toilet, a trash can, a toilet brush, and a framed picture on the wall.
+Reference captions:
+  - a modern flush toilet in a bathroom with tile. 
+  - A toilet and trashcan in a white bathroom.
+  - A white toilet sits on a tile floor.
+  - A toilet in a bathroom that is next to a trash can
+  - White toilet by built-in shelves in a tiled bathroom.
+
+Image ID: 50
+Generated caption:
+  A foggy night at an intersection with traffic lights, street signs, and a building in the background.
+Reference captions:
+  - Fog is in the air at an intersection with several traffic lights.
+  - An intersection during a cold and foggy night.
+  - Empty fog covered streets in the night amongst traffic lights.
+  - City street at night with several stop lights.
+  - It is a foggy night by a traffic light.
+
+Image ID: 51
+Generated caption:
+  A large white airplane taking off into a clear blue sky with a few white clouds.
+Reference captions:
+  - An airplane with its landing wheels out landing. 
+  - A plane that is taking off at an airport
+  - A man takes a picture of an airplane taking off.
+  - A large jet takes off from an airport runway.
+  - The airplane is taking off on the runway at the airport.
+
+Image ID: 52
+Generated caption:
+  Three birds perched on a giraffe's back, with a clear blue sky in the background.
+Reference captions:
+  - Little birds sitting on the shoulder of a giraffe. 
+  - The top of a giraffe's head has birds on it.
+  - Three birds sit on the back of a giraffe. 
+  - A giraffe with 3 birds on his fur.
+  - A flock of birds sits on top of a large giraffe.
+
+Image ID: 53
+Generated caption:
+  An elderly man with white hair and glasses is standing near a bicycle with a basket, holding a piece of paper, while surrounded by boats and buildings.
+Reference captions:
+  - a man with a bike at a marina
+  - A man stands next to his bike at the marina.
+  - an old man standing next to a bike and a chain fence.
+  - A man holding some break standing by a bicycle.
+  - A man who is standing next to his bicycle.
+
+Image ID: 54
+Generated caption:
+  A man in a green shirt and black hat sits on a bench with his bicycle, surrounded by parked cars and signs.
+Reference captions:
+  - A man is sitting on a bench next to a bike.
+  - A man is sitting on a bench next to a bicycle.
+  - A man sits on a street bench by a bike. 
+  - Black man sitting on a bench behind a personal bicycle. 
+  - A man is sitting in a busy area with his bike.
+
+Image ID: 55
+Generated caption:
+  A busy street with people waiting for a bus, a man with a bicycle, and a woman with a suitcase.
+Reference captions:
+  - People are waiting for the bus near a bus stop.
+  - A crowd of people are waiting to get on a red bus.
+  - A crowd of people get ready to board a bus in the city.
+  - Large group of people waiting for a train.
+  - People are waiting in a city area to board a bus.
+
+Image ID: 56
+Generated caption:
+  A man sleeping on a bed with a cat laying on his chest.
+Reference captions:
+  - a man sleeping with his cat next to him
+  - A young man and his cute cat enjoy a nap together.
+  - A man is sleeping with his head on a pillow.
+  - Man sleeping in his bedroom next to a cat.
+  - Man sleeping next to a cat on a bed. 
+
+Image ID: 57
+Generated caption:
+  A dimly lit public restroom with four urinals, a window, and a dirty floor.
+Reference captions:
+  - four urinals in a public restroom with a window
+  - A bathroom with four urinals on the wall.
+  - An old bathroom with a row of urinals.
+  - A row of urinals in with an open window above them.
+  - A row of urinals stand beneath a open window.
+
+Image ID: 58
+Generated caption:
+  A young boy in a red and white shirt is sitting on a parked black motorcycle, with a car and a building in the background.
+Reference captions:
+  - A small child climbs atop a large motorcycle
+  - A young boy riding a motorcycle next to a silver car.
+  - A little baby is sitting on a huge motorcycle.
+  - A little boy sitting alone on a motorcycle.
+  - A toddler sitting on a motorcycle in a parking lot.
+
+Image ID: 59
+Generated caption:
+  A large silver U.S. Air Force plane parked on a tarmac with a clear blue sky in the background.
+Reference captions:
+  - A large U.S Air Force plain sits on an asphalt ramp.
+  - A large propeller airplane sitting on a tarmac.
+  - A large military plane parked in the landing area.
+  - A U.S. Air Force plane sits on display.
+  - A picture of a plane in a runway.
+
+Image ID: 60
+Generated caption:
+  Two men skiing in a snowy forest, one wearing a striped jacket and the other wearing a gray jacket.
+Reference captions:
+  - A black and white photo of an older man skiing.
+  - Two people on the snow for cross country skiing.
+  - The old man cross country skis through the forest.
+  - A younger man and an older man skiing in the forest.
+  - Two people on skis going through the woods.
+
+
+Image ID: 61
+Generated caption:
+  A person riding a motorcycle on a street with a bright sun, houses, and trees in the background.
+Reference captions:
+  - Riding a motorcycle down a street that has no one else on it.
+  - The view from a motorcyclist's point of view, looking down a street.
+  - A man rides a motorcycle down an empty street next to houses.
+  - The view of the street from the perspective of the rider of a motorcycle
+  - A motorcycle moves forward down an empty street.
+
+Image ID: 62
+Generated caption:
+  A clean and organized kitchen with white appliances and cabinets
+Reference captions:
+  - An all white kitchen with an electric stovetop. 
+  - A white stove sits between two small counter tops.
+  - Close up of a white kitchen setup with a coffee maker on counter.
+  - A white stove and cabinet inside a kitchen.
+  - This is a small kitchen with white cabinets and appliances.
+
+Image ID: 63
+Generated caption:
+  A banana on a white desk with a black phone and a notepad with writing.
+Reference captions:
+  - The telephone has a banana where the receiver should be.
+  - A banana replacing the phone on an answering machine
+  - A phone with a banana where the receiver should be.
+  - A telephone has it receiver replaced with a banana.
+  - A banana placed on a phone on a table.
+
+Image ID: 64
+Generated caption:
+  A man with red hair and blue eyes is cooking in a pan with a wooden spoon, wearing a black shirt and holding a white cupboard door.
+Reference captions:
+  - The young man is stirring his pot of food with a wooden spoon.
+  - A man enjoys cooking food in a pan
+  - A smiling man is cooking in his kitchen.
+  - A man smiles as he stirs his food in the pot.
+  - A boy smiles while holding a pot and spoon.
+
+Image ID: 65
+Generated caption:
+  A jet plane flying in a clear blue sky with a trail of smoke behind it.
+Reference captions:
+  - A fighter jet is flying at a fast speed.
+  - A fighter jet soars up into a blue sky.
+  - An old military jet fighter climbing in altitude.
+  - A fighter jet flying through the sky with smoke coming off of it.
+  - A figher jet creating condensation flying through the blue sky.
+
+Image ID: 66
+Generated caption:
+  A public restroom with urinals, a white tiled wall, and a poster of a woman with black hair.
+Reference captions:
+  - A public bathroom with a bunch of urinals.
+  - A picture of a woman hangs on the wall above the urinals.
+  - A men's restroom with a poster of a woman over the urinals.
+  - White tiled bathroom with line of tiles and Asian female poster on the wall
+  - A mens restroom is lined up with urinals.
+
+Image ID: 67
+Generated caption:
+  Two men walking on a tarmac, one wearing a white hat and the other wearing a green backpack, with a white airplane in the background.
+Reference captions:
+  - The airplane is on the runway with two young men standing by.
+  - Two men walking the tarmac of an airport.
+  - Two men at on an airport tarmac. 
+
+  - Two young men walking down a runway toward an airplane.
+  - Young men are preparing to board a small passenger plane.
+
+Image ID: 68
+Generated caption:
+  A woman in a yellow apron holding a pan in a well-equipped kitchen with various appliances and items.
+Reference captions:
+  - The woman in the kitchen is holding a huge pan.
+  - A chef carrying a large pan inside of a kitchen.
+  - A woman is holding a large pan in a kitchen. 
+  - A woman cooking in a kitchen with granite counters.
+  - A woman cooking in her kitchen with a black pan.
+
+Image ID: 69
+Generated caption:
+  A bathroom under renovation with a white toilet, blue shower curtain, and a window with a white frame.
+Reference captions:
+  - A toilet sits next to a window and in front of a shower.
+  - A bathroom with only a toilet and tub with the wall covered in plastic
+  - A photograph of a bathroom undergoing some renovations.
+  - A bathroom being renovated featuring a toilette and shower.
+  - A bathroom in the middle of a reconstruction phase.
+
+Image ID: 70
+Generated caption:
+  A black and white dog and a white sheep are standing next to a wire fence, with the dog's nose touching the fence.
+Reference captions:
+  - A dog and a goat with their noses touching at fence.
+  - A dog greets a sheep that is in a sheep pen.
+  - Two animals get close through a fence. 
+  - A sheep and a dog touching noses through a fence.
+  - a couple of animals that are beside a fence
+
+Image ID: 71
+Generated caption:
+  A busy street with people walking, a motorcycle, and a car driving down the road.
+Reference captions:
+  - Pedestrians walking down a sidewalk next to a small street.
+  - People walking on a city street with light traffic.
+  - A city street with people walking and vehicles on the road.
+  - A scenic photograph of an urban street with people and traffic.
+  - Pedestrians are strolling along a city sidestreet in a touristy neighborhood.
+
+Image ID: 72
+Generated caption:
+  A man in a black shirt and glasses standing in a kitchen with various appliances and items around him.
+Reference captions:
+  - A man standing in a kitchen while closing a cupboard door.
+  - A man standing in kitchen surrounded by items.
+  - A kitchen area with a cooler and container stacked on the floor and a man getting an item out of a cabinet.
+  - A man holding a cabinet in a kitchen.
+  - a man stocking up his kitchen with groceries
+
+Image ID: 73
+Generated caption:
+  A clean kitchen with a silver microwave, white dishwasher, and a red dish towel on the refrigerator.
+Reference captions:
+  - A photograph of a kitchen inside a house.
+  - This is an apartment kitchen with white cabinets and appliances.
+  - A shot of a kitchen with a microwave, sink, dishwasher, and refrigerator. 
+  - A kitchen with a refrigerator, microwave, dishwasher and sink.
+  - A kitchen with a sink, dishwasher, microwave and refrigerator.
+
+Image ID: 74
+Generated caption:
+  A red bicycle parked by a river, surrounded by leaves and a metal fence.
+Reference captions:
+  - a bike leaning on a metal fence next to some flowing water. 
+  - A bicycle parked next to a flooded river
+  - A bicycle chained to a rail near a flooded area.
+  - A bicycle leans against a fence near some flood waters.
+  - A bicycle parked on a rail next to some flooding water.
+
+Image ID: 75
+Generated caption:
+  A clean bathroom with a white toilet, tiled floor, and various toiletries.
+Reference captions:
+  - a small toilet stall with a toilet brush and 3 rolls of toilet paper 
+  - A clean, European toilet with toilet paper and cleaning brush.
+  - A public toilet stall with toilet paper and a cleaning brush.
+  - An empty, clean toilet stall with a stack of toilet paper.
+  - There is a white toilet in a very narrow bathroom.
+
+Image ID: 76
+Generated caption:
+  A cozy bathroom with a white shower curtain, two sinks, and a stool.
+Reference captions:
+  - A dual sink vanity with mirrors above the sinks.
+  - A long marble like bath room vanity with a stool, two sink basins with mirrors and lights over them
+  - A double sink with mirrors and a stool underneath it.
+  - There are two sinks in the clean bathroom.
+  - A bathroom with his and her mirrors and sinks.
+
+Image ID: 77
+Generated caption:
+  A cozy living room with a lit fireplace, a television, and various decorations.
+Reference captions:
+  - A fireplace with a fire built in it.
+  - A living room containing a modern fireplace and miscellaneous items 
+  - A lit fire place in a living room next to a TV.
+  - A brick fireplace with fire adorned with knick-knacks.
+  - A living room, with fireplace, television, and throw rug.
+
+Image ID: 78
+Generated caption:
+  A restaurant sign with green letters and a white background, attached to a building with a green trim.
+Reference captions:
+  - The sign of a restaurant in the outside of the store.
+  - A sign on a building advertising an Italian restaurant.
+  - A sign for an Italian restaurant hangs outside a building.
+  - Italian Reaffaello restaurant sign at front of building.
+  - A sign outside of a restaurant for Italian food. 
+
+Image ID: 79
+Generated caption:
+  A Virgin Australia plane is on the ground, with a red and white plane taking off in the background, under a cloudy sky.
+Reference captions:
+  - an airport with one plane flying away and the other sitting on the runway
+  - jumbo jet sits on the tarmac while another takes off
+  - A Virgin Australia airline on the tarmac. 
+  - Virgin sponsored airplane parked with a plane leaving in the background.
+  - One airplane is taking off from an airport while others are parked.
+
+Image ID: 80
+Generated caption:
+  A kitchen scene with a wooden cutting board, a salmon dish with lemon slices, asparagus, and a knife on a cutting board.
+Reference captions:
+  - a counter with vegetables, knife and cutting board on it. 
+  - asparragus, lemons and a bowl of rice on a counter top
+  - The preparation of salmon, asparagus and lemons. 
+  - Cooking table with assorted fish and lemons with asparagus. 
+  - A kitchen counter with cutting board, knife and food.
+
+Image ID: 81
+Generated caption:
+  A man driving a white speedboat with a black top, surrounded by calm blue water and a clear sky.
+Reference captions:
+  - A boat that looks like a car moves through the water. 
+  - A car modified to drive in the water on a lake.
+  - A car modified to be a boat on the water.
+  - A picture of a boat that looks like a car in the water.
+  - a car that has been converted into a boat floating on water
+
+Image ID: 82
+Generated caption:
+  A colorful food truck with a unique design and advertisement for Entourage, featuring five men and a car.
+Reference captions:
+  - A delivery truck with an advertisement for Entourage.
+  - A large van features an ad for a television show.
+  - A truck with an ad for a television show painted on its side
+  - A large delivery truck with an advertisement painted on it's side.
+  - An entourage decorated van is parked on the side of the road.  
+
+Image ID: 83
+Generated caption:
+  A clean bathroom with a toilet, plunger, and scrub brush, featuring a striped rug on the floor.
+Reference captions:
+  - A black and white toilet with a plunger.
+  - A toilet has a rug, and a plunger next to it.
+  - A small stall with large tiles, a toilet and two plungers
+  - A small restroom with a single toilet and wooden toilet seat.
+  - A toilet, plunger and rug in a tiled bathroom stall.
+
+Image ID: 84
+Generated caption:
+  A bicycle parked on a grassy hill with a sign for Newcastle and a telephone number.
+Reference captions:
+  - A bike leaning against a sign in Scotland.
+  - A bike in front of a scenic welcome sign. 
+  - a welcome to Scotland sign with a bicycle leaning on it
+  - Bicycle leaning up against a welcome to Scotland sign.
+  - A sign for a village in Scotland with a bicycle in front of it.
+
+Image ID: 85
+Generated caption:
+  A man and his dog watching television together, with the dog's paw on the man's foot.
+Reference captions:
+  - A dog sitting between its masters feet on a footstool watching tv
+
+  - A dog between the feet of a person looking at a TV.
+  - A dog and a person are watching television together.
+  - A person is sitting with their dog watching tv.
+  - A man relaxing at home, watching television with his dog.
+
+Image ID: 86
+Generated caption:
+  Two women in white uniforms working in a kitchen with various appliances and equipment.
+Reference captions:
+  - Women father around a desk and machinery in a factory.
+  - A photo set of two women at work
+  - Women working in a commercial bakery or kitchen.
+  - Two old photos with women in a kitchen.
+  - two women in white work at an industrial kitchen counter and stove
+
+Image ID: 87
+Generated caption:
+  A white toilet with a dirty seat and lid, surrounded by various cleaning supplies and toiletries.
+Reference captions:
+  - A few items sit on top of a toilet in a bathroom stall.
+  - A dirty toilet in a small bathroom.with items on top.
+  - A toilet seat is left open inside of a bathroom.
+  - A dirty toilet in a small cramped space.
+  - A photo of a toilet with items on the tank.
+
+Image ID: 88
+Generated caption:
+  A bathroom with a white toilet, sink, and cabinet, a picture on the wall, and various toiletries on the sink.
+Reference captions:
+  - A bathroom with a poster of an ugly face above the toilette.
+  - A bathroom with a white toilet and sink.
+  - Large bathroom with light flowing in the window.
+  - A small bathroom with a toilet by the window and a pedestal sink with a mirrored medicine cabinet over it
+  - A bathroom with a toilet and a sink.
+
+Image ID: 89
+Generated caption:
+  A daring motocross rider in a white helmet and colorful attire soars through the air on a red and white motorcycle.
+Reference captions:
+  - A dirt bike rider doing a stunt jump in the air
+  - A man riding a dirt bike becomes airborne.
+  - A motorcyclist is in mid air hanging on to the handlebars.
+  - A person performs a stunt jump on a motorcycle.
+  - Daring guy does tricks mid air on motorcycle
+
+Image ID: 90
+Generated caption:
+  A picturesque beach scene with people flying a kite under a cloudy blue sky.
+Reference captions:
+  - A couple of birds fly through a blue cloudy sky.
+  - Group of three people sailing kites up in the sky. 
+  - A beautiful blue and pink sky overlooking the beach.
+  - Group of people are flying kites on the beach.
+  - This is a gorgeous sunset at a beach with a parasailor in the distance.
+
+Image ID: 91
+Generated caption:
+  A large flat screen television displaying a woman jumping in the air, surrounded by signs and a carpeted floor.
+Reference captions:
+  - A picture advertising Arizona tourism in an airport
+  - A television that is sitting next to signs
+  - A television is shown in the middle of a baggage claim area.
+  - An airport terminal has a big screen displaying an ad for Arizona.
+  - A flat screen TV with a picture of a person jumping on it.
+
+Image ID: 92
+Generated caption:
+  A group of men standing around motorcycles in a parking lot with a white fence and a building in the background.
+Reference captions:
+  - Man in motorcycle leathers standing in front of a group of bikes
+  - Bikers, dressed in their gear, standing near their motorcycles.
+  - A group of men stand next to their bicycles.
+  - Three men standing around their motorcycles in a parking lot.
+  - Group of three motorcyclists standing in front of their motorcycles.
+
+Image ID: 93
+Generated caption:
+  A cozy room with a brick fireplace, various baskets, and a white curtain.
+Reference captions:
+  - A variety of pots are stored in a nook by a fireplace.
+  - A room contains baskets and has a fireplace. 
+  - A room filled with clutter and a fireplace.
+  - A small living room with a fireplace and work baskets.
+
+  - A room with a fir place and several baskets and a bench in the background.
+
+Image ID: 94
+Generated caption:
+  A person crossing the street at a crosswalk, with a car waiting at a red traffic light and a building in the background.
+Reference captions:
+  - A car is stopped at a red light
+  - The car is at the intersection while the sun is setting.
+  - A truck nears a stop light in rainy weather.
+  - A car is at a red light in the rain.
+  - An intersection with a red traffic light and a vehicle.
+
+Image ID: 95
+Generated caption:
+  A bathroom with a white toilet, squat toilet, and a red basket on the floor.
+Reference captions:
+  - A bathroom with a traditional toilet next to a floor toilet.
+  - A squat toilet and a Western toilet are next to each other.
+  - Mans bathroom with two visible fixtures, trash basket and plunger in sight.
+  - A toilet stall, complete with two clean toilets.
+  - A bathroom with an odd toilette next to a normal toilette.
+
+Image ID: 96
+Generated caption:
+  A group of people wearing black hats and gloves, preparing vegetables in a kitchen.
+Reference captions:
+  - A group of people preparing food in a kitchen.
+  - Group of people all sorting vegetables in a line.
+  - Six different people in aprons and hats preparing vegetables
+  - A group of people are in a line working on green vegetables.
+  - A team of chefs work together to prepare a meal.
+
+Image ID: 97
+Generated caption:
+  A dimly lit parking garage with various traffic signs, a white arrow on the ground, and cars parked in the distance.
+Reference captions:
+  - Posted signs point the way through a parking garage.
+  - Three traffic signs at the entrance of a parking garage. 
+  - Three road signs posted in a parking garage.
+  - This is a parking garage with several signs.
+  -  directing signs in front of a parking garage
+
+Image ID: 98
+Generated caption:
+  A green and black bus parked on a city street with a white and black taxi cab nearby.
+Reference captions:
+  - A green car on display next to a busy street.
+  - A sculpture of a green hot rod on a city sidewalk
+  - A sculpture of a hot rod sitting on a sidewalk.
+  - This is a city art piece of a small car.
+  - A small green vehicle model is on display next to a busy city street.
+
+Image ID: 99
+Generated caption:
+  A large blue and white airplane taking off from a runway with a clear blue sky and white clouds in the background.
+Reference captions:
+  - A large passenger jet taking off from an airport.
+  - A plane that just took off flying from an airport.
+  - The airplane has begun its ascent in the skies.
+  - A plane is shown taking off from an airstrip.
+  - An airplane is taking off at an airport.
+

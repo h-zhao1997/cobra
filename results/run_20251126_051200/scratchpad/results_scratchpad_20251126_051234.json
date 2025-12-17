@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "timestamp": "2025-11-26T05:12:34.649167",
+    "config": {
+      "method": "scratchpad",
+      "num_samples": 3,
+      "no_streaming": false,
+      "scratchpad_passes": 1,
+      "model_id": "cobra+3b",
+      "hf_token": ".hf_token",
+      "temperature": 0.4,
+      "max_new_tokens": 512,
+      "reasoning_max_tokens": 256,
+      "repetition_penalty": 1.2,
+      "output_dir": "results",
+      "clear_cache": false,
+      "min_free_gb": 8.0,
+      "load_results": null
+    }
+  },
+  "aggregate_metrics": {
+    "BLEU-1": 0.3999999999942857,
+    "BLEU-2": 0.267659842043373,
+    "BLEU-3": 0.1497508301037994,
+    "BLEU-4": 1.5317732115772553e-05,
+    "BERTScore-Precision": 0.55953449010849,
+    "BERTScore-Recall": 0.731396496295929,
+    "BERTScore-F1": 0.6263687014579773
+  },
+  "results": [
+    {
+      "image_id": 0,
+      "reference_captions": [
+        "A bicycle replica with a clock as the front wheel.",
+        "The bike has a clock as a tire.",
+        "A black metal bicycle with a clock inside the front wheel.",
+        "A bicycle figurine in which the front wheel is replaced with a clock\n",
+        "A clock with the appearance of the wheel of a bicycle "
+      ],
+      "generated_caption": "A black bicycle with a white clock face, featuring a handlebar, seat, and small wheels, is displayed in the image.",
+      "reasoning_trace": "The bicycle is black with thin tires; it has handlebars for steering control at position Y:X=0-1/2 from top left corner to 1+3/4 times width by height). The clock face shows white numbers on an offwhite background positioned X:-Y*width_of(clock)xheight_(from\\_top)/2 near bottom center horizontally aligned below bike's frame); there are small holes around edge where spokes would be if wheel were visible), size=(Width\\*5)/(6*(Height + Width)) x Height = Size/(Width \\* 5)); Bicycle seat located above middle part @ Position 0+(Width / 2):((Height * 3)  + 4)*size/100 ; Handlebar area measures approximately half as wide & twice lengthwise along sidewall@Positions(-Width//2 : -(Size // 6)*(Width/_10))*position(&y&z)-Width/*half*/scale(Width /* scale */)(Size///2)+8 pixels up y axis respectively.). Clock hands' lengths measure about one third each way down timepiece, while hour hand points toward 10 ocklock hours mark ) Location:(Width*-7)+(Width*9)/20-(Width*11)/40 distance=-Width*((Width-",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "The bicycle is black with thin tires; it has handlebars for steering control at position Y:X=0-1/2 from top left corner to 1+3/4 times width by height). The clock face shows white numbers on an offwhite background positioned X:-Y*width_of(clock)xheight_(from\\_top)/2 near bottom center horizontally aligned below bike's frame); there are small holes around edge where spokes would be if wheel were visible), size=(Width\\*5)/(6*(Height + Width)) x Height = Size/(Width \\* 5)); Bicycle seat located above middle part @ Position 0+(Width / 2):((Height * 3)  + 4)*size/100 ; Handlebar area measures approximately half as wide & twice lengthwise along sidewall@Positions(-Width//2 : -(Size // 6)*(Width/_10))*position(&y&z)-Width/*half*/scale(Width /* scale */)(Size///2)+8 pixels up y axis respectively.). Clock hands' lengths measure about one third each way down timepiece, while hour hand points toward 10 ocklock hours mark ) Location:(Width*-7)+(Width*9)/20-(Width*11)/40 distance=-Width*((Width-"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.4999999999750001,
+        "BLEU-2": 0.28097574346008974,
+        "BLEU-3": 0.16368983753038932,
+        "BLEU-4": 2.253741272145215e-05,
+        "BERTScore-Precision": 0.543816328048706,
+        "BERTScore-Recall": 0.6674661636352539,
+        "BERTScore-F1": 0.5993300676345825
+      }
+    },
+    {
+      "image_id": 1,
+      "reference_captions": [
+        "A black Honda motorcycle parked in front of a garage.",
+        "A Honda motorcycle parked in a grass driveway",
+        "A black Honda motorcycle with a dark burgundy seat.",
+        "Ma motorcycle parked on the gravel in front of a garage",
+        "A motorcycle with its brake extended standing outside"
+      ],
+      "generated_caption": "A black motorcycle with silver accents parked on a gravel driveway, featuring a kickstand, headlight, taillight, and orange light, with a white garage door and green grassy yard nearby.",
+      "reasoning_trace": "The motorcycle is black with silver accents; it has an orange light on its left side near red taillight that's also lit up at nighttime setting outdoors during daytime hours featuring green grassy yard leaves scattered around dirt patches gravel driveway white garage door open revealing house interior including windows closed doors brown wooden wall paneling grey concrete floor area surrounding bike which includes various parts like seat gas tank fender handlebars headlight tailpipe exhaust pipe kickstand license plate frame lights turn signals brake system engine components wheel spokes rims muffler pipes chain coverings footrests handgrips rearview mirrors overall composition creates dynamic scene capturing attention from viewer as they observe each distinct element within picture-perfect arrangement for photography enthusiasts to appreciate every detail while appreciating beauty found simplicity amidst complexity life lessons learned through observation can be applied elsewhere beyond just motorcycles themselves such understanding perspective helps viewers better understand world we live navigate daily interactions personal experiences shared moments captured memories cherished forevermore! 🏍️🚗❤️ #motorcyclephotography @HondaMotorsports ✨#Motorcycleride ♬ original sound – [Your Name] Photography Student 😎",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "The motorcycle is black with silver accents; it has an orange light on its left side near red taillight that's also lit up at nighttime setting outdoors during daytime hours featuring green grassy yard leaves scattered around dirt patches gravel driveway white garage door open revealing house interior including windows closed doors brown wooden wall paneling grey concrete floor area surrounding bike which includes various parts like seat gas tank fender handlebars headlight tailpipe exhaust pipe kickstand license plate frame lights turn signals brake system engine components wheel spokes rims muffler pipes chain coverings footrests handgrips rearview mirrors overall composition creates dynamic scene capturing attention from viewer as they observe each distinct element within picture-perfect arrangement for photography enthusiasts to appreciate every detail while appreciating beauty found simplicity amidst complexity life lessons learned through observation can be applied elsewhere beyond just motorcycles themselves such understanding perspective helps viewers better understand world we live navigate daily interactions personal experiences shared moments captured memories cherished forevermore! 🏍️🚗❤️ #motorcyclephotography @HondaMotorsports ✨#Motorcycleride ♬ original sound – [Your Name] Photography Student 😎"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.3103448275755054,
+        "BLEU-2": 0.21055872189568867,
+        "BLEU-3": 1.1797615444182845e-06,
+        "BLEU-4": 2.8190471506777327e-09,
+        "BERTScore-Precision": 0.4991527497768402,
+        "BERTScore-Recall": 0.8060730695724487,
+        "BERTScore-F1": 0.6127646565437317
+      }
+    },
+    {
+      "image_id": 2,
+      "reference_captions": [
+        "A room with blue walls and a white sink and door.",
+        "Blue and white color scheme in a small bathroom.",
+        "This is a blue and white bathroom with a wall sink and a lifesaver on the wall.",
+        "A blue boat themed bathroom with a life preserver on the wall",
+        "A bathroom with walls that are painted baby blue."
+      ],
+      "generated_caption": "A cozy bathroom with a light turquoise wall, ceramic fixtures, and a life preserver art print above the toilet paper holder.",
+      "reasoning_trace": "Major Objects: white bathroom sink with silver faucet; green vase on countertop containing various items such as mugs & jars ; door handle is gold color.; blue wall painted to look like water under boat signage for welcome aboard message at sea shore house interior design style. The scene takes place inside an ocean-themed restroom featuring light turquoise walls, ceramic fixtures including sinks / toilets/ mirrors along wth decorative elements that include life preserver art print above toilet paper holder which has roll placed within wooden frame mounted onto back splash area near windowpane revealing outside view through open doorway leading out into garden space where plants are visible growing alongside building exterior's siding material made from wood paneling instead traditional brickwork due weather conditions not suitable support growth hardy plant species preferred by coastal regions around world while still maintaining aesthetic appeal indoors without sacrificing natural beauty found outdoors during daytime hours when sunlight streams thru windows illuminating room evenly across surfaces creating soft glows upon touching surface areas throughout home decorating scheme designed harmonious blend comfort functionality aesthetics seamlessly integrated living spaces both functional yet aesthetically pleasing environment perfect example modern minimalist approach towards residential interiors today'contemporary designs focus less ornamentation more function combined practicality efficient use available square footage maximizing storage solutions",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "Major Objects: white bathroom sink with silver faucet; green vase on countertop containing various items such as mugs & jars ; door handle is gold color.; blue wall painted to look like water under boat signage for welcome aboard message at sea shore house interior design style. The scene takes place inside an ocean-themed restroom featuring light turquoise walls, ceramic fixtures including sinks / toilets/ mirrors along wth decorative elements that include life preserver art print above toilet paper holder which has roll placed within wooden frame mounted onto back splash area near windowpane revealing outside view through open doorway leading out into garden space where plants are visible growing alongside building exterior's siding material made from wood paneling instead traditional brickwork due weather conditions not suitable support growth hardy plant species preferred by coastal regions around world while still maintaining aesthetic appeal indoors without sacrificing natural beauty found outdoors during daytime hours when sunlight streams thru windows illuminating room evenly across surfaces creating soft glows upon touching surface areas throughout home decorating scheme designed harmonious blend comfort functionality aesthetics seamlessly integrated living spaces both functional yet aesthetically pleasing environment perfect example modern minimalist approach towards residential interiors today'contemporary designs focus less ornamentation more function combined practicality efficient use available square footage maximizing storage solutions"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.4285714285510205,
+        "BLEU-2": 0.327326835338012,
+        "BLEU-3": 0.22425727432945428,
+        "BLEU-4": 2.8134666934143293e-05,
+        "BERTScore-Precision": 0.6356344223022461,
+        "BERTScore-Recall": 0.7206504344940186,
+        "BERTScore-F1": 0.6670112013816833
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "timestamp": "2025-11-27T03:01:25.222626",
+    "config": {
+      "method": "scratchpad",
+      "dataset": "coco",
+      "num_samples": 5,
+      "no_streaming": false,
+      "scratchpad_passes": 1,
+      "model_id": "cobra+3b",
+      "hf_token": ".hf_token",
+      "temperature": 0.4,
+      "max_new_tokens": 512,
+      "reasoning_max_tokens": 256,
+      "repetition_penalty": 1.2,
+      "output_dir": "results",
+      "clear_cache": false,
+      "min_free_gb": 8.0,
+      "load_results": null
+    }
+  },
+  "aggregate_metrics": {
+    "BLEU-1": 0.26511627906853436,
+    "BLEU-2": 0.1376113261190143,
+    "BLEU-3": 0.04520482923568286,
+    "BLEU-4": 4.635868686490174e-06,
+    "BERTScore-Precision": 0.5177077054977417,
+    "BERTScore-Recall": 0.7318809628486633,
+    "BERTScore-F1": 0.6036399602890015
+  },
+  "results": [
+    {
+      "image_id": 0,
+      "reference_captions": [
+        "A bicycle replica with a clock as the front wheel.",
+        "The bike has a clock as a tire.",
+        "A black metal bicycle with a clock inside the front wheel.",
+        "A bicycle figurine in which the front wheel is replaced with a clock\n",
+        "A clock with the appearance of the wheel of a bicycle "
+      ],
+      "generated_caption": "The image features a black bicycle clock with white numbers, a round clock face, and various bike parts like handlebars, seat tube, chain guard spokes, and pedals. The clock is displayed against an off-white wall background, and the overall composition showcases the bike's unique features while still maintaining a cohesive theme around timekeeping.",
+      "reasoning_trace": "A black bicycle clock featuring white numbers on its face is displayed against an off-white wall background; it has no distinguishable unique feature but showcases various bike parts like handlebars, seat tube, chain guard spokes & pedals as well as small details such as screws holding components together within each part's bounding box descriptions provided earlier by users who contributed to creating these captions based upon visual analysis alone without additional information about object interactions, materials used during construction process. The overall composition suggests that timekeeping device was designed specifically around theme involving bicycles rather than being merely decorative piece showcasing artistic talent ; however still remains open ended enough allowing room interpretation depending individual preferences when viewing scene through different lenses / perspectives beyond just simple functionality clocks serve traditionally over centuries past century+1/2 years now! 🚲💼⛓️☄️ #bicycleclockartwork @kensington_london ✍️#timeanddatephotographycompetition2019@Kensingtondlc picuresbyjulianadaviscom (@JuliaDavisPhotographer) via Instagram stories Highly recommended checking out her work if you haven't already!!! 😎 Thank You For Reading My Caption Analysis Post On This Bike",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "A black bicycle clock featuring white numbers on its face is displayed against an off-white wall background; it has no distinguishable unique feature but showcases various bike parts like handlebars, seat tube, chain guard spokes & pedals as well as small details such as screws holding components together within each part's bounding box descriptions provided earlier by users who contributed to creating these captions based upon visual analysis alone without additional information about object interactions, materials used during construction process. The overall composition suggests that timekeeping device was designed specifically around theme involving bicycles rather than being merely decorative piece showcasing artistic talent ; however still remains open ended enough allowing room interpretation depending individual preferences when viewing scene through different lenses / perspectives beyond just simple functionality clocks serve traditionally over centuries past century+1/2 years now! 🚲💼⛓️☄️ #bicycleclockartwork @kensington_london ✍️#timeanddatephotographycompetition2019@Kensingtondlc picuresbyjulianadaviscom (@JuliaDavisPhotographer) via Instagram stories Highly recommended checking out her work if you haven't already!!! 😎 Thank You For Reading My Caption Analysis Post On This Bike"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.2075471698074048,
+        "BLEU-2": 0.06317667074948415,
+        "BLEU-3": 4.277412148886299e-07,
+        "BLEU-4": 1.1185188895571612e-09,
+        "BERTScore-Precision": 0.4640311896800995,
+        "BERTScore-Recall": 0.64497971534729,
+        "BERTScore-F1": 0.5397434830665588
+      }
+    },
+    {
+      "image_id": 1,
+      "reference_captions": [
+        "A black Honda motorcycle parked in front of a garage.",
+        "A Honda motorcycle parked in a grass driveway",
+        "A black Honda motorcycle with a dark burgundy seat.",
+        "Ma motorcycle parked on the gravel in front of a garage",
+        "A motorcycle with its brake extended standing outside"
+      ],
+      "generated_caption": "A black motorcycle parked on grass near an old white garage door, with various parts like seat cover handlebars headlight brake light, kickstands, fender emblem logo, lights turned on, and a red taillight.",
+      "reasoning_trace": "A black motorcycle parked on grass near an old white garage door; various parts like seat cover handlebars headlight brake light are visible along w/ distinct shadows & background elements such as green leaves brown mulch red taillight orange reflector license plate kickstands fender emblem logo lights turn signals exhaust pipe pipes muffler disc brakes disk rotor chain guard windshield visors rearview mirrors side view mirror engine block motorcycles' frame spokes spoked wheels tires rubber treaded surface mudguard metal footpegs chrome accents silver springs suspension system leather seats cushioned backrest tailpipe emissions control systems safety equipment storage compartments vehicle identification number VIN numbers brand logos company names model year details maintenance notes accessories additional components unique identifiers technical specifications performance data historical significance design evolution development timeline production run sales figures market share competition pricing trends consumer reviews user ratings reliability rankings resale value long-term ownership experience overall satisfaction customer testimonials industry awards showroom presence dealership network service centers promotional campaigns advertising slogans marketing strategies product placement media coverage events sponsorship collaborations partnerships promotions test drives road tests track days custom builds concept vehicles prototypes racing bikes special editions limited edition models anniversary releases commemorative collections vintage reissues restoration projects resto modifications chopper style cafe racer bobber streetfighter naked bike cruiser",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "A black motorcycle parked on grass near an old white garage door; various parts like seat cover handlebars headlight brake light are visible along w/ distinct shadows & background elements such as green leaves brown mulch red taillight orange reflector license plate kickstands fender emblem logo lights turn signals exhaust pipe pipes muffler disc brakes disk rotor chain guard windshield visors rearview mirrors side view mirror engine block motorcycles' frame spokes spoked wheels tires rubber treaded surface mudguard metal footpegs chrome accents silver springs suspension system leather seats cushioned backrest tailpipe emissions control systems safety equipment storage compartments vehicle identification number VIN numbers brand logos company names model year details maintenance notes accessories additional components unique identifiers technical specifications performance data historical significance design evolution development timeline production run sales figures market share competition pricing trends consumer reviews user ratings reliability rankings resale value long-term ownership experience overall satisfaction customer testimonials industry awards showroom presence dealership network service centers promotional campaigns advertising slogans marketing strategies product placement media coverage events sponsorship collaborations partnerships promotions test drives road tests track days custom builds concept vehicles prototypes racing bikes special editions limited edition models anniversary releases commemorative collections vintage reissues restoration projects resto modifications chopper style cafe racer bobber streetfighter naked bike cruiser"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.3030303030211204,
+        "BLEU-2": 0.16854996561062321,
+        "BLEU-3": 0.0971326448056359,
+        "BLEU-4": 1.3220369604551863e-05,
+        "BERTScore-Precision": 0.473520964384079,
+        "BERTScore-Recall": 0.7941198348999023,
+        "BERTScore-F1": 0.5932790637016296
+      }
+    },
+    {
+      "image_id": 2,
+      "reference_captions": [
+        "A room with blue walls and a white sink and door.",
+        "Blue and white color scheme in a small bathroom.",
+        "This is a blue and white bathroom with a wall sink and a lifesaver on the wall.",
+        "A blue boat themed bathroom with a life preserver on the wall",
+        "A bathroom with walls that are painted baby blue."
+      ],
+      "generated_caption": "A bathroom scene with a white sink, green vases, a tan soap dispenser, a mirror reflecting a light fixture, a welcome sign from a life preserver, a door with a white doorknob, and a blue wall.",
+      "reasoning_trace": "A bathroom scene featuring various items such as white door knobs on cabinets doors near blue walls; green vases containing flowers placed next to each other by sink area under mirror reflecting light fixture above it while tan soap dispenser sits nearby against wall adorned with welcome sign from life preserver hanging over doorway leading into bedroom space beyond closed wooden-framed windowpane revealing no view outside but hinting at another room's presence just outta sight!",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "A bathroom scene featuring various items such as white door knobs on cabinets doors near blue walls; green vases containing flowers placed next to each other by sink area under mirror reflecting light fixture above it while tan soap dispenser sits nearby against wall adorned with welcome sign from life preserver hanging over doorway leading into bedroom space beyond closed wooden-framed windowpane revealing no view outside but hinting at another room's presence just outta sight!"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.305555555547068,
+        "BLEU-2": 0.2288688541020835,
+        "BLEU-3": 1.1549543647109152e-06,
+        "BLEU-4": 2.6139371033672662e-09,
+        "BERTScore-Precision": 0.5872035026550293,
+        "BERTScore-Recall": 0.7561861276626587,
+        "BERTScore-F1": 0.6601126790046692
+      }
+    },
+    {
+      "image_id": 3,
+      "reference_captions": [
+        "A car that seems to be parked illegally behind a legally parked car",
+        "two cars parked on the sidewalk on the street",
+        "City street with parked cars and a bench.",
+        "Cars try to maneuver into parking spaces along a densely packed city street. ",
+        "A couple of cars parked in a busy street sidewalk."
+      ],
+      "generated_caption": "A street scene featuring parked cars on both sides of the street, a wooden bench on the sidewalk, trees above storefronts, and various signs on the buildings.",
+      "reasoning_trace": "A street scene featuring parked cars on both sides along an empty sidewalk lined by trees; various signs are visible above storefronts displaying Asian characters while people ride bikes nearby under air conditioning units attached to buildings' exteriors during daytime hours as shadows cast from lamppost light poles can be seen across vehicles like black SUV's & grey sedans driving down road past red brick building facades adorned w/ yellow lettering over green shutters at ground level windows that have white frames around them surrounded b y brown wooden bench placed near curb line where manhole cover is also present within paved roadway surface beneath it.",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "A street scene featuring parked cars on both sides along an empty sidewalk lined by trees; various signs are visible above storefronts displaying Asian characters while people ride bikes nearby under air conditioning units attached to buildings' exteriors during daytime hours as shadows cast from lamppost light poles can be seen across vehicles like black SUV's & grey sedans driving down road past red brick building facades adorned w/ yellow lettering over green shutters at ground level windows that have white frames around them surrounded b y brown wooden bench placed near curb line where manhole cover is also present within paved roadway surface beneath it."
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.4074074073923183,
+        "BLEU-2": 0.2168145451878124,
+        "BLEU-3": 1.2342759676459987e-06,
+        "BLEU-4": 2.97513306285635e-09,
+        "BERTScore-Precision": 0.5697348117828369,
+        "BERTScore-Recall": 0.7397965788841248,
+        "BERTScore-F1": 0.6376408338546753
+      }
+    },
+    {
+      "image_id": 4,
+      "reference_captions": [
+        "A large passenger airplane flying through the air.",
+        "There is a GOL plane taking off in a partly cloudy sky.",
+        "An airplane that is, either, landing or just taking off.",
+        "An red and white airplane is in the cloudy sky.",
+        "A passenger plane taking off into the sky. "
+      ],
+      "generated_caption": "The image shows a white and orange airplane taking off from an airport runway, with a cloudy sky in the background. The plane is flying low, and its landing gear is down. The city skyline, distant hills, and trees can be seen in the distance, and there are buildings nearby. The plane is under the control of pilots who are following proper safety measures and regulations.",
+      "reasoning_trace": "A white airplane taking off from an airport runway under cloudy skies; featuring orange tail fin logo \"GOL,\" landing gear down position indicator lights on both sides wingtips engines exhaust stacks windows cockpit door passenger entrance/exit doors emergency exit rear stairway jet engine visible beneath left side wings multiple buildings nearby trees distant hills landscape below plane's flight path city skyline far horizon hazy sky conditions low altitude flying over residential area near water body surrounded by greenery mountainside terrain background elements like clouds dark stormclouds greyish-white color overall scene is busy but organized well managed air traffic control measures are evident as planes takeoff land approach flyover headings align properly to avoid collisions while maintaining safe distances among aircrafts within vicinity proper spacing maintained during taxiing runways parallel each other no obstructions obstructed views clear visibility good weather day optimal lighting condition ideal environment conducive aviation activities smooth operation efficient coordination pilots' skillful handling instruments accurate navigation systems modern technology ensures safety enhanced communication protocols implemented at airports worldwide effective regulatory frameworks enforced strict adherence regulations governing commercial flights maintain high standards operational procedures ensure minimal risks associated human error technical malfunctions adverse environmental factors external threats such natural disasters extreme temperatures severe storms inclement meteorological events impact operations differently depending region location climate zone altitudes available resources accessibility",
+      "metadata": {
+        "method": "scratchpad",
+        "passes": 1,
+        "individual_traces": [
+          "A white airplane taking off from an airport runway under cloudy skies; featuring orange tail fin logo \"GOL,\" landing gear down position indicator lights on both sides wingtips engines exhaust stacks windows cockpit door passenger entrance/exit doors emergency exit rear stairway jet engine visible beneath left side wings multiple buildings nearby trees distant hills landscape below plane's flight path city skyline far horizon hazy sky conditions low altitude flying over residential area near water body surrounded by greenery mountainside terrain background elements like clouds dark stormclouds greyish-white color overall scene is busy but organized well managed air traffic control measures are evident as planes takeoff land approach flyover headings align properly to avoid collisions while maintaining safe distances among aircrafts within vicinity proper spacing maintained during taxiing runways parallel each other no obstructions obstructed views clear visibility good weather day optimal lighting condition ideal environment conducive aviation activities smooth operation efficient coordination pilots' skillful handling instruments accurate navigation systems modern technology ensures safety enhanced communication protocols implemented at airports worldwide effective regulatory frameworks enforced strict adherence regulations governing commercial flights maintain high standards operational procedures ensure minimal risks associated human error technical malfunctions adverse environmental factors external threats such natural disasters extreme temperatures severe storms inclement meteorological events impact operations differently depending region location climate zone altitudes available resources accessibility"
+        ]
+      },
+      "metrics": {
+        "BLEU-1": 0.21212121211799817,
+        "BLEU-2": 0.08078865345212301,
+        "BLEU-3": 4.6720439734350565e-07,
+        "BLEU-4": 1.1279635194063212e-09,
+        "BERTScore-Precision": 0.4940478503704071,
+        "BERTScore-Recall": 0.7243224382400513,
+        "BERTScore-F1": 0.5874239802360535
+      }
+    }
+  ]
+}

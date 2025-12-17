@@ -1,0 +1,23 @@
+{
+  "comparison": "scratchpad (A) vs baseline (B)",
+  "diff_meaning": "A - B",
+  "total_samples": 10,
+  "aggregate_diffs": {
+    "BLEU-1": -0.08032688529305398,
+    "BLEU-2": -0.08841269003654134,
+    "BLEU-3": -0.07119369602150673,
+    "BLEU-4": -0.027112745749252792,
+    "BERTScore-Precision": -0.02172698974609375,
+    "BERTScore-Recall": -0.03290609717369079,
+    "BERTScore-F1": -0.024193066358566283
+  },
+  "win_rates": {
+    "BERTScore-Recall": 30.0,
+    "BLEU-1": 30.0,
+    "BERTScore-Precision": 40.0,
+    "BERTScore-F1": 40.0,
+    "BLEU-2": 20.0,
+    "BLEU-3": 30.0,
+    "BLEU-4": 30.0
+  }
+}

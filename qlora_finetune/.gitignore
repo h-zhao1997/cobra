@@ -1,0 +1,41 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Checkpoints and outputs
+checkpoints/
+outputs/
+runs/
+qlora_outputs*/
+qlora_outputs_*/
+*.pt
+*.pth
+*.ckpt
+
+# Data
+data/
+*.jsonl
+*.json
+images/
+
+# Logs
+*.log
+wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+

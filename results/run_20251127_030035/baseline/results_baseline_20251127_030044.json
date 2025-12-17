@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "timestamp": "2025-11-27T03:00:44.678683",
+    "config": {
+      "method": "baseline",
+      "dataset": "coco",
+      "num_samples": 5,
+      "no_streaming": false,
+      "scratchpad_passes": 1,
+      "model_id": "cobra+3b",
+      "hf_token": ".hf_token",
+      "temperature": 0.4,
+      "max_new_tokens": 512,
+      "reasoning_max_tokens": 256,
+      "repetition_penalty": 1.2,
+      "output_dir": "results",
+      "clear_cache": false,
+      "min_free_gb": 8.0,
+      "load_results": null
+    }
+  },
+  "aggregate_metrics": {
+    "BLEU-1": 0.4999999999945652,
+    "BLEU-2": 0.3555795011054037,
+    "BLEU-3": 0.23105561254395057,
+    "BLEU-4": 0.13378955505548812,
+    "BERTScore-Precision": 0.6791946291923523,
+    "BERTScore-Recall": 0.8133500218391418,
+    "BERTScore-F1": 0.734838604927063
+  },
+  "results": [
+    {
+      "image_id": 0,
+      "reference_captions": [
+        "A bicycle replica with a clock as the front wheel.",
+        "The bike has a clock as a tire.",
+        "A black metal bicycle with a clock inside the front wheel.",
+        "A bicycle figurine in which the front wheel is replaced with a clock\n",
+        "A clock with the appearance of the wheel of a bicycle "
+      ],
+      "generated_caption": "A black bicycle-shaped clock with a white face and black numbers, featuring a round handlebar and a small black seat, set against a white wall.",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {
+        "BLEU-1": 0.23999999999040003,
+        "BLEU-2": 0.17320508074981522,
+        "BLEU-3": 1.0926082435777022e-06,
+        "BLEU-4": 2.774870273442235e-09,
+        "BERTScore-Precision": 0.5903005599975586,
+        "BERTScore-Recall": 0.7116749286651611,
+        "BERTScore-F1": 0.6453303098678589
+      }
+    },
+    {
+      "image_id": 1,
+      "reference_captions": [
+        "A black Honda motorcycle parked in front of a garage.",
+        "A Honda motorcycle parked in a grass driveway",
+        "A black Honda motorcycle with a dark burgundy seat.",
+        "Ma motorcycle parked on the gravel in front of a garage",
+        "A motorcycle with its brake extended standing outside"
+      ],
+      "generated_caption": "A black and silver motorcycle parked on a grassy area with a white garage door and green trees in the background.",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {
+        "BLEU-1": 0.4761904761678005,
+        "BLEU-2": 0.30860669990912093,
+        "BLEU-3": 0.17114033061407738,
+        "BLEU-4": 2.297185935726835e-05,
+        "BERTScore-Precision": 0.6334555149078369,
+        "BERTScore-Recall": 0.7958466410636902,
+        "BERTScore-F1": 0.7054259777069092
+      }
+    },
+    {
+      "image_id": 2,
+      "reference_captions": [
+        "A room with blue walls and a white sink and door.",
+        "Blue and white color scheme in a small bathroom.",
+        "This is a blue and white bathroom with a wall sink and a lifesaver on the wall.",
+        "A blue boat themed bathroom with a life preserver on the wall",
+        "A bathroom with walls that are painted baby blue."
+      ],
+      "generated_caption": "A cozy bathroom with a white door, a green vase, a white sink, and a life preserver on the wall.",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {
+        "BLEU-1": 0.6499999999675001,
+        "BLEU-2": 0.5548826333653862,
+        "BLEU-3": 0.440588598932055,
+        "BLEU-4": 0.3167161501048571,
+        "BERTScore-Precision": 0.7285962700843811,
+        "BERTScore-Recall": 0.7903963327407837,
+        "BERTScore-F1": 0.7348906993865967
+      }
+    },
+    {
+      "image_id": 3,
+      "reference_captions": [
+        "A car that seems to be parked illegally behind a legally parked car",
+        "two cars parked on the sidewalk on the street",
+        "City street with parked cars and a bench.",
+        "Cars try to maneuver into parking spaces along a densely packed city street. ",
+        "A couple of cars parked in a busy street sidewalk."
+      ],
+      "generated_caption": "A city street with parked cars, a wooden bench, and a person riding a motorbike.",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {
+        "BLEU-1": 0.4666666666355556,
+        "BLEU-2": 0.31622776599500324,
+        "BLEU-3": 0.19740230336070885,
+        "BLEU-4": 2.829559628115301e-05,
+        "BERTScore-Precision": 0.6964046955108643,
+        "BERTScore-Recall": 0.9025253057479858,
+        "BERTScore-F1": 0.7861793637275696
+      }
+    },
+    {
+      "image_id": 4,
+      "reference_captions": [
+        "A large passenger airplane flying through the air.",
+        "There is a GOL plane taking off in a partly cloudy sky.",
+        "An airplane that is, either, landing or just taking off.",
+        "An red and white airplane is in the cloudy sky.",
+        "A passenger plane taking off into the sky. "
+      ],
+      "generated_caption": "A white and orange airplane taking off into a cloudy sky.",
+      "reasoning_trace": null,
+      "metadata": {
+        "method": "baseline"
+      },
+      "metrics": {
+        "BLEU-1": 0.9090909090082646,
+        "BLEU-2": 0.5222329678172442,
+        "BLEU-3": 0.3117659538504856,
+        "BLEU-4": 4.4116293588517445e-05,
+        "BERTScore-Precision": 0.7472162246704102,
+        "BERTScore-Recall": 0.8663065433502197,
+        "BERTScore-F1": 0.8023664951324463
+      }
+    }
+  ]
+}
